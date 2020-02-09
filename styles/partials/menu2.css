@@ -92,9 +92,8 @@ html {
   height: 15px;
   -ms-flex-item-align: center;
       align-self: center;
-  width: 15%;
-  margin: 20px auto;
-  padding: 0% 8%;
+  width: 30%;
+  margin: 0;
 }
 
 @supports (mix-blend-mode: lighten) {
