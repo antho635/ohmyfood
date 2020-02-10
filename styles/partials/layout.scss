@@ -27,7 +27,6 @@
     font-weight: lighter;
   }
   #title{
-    color: #424242;
     font-weight: lighter;
     display: flex;
     justify-content:center;
@@ -51,6 +50,9 @@
  #trait:hover:after {
     width: 90%;
     background: #444;
+}
+.title-m2-1 > a:nth-child(1){
+  color:#c77800;
 }
 .block{
   justify-content: center;

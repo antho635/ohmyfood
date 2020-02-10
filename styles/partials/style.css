@@ -42,7 +42,6 @@
 }
 
 #title {
-  color: #424242;
   font-weight: lighter;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -76,6 +75,10 @@
 #trait:hover:after {
   width: 90%;
   background: #444;
+}
+
+.title-m2-1 > a:nth-child(1) {
+  color: #c77800;
 }
 
 .block {
@@ -833,7 +836,7 @@ html {
   -webkit-text-size-adjust: auto;
 }
 
-.title-m2-1 {
+.title-m2-1 > a:nth-child(1) {
   color: #c77800;
 }
 

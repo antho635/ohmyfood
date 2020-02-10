@@ -57,7 +57,7 @@ html {
   -webkit-text-size-adjust: auto;
 }
 
-.title-m2-1 {
+.title-m2-1 > a:nth-child(1) {
   color: #c77800;
 }
 
