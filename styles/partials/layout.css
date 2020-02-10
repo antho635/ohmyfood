@@ -55,13 +55,13 @@
   margin: auto;
 }
 
-#trait {
+.m-1 {
   text-decoration: none;
   text-align: center;
   margin: auto;
 }
 
-#trait:after {
+.m-1:after {
   content: '';
   display: block;
   margin: auto;
@@ -72,7 +72,7 @@
   transition: width .5s ease, background-color .5s ease;
 }
 
-#trait:hover:after {
+.m-1:hover:after {
   width: 90%;
   background: #444;
 }
