@@ -58,7 +58,7 @@
 #trait {
   text-decoration: none;
   text-align: center;
-  color: #424242;
+  margin: auto;
 }
 
 #trait:after {
@@ -79,6 +79,10 @@
 
 .title-m2-1 > a:nth-child(1) {
   color: #c77800;
+}
+
+.m1 {
+  color: grey;
 }
 
 .block {
