@@ -828,7 +828,7 @@ html {
   margin: 0;
 }
 
-.title-m2-1, .title-m2-2, .title-m2-3 {
+.m-2, .m-3, .m-4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -844,15 +844,15 @@ html {
   -webkit-text-size-adjust: auto;
 }
 
-.title-m2-1 > a:nth-child(1) {
+.m-2 {
   color: #c77800;
 }
 
-.title-m2-2 > a:nth-child(1) {
+.m-3 {
   color: #ba68c8;
 }
 
-.title-m2-3 > a:nth-child(1) {
+.m-4 {
   color: #8559da;
 }
 
