@@ -70,6 +70,38 @@ html {
   background: #444;
 }
 
+.m-3:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 1px;
+  width: 0;
+  background: transparent;
+  -webkit-transition: width .5s ease, background-color .5s ease;
+  transition: width .5s ease, background-color .5s ease;
+}
+
+.m-3:hover:after {
+  width: 90%;
+  background: #444;
+}
+
+.m-4:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 1px;
+  width: 0;
+  background: transparent;
+  -webkit-transition: width .5s ease, background-color .5s ease;
+  transition: width .5s ease, background-color .5s ease;
+}
+
+.m-4:hover:after {
+  width: 90%;
+  background: #444;
+}
+
 .m-2 {
   color: #c77800;
 }
