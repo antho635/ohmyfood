@@ -51,7 +51,7 @@
 .carte-m1 {
   font-family: 'Open Sans Condensed', sans-serif;
   position: relative;
-  width: 80%;
+  width: 90%;
   margin: auto;
   background-color: #ffebee;
   margin-bottom: 150px;
@@ -83,6 +83,7 @@
   -ms-flex-item-align: center;
       align-self: center;
   height: 70px;
+  margin: auto;
 }
 
 .bas-m1 {
