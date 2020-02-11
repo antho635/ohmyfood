@@ -31,14 +31,26 @@ html {
   margin:0;
 }
   .m-2, .m-3, .m-4{
-    display:flex;
+    margin: auto;
     justify-content:center;
     align-items:center;
     text-align: center;
     font-size: 1.3em;
-    margin:20px auto 40px auto;
     -webkit-text-size-adjust: auto;
   }
+  .m-2:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 1px;
+    width: 0;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+ .m-2:hover:after {
+    width: 90%;
+    background: #444;
+}
   .m-2 {
     color:#c77800;
   }
@@ -53,6 +65,7 @@ html {
   .englobe-m2{
     display:flex;
     flex-direction: row;
+    justify-content: center;
     align-self: center;
     width:100%;
     margin: 70px auto;
@@ -69,8 +82,7 @@ html {
     vertical-align: middle;
     height: 15px;
     align-self: center;
-    width: 30%;
-    margin: 0;
+    margin: auto;
   }
   
   @supports (mix-blend-mode: lighten) {

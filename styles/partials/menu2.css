@@ -42,9 +42,7 @@ html {
 }
 
 .m-2, .m-3, .m-4 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  margin: auto;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -53,8 +51,23 @@ html {
           align-items: center;
   text-align: center;
   font-size: 1.3em;
-  margin: 20px auto 40px auto;
   -webkit-text-size-adjust: auto;
+}
+
+.m-2:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 1px;
+  width: 0;
+  background: transparent;
+  -webkit-transition: width .5s ease, background-color .5s ease;
+  transition: width .5s ease, background-color .5s ease;
+}
+
+.m-2:hover:after {
+  width: 90%;
+  background: #444;
 }
 
 .m-2 {
@@ -77,6 +90,9 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-item-align: center;
       align-self: center;
   width: 100%;
@@ -100,8 +116,7 @@ html {
   height: 15px;
   -ms-flex-item-align: center;
       align-self: center;
-  width: 30%;
-  margin: 0;
+  margin: auto;
 }
 
 @supports (mix-blend-mode: lighten) {
