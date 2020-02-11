@@ -800,10 +800,6 @@ li {
   .titre {
     margin: 10px auto;
   }
-  .ul-m4 {
-    margin: 0;
-    height: auto;
-  }
 }
 
 html {
@@ -1497,9 +1493,6 @@ li {
   }
   section {
     margin: 0;
-  }
-  .ul-m4 {
-    padding: 0;
   }
 }
 
