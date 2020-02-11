@@ -101,6 +101,9 @@ li {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .light-m4 {
+    margin-bottom: 30px;
+  }
   .prix {
     float: none;
     display: -webkit-box;

@@ -186,6 +186,7 @@ footer {
     height: auto;
   }
   .ul-m4 {
+    margin-top: 0;
     font-size: 1.3em;
     padding: 0 10px;
     display: -webkit-box;
@@ -790,6 +791,7 @@ li {
   }
   .separateur-m1 {
     width: 15%;
+    height: 30px;
   }
   .carte-m1 {
     width: 100%;
@@ -1462,6 +1464,9 @@ li {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .light-m4 {
+    margin-bottom: 30px;
   }
   .prix {
     float: none;
