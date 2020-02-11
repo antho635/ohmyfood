@@ -88,8 +88,8 @@
 }
 
 .ul-m4 {
-  padding: 0 40px;
-  margin: 60px 0px;
+  padding: 0;
+  margin: 60px 0;
   list-style: none;
   font-size: 1.3em;
 }
@@ -98,11 +98,6 @@ li {
   vertical-align: middle;
   padding-left: 50px;
   padding-bottom: 8px;
-}
-
-.prix {
-  padding-right: 80px;
-  float: right;
 }
 
 #bas {
@@ -189,13 +184,39 @@ footer {
   }
   .ul-m4 {
     font-size: 1.3em;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   li {
-    padding: 5px 0;
+    list-style: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+    padding: 0;
   }
   .prix {
     margin: 0;
-    padding: 0;
+    padding: 8px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -915,6 +936,7 @@ html {
 }
 
 .li-m2-1 {
+  padding: 0;
   font-size: 1.1em;
   padding-bottom: 10px;
 }
@@ -1085,6 +1107,8 @@ section.light-m2 {
   height: 10px;
   border-radius: 0px 0px 0px 10px;
   padding-top: 8px;
+  -ms-flex-item-align: auto;
+      align-self: auto;
 }
 
 .btn2 {
@@ -1105,6 +1129,8 @@ section.light-m2 {
   height: 10px;
   border-radius: 0px 0px 10px 0px;
   padding-top: 8px;
+  -ms-flex-item-align: auto;
+      align-self: auto;
 }
 
 .btn3 {
@@ -1123,6 +1149,8 @@ section.light-m2 {
   height: 10px;
   border-radius: 0px 0px 0px 10px;
   padding-top: 8px;
+  -ms-flex-item-align: auto;
+      align-self: auto;
 }
 
 .btn4 {
@@ -1144,6 +1172,8 @@ section.light-m2 {
   height: 10px;
   border-radius: 0px 0px 10px 0px;
   padding-top: 8px;
+  -ms-flex-item-align: auto;
+      align-self: auto;
 }
 
 .btn5 {
@@ -1162,9 +1192,13 @@ section.light-m2 {
   height: 10px;
   border-radius: 0px 0px 0px 10px;
   padding-top: 8px;
+  -ms-flex-item-align: auto;
+      align-self: auto;
 }
 
 .btn6 {
+  -ms-flex-item-align: auto;
+      align-self: auto;
   border: solid 4px #64b5f6;
   border-top: 0px;
   border-right: 0px;
@@ -1305,6 +1339,7 @@ section.light-m2 {
     border-radius: 0px 0px 10px 10px;
     width: 50%;
     margin-bottom: 30px;
+    margin: auto;
   }
   .gradient-m3 {
     font-size: 2em;
@@ -1408,7 +1443,7 @@ li {
   height: 30px;
 }
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 970px) {
   .gradient-m4 {
     font-size: 1.3em;
     text-align: center;

@@ -36,6 +36,8 @@
   height: 10px;
   border-radius: 0px 0px 0px 10px;
   padding-top: 8px;
+  -ms-flex-item-align: auto;
+      align-self: auto;
 }
 
 .btn2 {
@@ -56,6 +58,8 @@
   height: 10px;
   border-radius: 0px 0px 10px 0px;
   padding-top: 8px;
+  -ms-flex-item-align: auto;
+      align-self: auto;
 }
 
 .btn3 {
@@ -74,6 +78,8 @@
   height: 10px;
   border-radius: 0px 0px 0px 10px;
   padding-top: 8px;
+  -ms-flex-item-align: auto;
+      align-self: auto;
 }
 
 .btn4 {
@@ -95,6 +101,8 @@
   height: 10px;
   border-radius: 0px 0px 10px 0px;
   padding-top: 8px;
+  -ms-flex-item-align: auto;
+      align-self: auto;
 }
 
 .btn5 {
@@ -113,9 +121,13 @@
   height: 10px;
   border-radius: 0px 0px 0px 10px;
   padding-top: 8px;
+  -ms-flex-item-align: auto;
+      align-self: auto;
 }
 
 .btn6 {
+  -ms-flex-item-align: auto;
+      align-self: auto;
   border: solid 4px #64b5f6;
   border-top: 0px;
   border-right: 0px;
@@ -256,6 +268,7 @@
     border-radius: 0px 0px 10px 10px;
     width: 50%;
     margin-bottom: 30px;
+    margin: auto;
   }
   .gradient-m3 {
     font-size: 2em;

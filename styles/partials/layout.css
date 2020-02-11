@@ -88,8 +88,8 @@
 }
 
 .ul-m4 {
-  padding: 0 40px;
-  margin: 60px 0px;
+  padding: 0;
+  margin: 60px 0;
   list-style: none;
   font-size: 1.3em;
 }
@@ -98,11 +98,6 @@ li {
   vertical-align: middle;
   padding-left: 50px;
   padding-bottom: 8px;
-}
-
-.prix {
-  padding-right: 80px;
-  float: right;
 }
 
 #bas {
@@ -189,13 +184,39 @@ footer {
   }
   .ul-m4 {
     font-size: 1.3em;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   li {
-    padding: 5px 0;
+    list-style: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+    padding: 0;
   }
   .prix {
     margin: 0;
-    padding: 0;
+    padding: 8px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 /*# sourceMappingURL=layout.css.map */
