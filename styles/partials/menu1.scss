@@ -11,7 +11,7 @@
      .note1{
        display:flex;
        justify-content: center;
-       margin:auto;
+       align-self: center;
        width: 90px;
        height:90px;
      }
@@ -27,13 +27,10 @@
          width: auto;
          justify-content: center;
          color: #4e342e;
-     }
-      .m-1{
-          color:black;
-      }   
+     }   
   
       .carte-m1{
-          font-family: 'Open Sans Condensed', sans-serif;
+          font-family: 'Neucha', cursive;
           position: relative;
           width: 90%;
           margin: auto;
@@ -41,6 +38,10 @@
           margin-bottom: 100px;
           padding-bottom: 30px;
           -webkit-margin-bottom-collapse: separate;
+      }
+      .titrem1{
+          font-size: 3em;
+          font-weight: lighter;
       }
          
      .essaie{
@@ -52,7 +53,7 @@
          vertical-align: middle;
      }
      .separateur-m1{
-         width: 35%;
+         width: 33%;
          display: flex;
          align-self: center;
          height: 70px;
@@ -65,11 +66,14 @@
          margin-top:30px;
          width: 100%;
      }
-     .entete{
-         text-align: center;
-         padding-top:50px;
-         
-     }
+
+     .entete {
+        text-align: center;
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
       .titre-m1{
          font-weight:lighter;
          font-size:2.4em;

@@ -5,7 +5,7 @@
 }
 
 #container-m3 {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Kalam', cursive;
   width: 90%;
   margin: 50px auto;
   background-color: #e5ffff;
@@ -20,7 +20,6 @@
   display:inline;
   padding-top: 20px;
   margin: 0px 30px;
-  
 }
 
 .btn {
@@ -31,7 +30,7 @@
   display: inline-flex;
   align-self: center;
   width: 33%;
-  margin: 0;
+  margin: 0 auto;
   height: 10px;
   border-radius: 0px 0px 0px 10px;
   padding-top: 8px;
@@ -48,7 +47,7 @@
   align-self: center;
   justify-content: start;
   width: 33%;
-  margin: 0;
+  margin: 0 auto;
   height: 10px;
   border-radius: 0px 0px 10px 0px;
   padding-top: 8px;
@@ -63,7 +62,7 @@
   display: inline-flex;
   align-self: center;
   width: 33%;
-  margin: 0;
+  margin: 0 auto;
   float: left;
   height: 10px;
   border-radius: 0px 0px 0px 10px;
@@ -80,7 +79,7 @@
   align-self: center;
   justify-content: start;
   width: 33%;
-  margin: 0;
+  margin: 0 auto;
   float: right;
   height: 10px;
   border-radius: 0px 0px 10px 0px;
@@ -96,7 +95,7 @@
   display: inline-flex;
   align-self: center;
   width: 35%;
-  margin: 0;
+  margin: 0 auto;
   float: left;
   height: 10px;
   border-radius: 0px 0px 0px 10px;
@@ -114,11 +113,12 @@
   align-self: center;
   justify-content: start;
   width: 35%;
-  margin: 0;
+  margin: 0 auto;
   float: right;
   height: 10px;
   border-radius: 0px 0px 10px 0px;
   padding-top: 8px;
+  align-self: auto;
 }
 
 .bloc section {
@@ -142,8 +142,8 @@
 }
 
 .gradient-m3 {
-  font-size: 2.4em;
-  padding-top: 40px;
+  font-size: 3.3em;
+  padding: 40px 0;
   display: inline-flex;
   justify-content: center;
   margin: auto;

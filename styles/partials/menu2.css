@@ -4,7 +4,7 @@ html {
 }
 
 #container-m2 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Parisienne', cursive;
   position: relative;
   background-color: #fdf5fe;
   display: -webkit-box;
@@ -50,7 +50,8 @@ html {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  font-size: 1.3em;
+  font-size: 2.2em;
+  font-weight: lighter;
   -webkit-text-size-adjust: auto;
 }
 
@@ -114,6 +115,13 @@ html {
   color: #8559da;
 }
 
+.ul-m2 {
+  font-size: 1.9em;
+  padding: 0;
+  margin: 60px;
+  list-style: none;
+}
+
 .englobe-m2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -131,12 +139,6 @@ html {
   margin: 70px auto;
 }
 
-.li-m2-1 {
-  padding: 0;
-  font-size: 1.1em;
-  padding-bottom: 10px;
-}
-
 .liste-m2 {
   padding-bottom: 50px;
 }
@@ -146,10 +148,16 @@ html {
   display: -ms-inline-flexbox;
   display: inline-flex;
   vertical-align: middle;
+  width: 33%;
   height: 15px;
   -ms-flex-item-align: center;
       align-self: center;
   margin: auto;
+}
+
+.gradient-m2 {
+  font-size: 4em;
+  margin: 0 auto;
 }
 
 @supports (mix-blend-mode: lighten) {
@@ -200,6 +208,7 @@ html {
 
 li {
   font-weight: lighter;
+  padding: 10px 0;
 }
 
 section.light-m2 {
@@ -211,10 +220,6 @@ section.light-m2 {
 .light-m2 {
   background-color: #9c6996;
   margin-bottom: 30px;
-}
-
-.gradient-m2 {
-  font-size: 2.4em;
 }
 
 @media (max-width: 870px) {

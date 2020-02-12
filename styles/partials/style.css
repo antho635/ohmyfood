@@ -37,8 +37,9 @@
       -ms-flex-pack: center;
           justify-content: center;
   color: black;
-  margin-top: 40px;
+  margin: 40px auto;
   font-weight: lighter;
+  font-size: 1.2em;
 }
 
 #title {
@@ -59,6 +60,9 @@
   text-decoration: none;
   text-align: center;
   margin: auto;
+  color: black;
+  font-weight: lighter;
+  font-size: 1.8em;
 }
 
 .m-1:after {
@@ -88,10 +92,10 @@
 }
 
 .ul-m4 {
+  font-size: 1.5em;
   padding: 0;
-  margin: 60px 0;
+  margin: 60px;
   list-style: none;
-  font-size: 1.3em;
 }
 
 li {
@@ -537,11 +541,9 @@ footer {
 
 .recherche .iconloupe {
   background: url(http://www.larevuedekenza.fr/wp-content/themes/quarter/images/sidebar/loupe.png) no-repeat 0 0;
-  width: 90%;
 }
 
 .recherche input {
-  width: 100%;
   outline: 0;
   border: 0;
   margin: 0;
@@ -553,7 +555,6 @@ footer {
 
 .recherche {
   background-color: white;
-  bottom: 0;
   height: 30px;
   border: solid 1px grey;
 }
@@ -629,7 +630,8 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: auto;
+  -ms-flex-item-align: center;
+      align-self: center;
   width: 90px;
   height: 90px;
 }
@@ -657,12 +659,8 @@ footer {
   color: #4e342e;
 }
 
-.m-1 {
-  color: black;
-}
-
 .carte-m1 {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Neucha', cursive;
   position: relative;
   width: 90%;
   margin: auto;
@@ -670,6 +668,11 @@ footer {
   margin-bottom: 100px;
   padding-bottom: 30px;
   -webkit-margin-bottom-collapse: separate;
+}
+
+.titrem1 {
+  font-size: 3em;
+  font-weight: lighter;
 }
 
 .essaie {
@@ -689,7 +692,7 @@ footer {
 }
 
 .separateur-m1 {
-  width: 35%;
+  width: 33%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -713,6 +716,16 @@ footer {
 .entete {
   text-align: center;
   padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .titre-m1 {
@@ -810,7 +823,7 @@ html {
 }
 
 #container-m2 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Parisienne', cursive;
   position: relative;
   background-color: #fdf5fe;
   display: -webkit-box;
@@ -856,7 +869,8 @@ html {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  font-size: 1.3em;
+  font-size: 2.2em;
+  font-weight: lighter;
   -webkit-text-size-adjust: auto;
 }
 
@@ -920,6 +934,13 @@ html {
   color: #8559da;
 }
 
+.ul-m2 {
+  font-size: 1.9em;
+  padding: 0;
+  margin: 60px;
+  list-style: none;
+}
+
 .englobe-m2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -937,12 +958,6 @@ html {
   margin: 70px auto;
 }
 
-.li-m2-1 {
-  padding: 0;
-  font-size: 1.1em;
-  padding-bottom: 10px;
-}
-
 .liste-m2 {
   padding-bottom: 50px;
 }
@@ -952,10 +967,16 @@ html {
   display: -ms-inline-flexbox;
   display: inline-flex;
   vertical-align: middle;
+  width: 33%;
   height: 15px;
   -ms-flex-item-align: center;
       align-self: center;
   margin: auto;
+}
+
+.gradient-m2 {
+  font-size: 4em;
+  margin: 0 auto;
 }
 
 @supports (mix-blend-mode: lighten) {
@@ -1006,6 +1027,7 @@ html {
 
 li {
   font-weight: lighter;
+  padding: 10px 0;
 }
 
 section.light-m2 {
@@ -1017,10 +1039,6 @@ section.light-m2 {
 .light-m2 {
   background-color: #9c6996;
   margin-bottom: 30px;
-}
-
-.gradient-m2 {
-  font-size: 2.4em;
 }
 
 @media (max-width: 870px) {
@@ -1077,7 +1095,7 @@ section.light-m2 {
 }
 
 #container-m3 {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Kalam', cursive;
   width: 90%;
   margin: 50px auto;
   background-color: #e5ffff;
@@ -1105,7 +1123,7 @@ section.light-m2 {
   -ms-flex-item-align: center;
       align-self: center;
   width: 33%;
-  margin: 0;
+  margin: 0 auto;
   height: 10px;
   border-radius: 0px 0px 0px 10px;
   padding-top: 8px;
@@ -1127,7 +1145,7 @@ section.light-m2 {
       -ms-flex-pack: start;
           justify-content: start;
   width: 33%;
-  margin: 0;
+  margin: 0 auto;
   height: 10px;
   border-radius: 0px 0px 10px 0px;
   padding-top: 8px;
@@ -1146,7 +1164,7 @@ section.light-m2 {
   -ms-flex-item-align: center;
       align-self: center;
   width: 33%;
-  margin: 0;
+  margin: 0 auto;
   float: left;
   height: 10px;
   border-radius: 0px 0px 0px 10px;
@@ -1169,7 +1187,7 @@ section.light-m2 {
       -ms-flex-pack: start;
           justify-content: start;
   width: 33%;
-  margin: 0;
+  margin: 0 auto;
   float: right;
   height: 10px;
   border-radius: 0px 0px 10px 0px;
@@ -1189,7 +1207,7 @@ section.light-m2 {
   -ms-flex-item-align: center;
       align-self: center;
   width: 35%;
-  margin: 0;
+  margin: 0 auto;
   float: left;
   height: 10px;
   border-radius: 0px 0px 0px 10px;
@@ -1214,11 +1232,12 @@ section.light-m2 {
       -ms-flex-pack: start;
           justify-content: start;
   width: 35%;
-  margin: 0;
+  margin: 0 auto;
   float: right;
   height: 10px;
   border-radius: 0px 0px 10px 0px;
   padding-top: 8px;
+  align-self: auto;
 }
 
 .bloc section {
@@ -1253,8 +1272,8 @@ section.light-m2 {
 }
 
 .gradient-m3 {
-  font-size: 2.4em;
-  padding-top: 40px;
+  font-size: 3.3em;
+  padding: 40px 0;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -1429,12 +1448,6 @@ section.light-m2 {
   width: 33%;
   color: black;
   font-weight: lighter;
-}
-
-section {
-  font-size: 1.1em;
-  margin-left: 5%;
-  margin-right: 5%;
 }
 
 li {
