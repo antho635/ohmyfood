@@ -21,12 +21,14 @@
          width:100%;
          width:60px;
          height:60px;
+         align-self: center;
      }
      .fin{
          display:inline-flex;
          width: auto;
          justify-content: center;
          color: #4e342e;
+         font-size: 1.8em;
      }   
   
       .carte-m1{
@@ -40,7 +42,9 @@
           -webkit-margin-bottom-collapse: separate;
       }
       .titrem1{
-          font-size: 3em;
+          font-size: 4em;
+          color: #4e342e;
+          margin: 30px 0px;
           font-weight: lighter;
       }
          
@@ -112,6 +116,9 @@
         margin: auto;
         width: auto;
     }
+    .ul-m4{
+        margin: 0;
+    }
     #container-m1 {
       width: 100%;
       font-family: fantasy;
@@ -144,6 +151,9 @@
          height: auto;
          margin:0;
          padding:0;
+     }
+     .fin{
+         font-size: 1.8em;
      }
      .titre{
          margin:10px auto;

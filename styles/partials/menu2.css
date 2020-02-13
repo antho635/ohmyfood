@@ -50,7 +50,7 @@ html {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  font-size: 2.2em;
+  font-size: 2.5em;
   font-weight: lighter;
   -webkit-text-size-adjust: auto;
 }
@@ -155,30 +155,38 @@ html {
   margin: auto;
 }
 
-.gradient-m2 {
-  font-size: 4em;
-  margin: 0 auto;
+.light-m2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+  width: 100%;
 }
 
 @supports (mix-blend-mode: lighten) {
-  section.light-m2 .gradient-m2 {
-    display: inline-block;
+  .gradient-m2 {
+    font-size: 4em;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     position: relative;
     color: #000;
     background: #fff;
     mix-blend-mode: multiply;
+    margin: 0;
   }
-  section.light-m2 .gradient-m2::before {
+  .gradient-m2::before {
     content: "";
-    display: block;
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background: -webkit-gradient(linear, left top, right top, from(#c77800), color-stop(#faaa54), color-stop(#ba68c8), color-stop(#9c6996), to(#8559da));
-    background: linear-gradient(to right, #c77800, #faaa54, #ba68c8, #9c6996, #8559da);
-    pointer-events: none;
+    background: -webkit-gradient(linear, left top, right top, from(#c77800), color-stop(#c77800), color-stop(#faaa54), color-stop(#ba68c8), color-stop(#9c6996), to(#8559da));
+    background: linear-gradient(to right, #c77800, #c77800, #faaa54, #ba68c8, #9c6996, #8559da);
     mix-blend-mode: screen;
   }
 }
@@ -211,17 +219,6 @@ li {
   padding: 10px 0;
 }
 
-section.light-m2 {
-  margin-top: 70px;
-  text-align: center;
-  background: #fdf5fe;
-}
-
-.light-m2 {
-  background-color: #9c6996;
-  margin-bottom: 30px;
-}
-
 @media (max-width: 870px) {
   #container-m2 {
     width: 100%;
@@ -229,12 +226,7 @@ section.light-m2 {
     margin-bottom: 100px;
   }
   .gradient-m2 {
-    font-size: 2em;
     margin: 0;
-  }
-  ul {
-    text-align: center;
-    margin-top: 10px;
   }
   .prix {
     float: none;
@@ -255,9 +247,6 @@ section.light-m2 {
             flex-direction: column;
     margin-bottom: 50px;
   }
-  section.light-m2 {
-    margin: auto;
-  }
   .icon-m2, .icon-m2-2 {
     width: auto;
   }
@@ -267,6 +256,11 @@ section.light-m2 {
   }
   li {
     padding: 10px 0px;
+  }
+  .ul-m2 {
+    font-size: 2em;
+    margin: auto;
+    padding: 5px;
   }
 }
 /*# sourceMappingURL=menu2.css.map */

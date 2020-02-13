@@ -32,6 +32,8 @@
   width: 100%;
   width: 60px;
   height: 60px;
+  -ms-flex-item-align: center;
+      align-self: center;
 }
 
 .fin {
@@ -43,6 +45,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   color: #4e342e;
+  font-size: 1.8em;
 }
 
 .carte-m1 {
@@ -57,7 +60,9 @@
 }
 
 .titrem1 {
-  font-size: 3em;
+  font-size: 4em;
+  color: #4e342e;
+  margin: 30px 0px;
   font-weight: lighter;
 }
 
@@ -158,6 +163,9 @@ li {
     margin: auto;
     width: auto;
   }
+  .ul-m4 {
+    margin: 0;
+  }
   #container-m1 {
     width: 100%;
     font-family: fantasy;
@@ -197,6 +205,9 @@ li {
     height: auto;
     margin: 0;
     padding: 0;
+  }
+  .fin {
+    font-size: 1.8em;
   }
   .titre {
     margin: 10px auto;

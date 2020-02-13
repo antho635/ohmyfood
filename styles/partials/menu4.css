@@ -8,34 +8,36 @@
 }
 
 .light-m4 {
-  font-size: 2.4em;
+  padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 100%;
 }
 
 @supports (mix-blend-mode: lighten) {
-  section.light-m4 .gradient-m4 {
-    display: inline-block;
+  .gradient-m4 {
+    font-size: 4em;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     position: relative;
     color: #000;
     background: #fff;
     mix-blend-mode: multiply;
   }
-  section.light-m4 .gradient-m4::before {
+  .gradient-m4::before {
     content: "";
-    display: block;
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background: -webkit-gradient(linear, left top, right top, from(#00701a), color-stop(#43a047), color-stop(#43a047), color-stop(#76d275), to(#76d275));
-    background: linear-gradient(to right, #00701a, #43a047, #43a047, #76d275, #76d275);
-    pointer-events: none;
+    background: -webkit-gradient(linear, left top, right top, from(#2e7d32), color-stop(#81c784), color-stop(#98ee99), to(#98ee99));
+    background: linear-gradient(to right, #2e7d32, #81c784, #98ee99, #98ee99);
     mix-blend-mode: screen;
   }
 }
@@ -117,7 +119,6 @@ li {
     text-align: center;
   }
   li {
-    font-size: 1em;
     text-align: center;
   }
   .separateur {

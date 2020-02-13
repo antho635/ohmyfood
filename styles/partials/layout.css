@@ -57,12 +57,13 @@
 }
 
 .m-1 {
+  font-family: cursive;
   text-decoration: none;
   text-align: center;
   margin: auto;
-  color: black;
+  color: #263238;
   font-weight: lighter;
-  font-size: 1.8em;
+  font-size: 2.5em;
 }
 
 .m-1:after {
@@ -92,7 +93,7 @@
 }
 
 .ul-m4 {
-  font-size: 1.5em;
+  font-size: 1.7em;
   padding: 0;
   margin: 60px;
   list-style: none;
@@ -105,6 +106,7 @@ li {
 
 .prix {
   float: right;
+  font-size: 0.8em;
 }
 
 #bas {
@@ -191,7 +193,7 @@ footer {
   }
   .ul-m4 {
     margin-top: 0;
-    font-size: 1.3em;
+    font-size: 1.7em;
     padding: 0 10px;
     display: -webkit-box;
     display: -ms-flexbox;
