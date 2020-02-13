@@ -25,6 +25,7 @@
           flex-direction: row;
   width: 80%;
   margin: auto;
+  justify-content: space-around;
 }
 
 .header1 {
@@ -162,47 +163,6 @@
   width: 20%;
   margin: auto auto 100px auto;
   height: auto;
-}
-
-#bas {
-  background-color: #00796b;
-  color: #ffd54f;
-  padding: 10px;
-  margin-top: 25px;
-  left: 0;
-  right: 0;
-  height: 5%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  bottom: 0;
-  position: fixed;
-  margin-top: 60px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-#bas a {
-  color: #ffd54f;
-  text-decoration: none;
-  word-break: break-all;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-#bas p:last-child {
-  text-align: right;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
 }
 
 .mail:hover {
@@ -373,9 +333,6 @@
   .bientot {
     width: 60%;
     font-size: 1.5em;
-  }
-  #bas {
-    height: auto;
   }
   .header {
     height: auto;

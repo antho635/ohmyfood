@@ -1,6 +1,6 @@
 #bloc-page{
   width: 100%;
-  height: 100%;
+  height: auto;
   margin:0;
 }
 .header{
@@ -82,16 +82,15 @@
   #bas{
     background-color: #00796b;
     color:#ffd54f;
-    height: 5%;
+    height: auto;
     padding:10px;
-    font-size: 1.1em;
     margin-top:25px; 
     left: 0; 
     right: 0;
     display:flex;
     justify-content: space-between;
     bottom: 0;
-    position: fixed; 
+    position: sticky; 
     margin-top: 60px;
     align-items: center;
 
@@ -140,11 +139,17 @@ footer{
         height:auto;
       }
       .ul-m4{
+        height: auto;
         margin-top:0;
         font-size:1.7em;
         padding: 0 10px;
         display: flex;
         flex-direction: column;
+      }
+
+      .m-1{
+        margin:0;
+        font-size:1.5em;
       }
 
       li {

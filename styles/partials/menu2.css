@@ -166,17 +166,24 @@ html {
   width: 100%;
 }
 
+.gradient-m2 {
+  font-size: 4em;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  width: 100%;
+}
+
 @supports (mix-blend-mode: lighten) {
   .gradient-m2 {
-    font-size: 4em;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     position: relative;
     color: #000;
     background: #fff;
     mix-blend-mode: multiply;
-    margin: 0;
   }
   .gradient-m2::before {
     content: "";
@@ -223,10 +230,12 @@ li {
   #container-m2 {
     width: 100%;
     margin: 0;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
+    padding: 0;
   }
   .gradient-m2 {
     margin: 0;
+    font-size: 2em;
   }
   .prix {
     float: none;
@@ -239,6 +248,10 @@ li {
     margin-top: 15px;
     margin: 0;
     padding: 0;
+  }
+  .m-2, .m-3, .m-4 {
+    margin: 20px auto;
+    font-size: 1.5em;
   }
   .englobe-m2 {
     -webkit-box-orient: vertical;
@@ -258,7 +271,7 @@ li {
     padding: 10px 0px;
   }
   .ul-m2 {
-    font-size: 2em;
+    font-size: 1.7em;
     margin: auto;
     padding: 5px;
   }

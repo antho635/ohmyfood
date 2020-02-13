@@ -30,7 +30,8 @@
   display: inline-flex;
   align-self: center;
   width: 33%;
-  margin: 0 auto;
+  height: 20px;
+  margin: 0 20px;
   border-radius: 0px 0px 0px 10px;
   align-self: center;
 
@@ -45,7 +46,8 @@
   align-self: center;
   justify-content: start;
   width: 33%;
-  margin: 0 auto;
+  height: 20px;
+  margin: 0 20px;
   border-radius: 0px 0px 10px 0px;
   align-self: center;
 }
@@ -58,7 +60,8 @@
   display: inline-flex;
   align-self: center;
   width: 33%;
-  margin: 0 auto;
+  height: 20px;
+  margin: 0 20px;
   float: left;
   border-radius: 0px 0px 0px 10px;
   align-self: center;
@@ -73,7 +76,8 @@
   align-self: center;
   justify-content: start;
   width: 33%;
-  margin: 0 auto;
+  height: 20px;
+  margin: 0 20px;
   float: right;
   border-radius: 0px 0px 10px 0px;
   align-self: center;
@@ -87,7 +91,8 @@
   display: inline-flex;
   align-self: center;
   width: 33%;
-  margin: 0 auto;
+  height: 20px;
+  margin: 0 20px;
   float: left;
   border-radius: 0px 0px 0px 10px;
   align-self: center;
@@ -102,7 +107,8 @@
   align-self: center;
   justify-content: start;
   width: 33%;
-  margin: 0 auto;
+  height: 20px;
+  margin: 0 20px;
   float: right;
   border-radius: 0px 0px 10px 0px;
   align-self: center;
@@ -132,11 +138,9 @@
 
 .gradient-m3 {
   font-size: 4em;
-  padding: 40px 0;
   display: inline-flex;
   justify-content: center;
   margin: auto;
-  margin-bottom: 30px;
   width: 100%;
 }
 .light-m3 {
@@ -148,8 +152,6 @@
 }
 @supports (mix-blend-mode: lighten) {
   .gradient-m3 {
-    font-size: 4em;
-    justify-content: center;
     position: relative;
     color: #000;
     background: #fff;
@@ -167,20 +169,24 @@
     mix-blend-mode: screen;
   }
 }
+@media screen and (max-width: 1500px){
+  .m-1{
+    font-size: 1.8em;
+  }
 
+}
 @media screen and (max-width: 870px){
   #container-m3{
     width:100%;
     margin:0;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
   }
-  #bas{
-    margin:0;
-  }
+
   .light-m3{
     display: flex;
     justify-content: center;
-    margin: auto;
+    margin: 0px auto;
+    padding: 20px 0;
   }
   .titre{
     font-size:1em;
@@ -188,7 +194,6 @@
   .plat, .entree, .dessert{
     display:flex;
     flex-direction:column;
-    margin-top: 60px;
     margin-bottom: 0;
   }
   .title-m3{
@@ -200,20 +205,24 @@
     align-self: center;
     width: 50%;
     margin: 0;
-    height: 10px;
+    height: 20px;
     border-radius: 0px 0px 10px 10px;
     transform: rotate(180deg);
   }
   .btn2, .btn4, .btn6{
+    display: inline-flex;
+    align-self: center;
     border-radius: 0px 0px 10px 10px;
     width:50%;
+    height: 20px;
     margin-bottom: 30px;
-    margin: auto;
+    margin: 0;
   }
   .gradient-m3{
     font-size: 2em;
     margin:auto;
     text-align: center;
+    padding:0;
   }
   .prix{
     display: inline-flex;

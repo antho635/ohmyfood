@@ -32,7 +32,8 @@
   -ms-flex-item-align: center;
       align-self: center;
   width: 33%;
-  margin: 0 auto;
+  height: 20px;
+  margin: 0 20px;
   border-radius: 0px 0px 0px 10px;
   align-self: center;
 }
@@ -51,7 +52,8 @@
       -ms-flex-pack: start;
           justify-content: start;
   width: 33%;
-  margin: 0 auto;
+  height: 20px;
+  margin: 0 20px;
   border-radius: 0px 0px 10px 0px;
   align-self: center;
 }
@@ -67,7 +69,8 @@
   -ms-flex-item-align: center;
       align-self: center;
   width: 33%;
-  margin: 0 auto;
+  height: 20px;
+  margin: 0 20px;
   float: left;
   border-radius: 0px 0px 0px 10px;
   align-self: center;
@@ -87,7 +90,8 @@
       -ms-flex-pack: start;
           justify-content: start;
   width: 33%;
-  margin: 0 auto;
+  height: 20px;
+  margin: 0 20px;
   float: right;
   border-radius: 0px 0px 10px 0px;
   align-self: center;
@@ -104,7 +108,8 @@
   -ms-flex-item-align: center;
       align-self: center;
   width: 33%;
-  margin: 0 auto;
+  height: 20px;
+  margin: 0 20px;
   float: left;
   border-radius: 0px 0px 0px 10px;
   align-self: center;
@@ -124,7 +129,8 @@
       -ms-flex-pack: start;
           justify-content: start;
   width: 33%;
-  margin: 0 auto;
+  height: 20px;
+  margin: 0 20px;
   float: right;
   border-radius: 0px 0px 10px 0px;
   align-self: center;
@@ -166,7 +172,6 @@
 
 .gradient-m3 {
   font-size: 4em;
-  padding: 40px 0;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -174,7 +179,6 @@
       -ms-flex-pack: center;
           justify-content: center;
   margin: auto;
-  margin-bottom: 30px;
   width: 100%;
 }
 
@@ -192,10 +196,6 @@
 
 @supports (mix-blend-mode: lighten) {
   .gradient-m3 {
-    font-size: 4em;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     position: relative;
     color: #000;
     background: #fff;
@@ -214,14 +214,17 @@
   }
 }
 
+@media screen and (max-width: 1500px) {
+  .m-1 {
+    font-size: 1.8em;
+  }
+}
+
 @media screen and (max-width: 870px) {
   #container-m3 {
     width: 100%;
     margin: 0;
-    margin-bottom: 100px;
-  }
-  #bas {
-    margin: 0;
+    margin-bottom: 30px;
   }
   .light-m3 {
     display: -webkit-box;
@@ -230,7 +233,8 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin: auto;
+    margin: 0px auto;
+    padding: 20px 0;
   }
   .titre {
     font-size: 1em;
@@ -243,7 +247,6 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-top: 60px;
     margin-bottom: 0;
   }
   .title-m3 {
@@ -258,21 +261,28 @@
         align-self: center;
     width: 50%;
     margin: 0;
-    height: 10px;
+    height: 20px;
     border-radius: 0px 0px 10px 10px;
     -webkit-transform: rotate(180deg);
             transform: rotate(180deg);
   }
   .btn2, .btn4, .btn6 {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-item-align: center;
+        align-self: center;
     border-radius: 0px 0px 10px 10px;
     width: 50%;
+    height: 20px;
     margin-bottom: 30px;
-    margin: auto;
+    margin: 0;
   }
   .gradient-m3 {
     font-size: 2em;
     margin: auto;
     text-align: center;
+    padding: 0;
   }
   .prix {
     display: -webkit-inline-box;

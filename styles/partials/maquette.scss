@@ -19,6 +19,7 @@
     flex-direction:row;
     width: 80%;
     margin: auto;
+    justify-content: space-around;
 }
 
 .header1{
@@ -85,33 +86,8 @@
     height: auto;
   }
 
-  #bas{
-    background-color: #00796b;
-    color:#ffd54f;
-    padding:10px;
-    margin-top:25px;
-    left: 0; 
-    right: 0;
-    height: 5%;
-    display:flex;
-    justify-content: space-between;
-    bottom:0;
-    position: fixed;
-    margin-top: 60px;
-    align-items: center;
-}
-#bas a{
-  color:#ffd54f;
-  text-decoration: none;
-  word-break: break-all;
-  display: flex;
-}
 
-#bas p:last-child{
-  text-align: right;
-  display: flex;
-  justify-content: end;
-}
+
 
 .mail:hover{
   color:#ffd54f;
@@ -243,9 +219,6 @@
   .bientot{
     width:60%;
     font-size: 1.5em;
-  }
-  #bas{
-    height:auto;
   }
   .header{
     height:auto;

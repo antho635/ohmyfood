@@ -1,6 +1,6 @@
 #bloc-page {
   width: 100%;
-  height: auto;
+  height: 100%;
   margin: 0;
 }
 
@@ -112,8 +112,9 @@ li {
 #bas {
   background-color: #00796b;
   color: #ffd54f;
-  height: auto;
+  height: 5%;
   padding: 10px;
+  font-size: 1.1em;
   margin-top: 25px;
   left: 0;
   right: 0;
@@ -124,8 +125,7 @@ li {
       -ms-flex-pack: justify;
           justify-content: space-between;
   bottom: 0;
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   margin-top: 60px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -192,7 +192,6 @@ footer {
     height: auto;
   }
   .ul-m4 {
-    height: auto;
     margin-top: 0;
     font-size: 1.7em;
     padding: 0 10px;
@@ -203,10 +202,6 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  .m-1 {
-    margin: 0;
-    font-size: 1.5em;
   }
   li {
     list-style: none;
@@ -260,9 +255,8 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  width: 80%;
+  width: 70%;
   margin: auto;
-  justify-content: space-around;
 }
 
 .header1 {
@@ -400,6 +394,47 @@ footer {
   width: 20%;
   margin: auto auto 100px auto;
   height: auto;
+}
+
+#bas {
+  background-color: #00796b;
+  color: #ffd54f;
+  padding: 10px;
+  margin-top: 25px;
+  left: 0;
+  right: 0;
+  height: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  bottom: 0;
+  position: fixed;
+  margin-top: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#bas a {
+  color: #ffd54f;
+  text-decoration: none;
+  word-break: break-all;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#bas p:last-child {
+  text-align: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
 }
 
 .mail:hover {
@@ -571,6 +606,9 @@ footer {
     width: 60%;
     font-size: 1.5em;
   }
+  #bas {
+    height: auto;
+  }
   .header {
     height: auto;
   }
@@ -632,6 +670,8 @@ footer {
   width: 90%;
   margin: auto;
   background-color: #ffebee;
+  margin-bottom: 100px;
+  padding-bottom: 30px;
   -webkit-margin-bottom-collapse: separate;
 }
 
@@ -676,6 +716,7 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 30px;
   width: 100%;
 }
 
@@ -738,9 +779,6 @@ li {
     margin: auto;
     width: auto;
   }
-  .titrem1 {
-    font-size: 2em;
-  }
   .ul-m4 {
     margin: 0;
   }
@@ -748,7 +786,7 @@ li {
     width: 100%;
     font-family: fantasy;
     height: auto;
-    margin-bottom: 30px;
+    margin-bottom: 30%;
     padding-bottom: 0;
   }
   .prix {
@@ -960,24 +998,17 @@ html {
   width: 100%;
 }
 
-.gradient-m2 {
-  font-size: 4em;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: auto;
-  width: 100%;
-}
-
 @supports (mix-blend-mode: lighten) {
   .gradient-m2 {
+    font-size: 4em;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     position: relative;
     color: #000;
     background: #fff;
     mix-blend-mode: multiply;
+    margin: 0;
   }
   .gradient-m2::before {
     content: "";
@@ -1024,12 +1055,10 @@ li {
   #container-m2 {
     width: 100%;
     margin: 0;
-    margin-bottom: 30px;
-    padding: 0;
+    margin-bottom: 100px;
   }
   .gradient-m2 {
     margin: 0;
-    font-size: 2em;
   }
   .prix {
     float: none;
@@ -1042,10 +1071,6 @@ li {
     margin-top: 15px;
     margin: 0;
     padding: 0;
-  }
-  .m-2, .m-3, .m-4 {
-    margin: 20px auto;
-    font-size: 1.5em;
   }
   .englobe-m2 {
     -webkit-box-orient: vertical;
@@ -1065,7 +1090,7 @@ li {
     padding: 10px 0px;
   }
   .ul-m2 {
-    font-size: 1.7em;
+    font-size: 2em;
     margin: auto;
     padding: 5px;
   }
@@ -1105,8 +1130,7 @@ li {
   -ms-flex-item-align: center;
       align-self: center;
   width: 33%;
-  height: 20px;
-  margin: 0 20px;
+  margin: 0 auto;
   border-radius: 0px 0px 0px 10px;
   align-self: center;
 }
@@ -1125,8 +1149,7 @@ li {
       -ms-flex-pack: start;
           justify-content: start;
   width: 33%;
-  height: 20px;
-  margin: 0 20px;
+  margin: 0 auto;
   border-radius: 0px 0px 10px 0px;
   align-self: center;
 }
@@ -1142,8 +1165,7 @@ li {
   -ms-flex-item-align: center;
       align-self: center;
   width: 33%;
-  height: 20px;
-  margin: 0 20px;
+  margin: 0 auto;
   float: left;
   border-radius: 0px 0px 0px 10px;
   align-self: center;
@@ -1163,8 +1185,7 @@ li {
       -ms-flex-pack: start;
           justify-content: start;
   width: 33%;
-  height: 20px;
-  margin: 0 20px;
+  margin: 0 auto;
   float: right;
   border-radius: 0px 0px 10px 0px;
   align-self: center;
@@ -1181,8 +1202,7 @@ li {
   -ms-flex-item-align: center;
       align-self: center;
   width: 33%;
-  height: 20px;
-  margin: 0 20px;
+  margin: 0 auto;
   float: left;
   border-radius: 0px 0px 0px 10px;
   align-self: center;
@@ -1202,8 +1222,7 @@ li {
       -ms-flex-pack: start;
           justify-content: start;
   width: 33%;
-  height: 20px;
-  margin: 0 20px;
+  margin: 0 auto;
   float: right;
   border-radius: 0px 0px 10px 0px;
   align-self: center;
@@ -1245,6 +1264,7 @@ li {
 
 .gradient-m3 {
   font-size: 4em;
+  padding: 40px 0;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -1252,6 +1272,7 @@ li {
       -ms-flex-pack: center;
           justify-content: center;
   margin: auto;
+  margin-bottom: 30px;
   width: 100%;
 }
 
@@ -1269,6 +1290,10 @@ li {
 
 @supports (mix-blend-mode: lighten) {
   .gradient-m3 {
+    font-size: 4em;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     position: relative;
     color: #000;
     background: #fff;
@@ -1287,17 +1312,14 @@ li {
   }
 }
 
-@media screen and (max-width: 1500px) {
-  .m-1 {
-    font-size: 1.8em;
-  }
-}
-
 @media screen and (max-width: 870px) {
   #container-m3 {
     width: 100%;
     margin: 0;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
+  }
+  #bas {
+    margin: 0;
   }
   .light-m3 {
     display: -webkit-box;
@@ -1306,8 +1328,7 @@ li {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin: 0px auto;
-    padding: 20px 0;
+    margin: auto;
   }
   .titre {
     font-size: 1em;
@@ -1320,6 +1341,7 @@ li {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-top: 60px;
     margin-bottom: 0;
   }
   .title-m3 {
@@ -1334,28 +1356,21 @@ li {
         align-self: center;
     width: 50%;
     margin: 0;
-    height: 20px;
+    height: 10px;
     border-radius: 0px 0px 10px 10px;
     -webkit-transform: rotate(180deg);
             transform: rotate(180deg);
   }
   .btn2, .btn4, .btn6 {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -ms-flex-item-align: center;
-        align-self: center;
     border-radius: 0px 0px 10px 10px;
     width: 50%;
-    height: 20px;
     margin-bottom: 30px;
-    margin: 0;
+    margin: auto;
   }
   .gradient-m3 {
     font-size: 2em;
     margin: auto;
     text-align: center;
-    padding: 0;
   }
   .prix {
     display: -webkit-inline-box;
@@ -1372,7 +1387,7 @@ li {
 }
 
 #container-m4 {
-  font-family: 'Rokkitt', serif;
+  font-family: 'Exo', sans-serif;
   width: 90%;
   height: auto;
   margin: auto;
@@ -1451,9 +1466,9 @@ li {
   height: 30px;
 }
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 970px) {
   .gradient-m4 {
-    font-size: 2em;
+    font-size: 1.3em;
     text-align: center;
     display: inline-block;
     background: white;
@@ -1464,8 +1479,6 @@ li {
   #container-m4 {
     width: 100%;
     margin: 0;
-    margin-bottom: 30px;
-    padding: 0;
   }
   .block {
     -webkit-box-orient: vertical;

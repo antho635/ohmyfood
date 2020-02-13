@@ -1,6 +1,6 @@
     
-#container-m4{
-    font-family:'Exo', sans-serif;
+#container-m4 {
+    font-family: 'Rokkitt', serif;
     width: 90%;
     height: auto;
     margin: auto;
@@ -57,10 +57,10 @@
        width:35%;
        height: 30px;
    }
-   @media screen and (max-width:970px){
+   @media screen and (max-width:870px){
 
     .gradient-m4{
-       font-size: 1.3em;
+       font-size: 2em;
        text-align: center;
        display: inline-block;
        background:white;
@@ -73,7 +73,8 @@
     #container-m4{
         width:100%;
         margin:0;
-      
+        margin-bottom: 30px;
+        padding: 0; 
     }
     
     .block{
