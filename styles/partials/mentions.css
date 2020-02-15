@@ -1,0 +1,15 @@
+#bloc-page {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+#container-mentions {
+  height: auto;
+  text-align: center;
+}
+
+p {
+  padding: 10px;
+}
+/*# sourceMappingURL=mentions.css.map */
