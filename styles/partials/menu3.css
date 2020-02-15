@@ -1,15 +1,12 @@
-.bloc-page-m3 {
-  margin: 0;
-  background-color: #fff;
+#container-m-3 {
+  height: 1600px;
 }
 
-#container-m3 {
+#carte-m3 {
   font-family: 'Kalam', cursive;
   width: 90%;
   margin: 50px auto;
   background-color: #e5ffff;
-  padding-bottom: 30px;
-  margin-bottom: 100px;
 }
 
 .title-m3 {
@@ -221,7 +218,7 @@
 }
 
 @media screen and (max-width: 870px) {
-  #container-m3 {
+  #carte-m3 {
     width: 100%;
     margin: 0;
     margin-bottom: 30px;

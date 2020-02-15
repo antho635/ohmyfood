@@ -1,9 +1,9 @@
-html {
+#container-m-2 {
   width: 100%;
-  height: auto;
+  height: 1650px;
 }
 
-#container-m2 {
+#carte-m2 {
   font-family: 'Parisienne', cursive;
   position: relative;
   background-color: #fdf5fe;
@@ -15,10 +15,8 @@ html {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 90%;
-  height: auto;
+  height: 1300px;
   margin: auto;
-  margin-bottom: 100px;
-  padding-bottom: 30px;
   -webkit-margin-bottom-collapse: separate;
 }
 
@@ -34,11 +32,6 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
-
-.bloc-page-m2 {
-  font-family: sans-serif;
-  margin: 0;
 }
 
 .m-2, .m-3, .m-4 {

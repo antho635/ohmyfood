@@ -1,6 +1,5 @@
 #bloc-page {
   width: 100%;
-  height: auto;
   margin: 0;
 }
 
@@ -12,7 +11,7 @@
 .header {
   text-align: center;
   width: 100%;
-  height: 130px;
+  height: auto;
   background-color: #00796b;
   color: #ffd54f;
   font-size: 1.3em;
@@ -99,8 +98,7 @@
 
 .ul-m4 {
   font-size: 1.7em;
-  padding: 0;
-  margin: 60px;
+  padding: 0 80px;
   list-style: none;
 }
 
@@ -115,11 +113,9 @@ li {
 }
 
 #bas {
+  height: 50px;
   background-color: #00796b;
   color: #ffd54f;
-  height: 50px;
-  padding: 10px;
-  margin-top: 25px;
   left: 0;
   right: 0;
   display: -webkit-box;
@@ -129,9 +125,7 @@ li {
       -ms-flex-pack: justify;
           justify-content: space-between;
   bottom: 0;
-  position: -webkit-sticky;
-  position: sticky;
-  margin-top: 60px;
+  position: fixed;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -519,77 +513,6 @@ html, body {
   float: left;
 }
 
-#bas {
-  background-color: #00796b;
-  color: #ffd54f;
-  height: 50px;
-  padding: 10px;
-  margin-top: 25px;
-  left: 0;
-  right: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  bottom: 0;
-  position: -webkit-sticky;
-  position: sticky;
-  margin-top: 60px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-footer {
-  font-family: sans-serif;
-}
-
-#bas a {
-  color: #ffd54f;
-  text-decoration: none;
-}
-
-#bas p:last-child {
-  text-align: right;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
-}
-
-.mail:hover {
-  color: #ffd54f;
-  -webkit-animation: thing 0.1s;
-          animation: thing 0.1s;
-  -webkit-animation-iteration-count: 5;
-          animation-iteration-count: 5;
-}
-
-.mail {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.mention {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.mention:hover {
-  color: #ffd54f;
-  -webkit-animation: thing 0.1s;
-          animation: thing 0.1s;
-  -webkit-animation-iteration-count: 5;
-          animation-iteration-count: 5;
-  text-align: left;
-}
-
 @media screen and (max-width: 1150px) {
   #box1 {
     -webkit-box-orient: vertical;
@@ -638,7 +561,7 @@ footer {
 
 #container-m1 {
   width: 100%;
-  height: auto;
+  height: 1650px;
 }
 
 .bloc-page-m1 {
@@ -690,6 +613,7 @@ footer {
   font-family: 'Neucha', cursive;
   position: relative;
   width: 90%;
+  height: 1300px;
   margin: auto;
   background-color: #ffebee;
   -webkit-margin-bottom-collapse: separate;
@@ -852,12 +776,12 @@ li {
   }
 }
 
-html {
+#container-m-2 {
   width: 100%;
-  height: auto;
+  height: 1650px;
 }
 
-#container-m2 {
+#carte-m2 {
   font-family: 'Parisienne', cursive;
   position: relative;
   background-color: #fdf5fe;
@@ -869,10 +793,8 @@ html {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 90%;
-  height: auto;
+  height: 1300px;
   margin: auto;
-  margin-bottom: 100px;
-  padding-bottom: 30px;
   -webkit-margin-bottom-collapse: separate;
 }
 
@@ -888,11 +810,6 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
-
-.bloc-page-m2 {
-  font-family: sans-serif;
-  margin: 0;
 }
 
 .m-2, .m-3, .m-4 {
@@ -1131,18 +1048,15 @@ li {
   }
 }
 
-.bloc-page-m3 {
-  margin: 0;
-  background-color: #fff;
+#container-m-3 {
+  height: 1600px;
 }
 
-#container-m3 {
+#carte-m3 {
   font-family: 'Kalam', cursive;
   width: 90%;
   margin: 50px auto;
   background-color: #e5ffff;
-  padding-bottom: 30px;
-  margin-bottom: 100px;
 }
 
 .title-m3 {
@@ -1354,7 +1268,7 @@ li {
 }
 
 @media screen and (max-width: 870px) {
-  #container-m3 {
+  #carte-m3 {
     width: 100%;
     margin: 0;
     margin-bottom: 30px;
@@ -1432,12 +1346,13 @@ li {
 }
 
 #container-m4 {
+  height: 1350px;
+}
+
+#carte-m4 {
   font-family: 'Rokkitt', serif;
   width: 90%;
-  height: auto;
   margin: auto;
-  margin-bottom: 100px;
-  padding-bottom: 30px;
 }
 
 .light-m4 {
@@ -1521,7 +1436,7 @@ li {
     position: relative;
     margin: 0;
   }
-  #container-m4 {
+  #carte-m4 {
     width: 100%;
     margin: 0;
     margin-bottom: 30px;
