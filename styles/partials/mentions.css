@@ -12,4 +12,11 @@
 p {
   padding: 10px;
 }
+
+@media screen and (max-width: 870px) {
+  #container-mentions {
+    height: 850px;
+    text-align: center;
+  }
+}
 /*# sourceMappingURL=mentions.css.map */

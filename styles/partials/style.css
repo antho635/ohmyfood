@@ -731,7 +731,6 @@ li {
   #container-m1 {
     width: 100%;
     font-family: fantasy;
-    height: auto;
     margin-bottom: 30px;
     padding-bottom: 0;
   }
@@ -764,7 +763,7 @@ li {
   }
   .carte-m1 {
     width: 100%;
-    height: auto;
+    height: 1750px;
     margin: 0;
     padding: 0;
   }
@@ -1001,8 +1000,11 @@ li {
   #container-m2 {
     width: 100%;
     margin: 0;
-    margin-bottom: 30px;
     padding: 0;
+  }
+  #carte-m2 {
+    width: 100%;
+    height: 1750px;
   }
   .gradient-m2 {
     margin: 0;
@@ -1272,6 +1274,7 @@ li {
     width: 100%;
     margin: 0;
     margin-bottom: 30px;
+    height: 1600px;
   }
   .light-m3 {
     display: -webkit-box;
@@ -1427,6 +1430,9 @@ li {
 }
 
 @media screen and (max-width: 870px) {
+  #container-m4 {
+    height: 1700px;
+  }
   .gradient-m4 {
     font-size: 2em;
     text-align: center;
@@ -1496,6 +1502,13 @@ li {
 
 p {
   padding: 10px;
+}
+
+@media screen and (max-width: 870px) {
+  #container-mentions {
+    height: 850px;
+    text-align: center;
+  }
 }
 
 /*jh*/
