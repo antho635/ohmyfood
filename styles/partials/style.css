@@ -11,9 +11,8 @@
 .header {
   text-align: center;
   width: 100%;
-  height: auto;
+  height: 80px;
   background-color: #00796b;
-  color: #ffd54f;
   font-size: 1.3em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -28,7 +27,6 @@
 }
 
 .header > h1:nth-child(1) {
-  color: #ffd54f;
   font-family: sans-serif;
 }
 
@@ -73,8 +71,9 @@
 .m-1:after {
   content: '';
   display: block;
-  margin: auto;
-  height: 1px;
+  bottom: 0;
+  left: 0;
+  height: 4px;
   width: 0;
   background: transparent;
   -webkit-transition: width .5s ease, background-color .5s ease;
@@ -82,8 +81,8 @@
 }
 
 .m-1:hover:after {
-  width: 90%;
-  background: #444;
+  width: 100%;
+  background: grey;
 }
 
 .title-m2-1 > a:nth-child(1) {
@@ -113,7 +112,7 @@ li {
 }
 
 #bas {
-  height: 50px;
+  height: 80px;
   background-color: #00796b;
   color: #ffd54f;
   left: 0;
@@ -522,7 +521,6 @@ html, body {
   }
   .menu {
     width: 100%;
-    height: auto;
   }
   .menu img {
     height: 100%;
@@ -777,7 +775,7 @@ li {
 
 #container-m-2 {
   width: 100%;
-  height: 1650px;
+  height: 1750px;
 }
 
 #carte-m2 {
@@ -792,7 +790,7 @@ li {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 90%;
-  height: 1300px;
+  height: 1400px;
   margin: auto;
   -webkit-margin-bottom-collapse: separate;
 }
@@ -925,17 +923,6 @@ li {
   margin: auto;
 }
 
-.light-m2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 30px;
-  width: 100%;
-}
-
 .gradient-m2 {
   font-size: 4em;
   display: -webkit-inline-box;
@@ -948,35 +935,34 @@ li {
   width: 100%;
 }
 
-@supports (mix-blend-mode: lighten) {
-  .gradient-m2 {
-    position: relative;
-    color: #000;
-    background: #fff;
-    mix-blend-mode: multiply;
-  }
-  .gradient-m2::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: -webkit-gradient(linear, left top, right top, from(#c77800), color-stop(#c77800), color-stop(#faaa54), color-stop(#ba68c8), color-stop(#9c6996), to(#8559da));
-    background: linear-gradient(to right, #c77800, #c77800, #faaa54, #ba68c8, #9c6996, #8559da);
-    mix-blend-mode: screen;
-  }
+.gradient-m2 {
+  position: relative;
+  color: #000;
+  background: #fff;
+  mix-blend-mode: multiply;
 }
 
-.li-m2-1, .title-m2-1 {
+.gradient-m2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: -webkit-gradient(linear, left top, right top, from(#c77800), color-stop(#c77800), color-stop(#faaa54), color-stop(#ba68c8), color-stop(#9c6996), to(#8559da));
+  background: linear-gradient(to right, #c77800, #c77800, #faaa54, #ba68c8, #9c6996, #8559da);
+  mix-blend-mode: screen;
+}
+
+.li-m2-1 {
   color: #c77800;
 }
 
-.li-m2-2, .title-m2-2 {
+.li-m2-2 {
   color: #ba68c8;
 }
 
-.li-m2-3, .title-m2-3 {
+.li-m2-3 {
   color: #3f51b5;
 }
 
@@ -1349,7 +1335,7 @@ li {
 }
 
 #container-m4 {
-  height: 1350px;
+  height: 1450px;
 }
 
 #carte-m4 {
@@ -1358,53 +1344,94 @@ li {
   margin: auto;
 }
 
-.light-m4 {
-  padding: 0;
+.gradient-m4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-size: 4em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 100%;
+  position: relative;
+  background: #fff;
 }
 
-@supports (mix-blend-mode: lighten) {
-  .gradient-m4 {
-    font-size: 4em;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    position: relative;
-    color: #000;
-    background: #fff;
-    mix-blend-mode: multiply;
-  }
-  .gradient-m4::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: -webkit-gradient(linear, left top, right top, from(#2e7d32), color-stop(#81c784), color-stop(#98ee99), to(#98ee99));
-    background: linear-gradient(to right, #2e7d32, #81c784, #98ee99, #98ee99);
-    mix-blend-mode: screen;
-  }
+.gradient-m4::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: -webkit-gradient(linear, left top, right top, from(#2e7d32), color-stop(#81c784), color-stop(#98ee99), to(#98ee99));
+  background: linear-gradient(to right, #2e7d32, #81c784, #98ee99, #98ee99);
+  mix-blend-mode: screen;
 }
 
-.block {
+.englobe-m4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: row;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  word-break: normal;
+}
+
+.entree-m4 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 30px auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  word-break: normal;
+  margin-bottom: 60px;
+}
+
+.btnm4 {
+  background: -webkit-gradient(linear, left top, right top, from(#2e7d32), color-stop(#81c784), color-stop(#98ee99), to(#98ee99));
+  background: linear-gradient(to right, #2e7d32, #81c784, #98ee99, #98ee99);
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  width: 33%;
+  height: 8px;
+  margin: 0 20px;
+  float: left;
+  align-self: center;
+}
+
+.btnm4-2 {
+  background: -webkit-gradient(linear, right top, left top, from(#2e7d32), color-stop(#81c784), color-stop(#98ee99), to(#98ee99));
+  background: linear-gradient(to left, #2e7d32, #81c784, #98ee99, #98ee99);
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  width: 33%;
+  height: 8px;
+  margin: 0 20px;
+  float: right;
+  align-self: center;
 }
 
 .title-m4 {
@@ -1422,11 +1449,6 @@ li {
 
 li {
   list-style: none;
-}
-
-.separateur {
-  width: 35%;
-  height: 30px;
 }
 
 @media screen and (max-width: 870px) {
@@ -1496,7 +1518,7 @@ li {
 }
 
 #container-mentions {
-  height: auto;
+  height: 700px;
   text-align: center;
 }
 
@@ -1506,7 +1528,7 @@ p {
 
 @media screen and (max-width: 870px) {
   #container-mentions {
-    height: 850px;
+    height: 1050px;
     text-align: center;
   }
 }

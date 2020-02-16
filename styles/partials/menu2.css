@@ -1,6 +1,6 @@
 #container-m-2 {
   width: 100%;
-  height: 1650px;
+  height: 1750px;
 }
 
 #carte-m2 {
@@ -15,7 +15,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   width: 90%;
-  height: 1300px;
+  height: 1400px;
   margin: auto;
   -webkit-margin-bottom-collapse: separate;
 }
@@ -148,17 +148,6 @@
   margin: auto;
 }
 
-.light-m2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 30px;
-  width: 100%;
-}
-
 .gradient-m2 {
   font-size: 4em;
   display: -webkit-inline-box;
@@ -171,35 +160,34 @@
   width: 100%;
 }
 
-@supports (mix-blend-mode: lighten) {
-  .gradient-m2 {
-    position: relative;
-    color: #000;
-    background: #fff;
-    mix-blend-mode: multiply;
-  }
-  .gradient-m2::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: -webkit-gradient(linear, left top, right top, from(#c77800), color-stop(#c77800), color-stop(#faaa54), color-stop(#ba68c8), color-stop(#9c6996), to(#8559da));
-    background: linear-gradient(to right, #c77800, #c77800, #faaa54, #ba68c8, #9c6996, #8559da);
-    mix-blend-mode: screen;
-  }
+.gradient-m2 {
+  position: relative;
+  color: #000;
+  background: #fff;
+  mix-blend-mode: multiply;
 }
 
-.li-m2-1, .title-m2-1 {
+.gradient-m2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: -webkit-gradient(linear, left top, right top, from(#c77800), color-stop(#c77800), color-stop(#faaa54), color-stop(#ba68c8), color-stop(#9c6996), to(#8559da));
+  background: linear-gradient(to right, #c77800, #c77800, #faaa54, #ba68c8, #9c6996, #8559da);
+  mix-blend-mode: screen;
+}
+
+.li-m2-1 {
   color: #c77800;
 }
 
-.li-m2-2, .title-m2-2 {
+.li-m2-2 {
   color: #ba68c8;
 }
 
-.li-m2-3, .title-m2-3 {
+.li-m2-3 {
   color: #3f51b5;
 }
 

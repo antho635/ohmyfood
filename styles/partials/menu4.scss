@@ -1,25 +1,19 @@
 #container-m4{
-    height: 1350px;
+    height: 1450px;
 }  
 #carte-m4 {
     font-family: 'Rokkitt', serif;
     width: 90%;
     margin: auto;
 }
-.light-m4 {
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-  @supports (mix-blend-mode: lighten) {
+
+
     .gradient-m4 {
+        display: flex;
       font-size: 4em;
       justify-content: center;
       position: relative;
-      color: #000;
       background: #fff;
-      mix-blend-mode: multiply;
     }
     .gradient-m4::before {
       content: "";
@@ -29,16 +23,53 @@
       bottom: 0;
       left: 0;
       background: -webkit-gradient(linear, left top, right top, from( #2e7d32), color-stop(#66bb6a), color-stop(#66bb6a), color-stop(#81c784), to(#76d275));
-            background: linear-gradient(to right, #2e7d32, #81c784, #98ee99, #98ee99);
+      background: linear-gradient(to right, #2e7d32, #81c784, #98ee99, #98ee99);
       mix-blend-mode: screen;
     }
+  
+  .englobe-m4{
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: column;
+    word-break: normal;
   }
-   .block{
-       display:flex;
-       flex-direction: row;
-       align-items: center;
-       margin:30px auto;
-   }
+  .entree-m4{
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    word-break: normal;
+    margin-bottom: 60px;
+  }
+  .btnm4{
+    background: -webkit-gradient(linear, left top, right top, from( #2e7d32), color-stop(#66bb6a), color-stop(#66bb6a), color-stop(#81c784), to(#76d275));
+    background: linear-gradient(to right, #2e7d32, #81c784, #98ee99, #98ee99);
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    display: inline-flex;
+    align-self: center;
+    width: 33%;
+    height: 8px;
+    margin: 0 20px;
+    float: left;
+    align-self: center;
+  }
+  .btnm4-2{
+    background: -webkit-gradient(linear, right top, left bottom from( #2e7d32), color-stop(#66bb6a), color-stop(#66bb6a), color-stop(#81c784), to(#76d275));
+    background: linear-gradient(to left, #2e7d32, #81c784, #98ee99, #98ee99);
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    display: inline-flex;
+    align-self: center;
+    width: 33%;
+    height: 8px;
+    margin: 0 20px;
+    float: right;
+    align-self: center;
+  }
 
    .title-m4{
        display:flex;
@@ -52,10 +83,7 @@
    li{
        list-style: none;
    }
-   .separateur{
-       width:35%;
-       height: 30px;
-   }
+
    @media screen and (max-width:870px){
     #container-m4{
         height: 1700px;
