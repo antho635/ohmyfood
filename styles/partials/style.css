@@ -304,6 +304,10 @@ html, body {
   opacity: 0.6;
 }
 
+span {
+  margin-top: -5px;
+}
+
 @-webkit-keyframes thing {
   0% {
     margin: 0;
@@ -728,9 +732,10 @@ li {
   }
   #container-m1 {
     width: 100%;
-    font-family: fantasy;
-    margin-bottom: 30px;
-    padding-bottom: 0;
+    height: 2350px;
+  }
+  .carte-m1 {
+    height: 2100px;
   }
   .prix {
     float: none;
@@ -761,7 +766,7 @@ li {
   }
   .carte-m1 {
     width: 100%;
-    height: 1750px;
+    height: 2100px;
     margin: 0;
     padding: 0;
   }
@@ -775,7 +780,7 @@ li {
 
 #container-m-2 {
   width: 100%;
-  height: 1750px;
+  height: 1900px;
 }
 
 #carte-m2 {
@@ -790,7 +795,7 @@ li {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 90%;
-  height: 1400px;
+  height: 1550px;
   margin: auto;
   -webkit-margin-bottom-collapse: separate;
 }
@@ -983,14 +988,15 @@ li {
 }
 
 @media (max-width: 870px) {
-  #container-m2 {
+  #container-m-2 {
     width: 100%;
+    height: 2100px;
     margin: 0;
     padding: 0;
   }
   #carte-m2 {
     width: 100%;
-    height: 1750px;
+    height: 1850px;
   }
   .gradient-m2 {
     margin: 0;
@@ -1511,9 +1517,9 @@ li {
   }
 }
 
-#bloc-page {
+#bloc-page-mention {
   width: 100%;
-  height: auto;
+  height: 900px;
   margin: 0;
 }
 
@@ -1524,6 +1530,11 @@ li {
 
 p {
   padding: 10px;
+}
+
+.important {
+  font-size: 2em;
+  color: red;
 }
 
 @media screen and (max-width: 870px) {

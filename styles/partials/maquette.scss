@@ -54,7 +54,9 @@ html,body{
     transform:scale(1.15);
     opacity: 0.6;
   }
-
+  span{
+    margin-top: -5px;
+  }
   @keyframes thing{
     0%{ margin:0}
     15% {margin-top:-2px;}
