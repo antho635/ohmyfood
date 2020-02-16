@@ -1,4 +1,4 @@
-
+/*menu1*/
   #container-m1{
       width:100%;
       height: 1650px;
@@ -8,6 +8,23 @@
       background-color: #fff;
       height: 100%;
      }
+     .carte-m1{
+        font-family: 'Neucha', cursive;
+        position: relative;
+        width: 90%;
+        height: 1300px;
+        margin: auto;
+        background-color: #ffebee;
+        -webkit-margin-bottom-collapse: separate;
+    }
+     /*haut menu1*/
+     .entete {
+        text-align: center;
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
      .note1{
        display:flex;
        justify-content: center;
@@ -15,6 +32,49 @@
        width: 90px;
        height:90px;
      }
+     .titrem1{
+        font-size: 4em;
+        color: #4e342e;
+        margin: 30px 0px;
+        font-weight: lighter;
+    }
+    /*haut menu1*/
+
+    /*listes des plats menu1*/
+    .essaie{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top:0;
+        width: 100%;
+        vertical-align: middle;
+    }
+    .separateur-m1{
+        width: 33%;
+        display: flex;
+        align-self: center;
+        height: 70px;
+        margin: auto;
+    }
+    .title:before {
+        content: "";
+        left: 0;
+        right: 0;
+        height: 2px;
+        position: absolute;
+        top: calc(50% - 1px);
+    }
+    li{
+        color:#4e342e;
+        }
+    /*listes des plats menu1*/
+
+    /*bas menu1*/
+    .bas-m1{
+        display: inline-flex;
+        justify-content: center;
+        width: 100%;
+    }
      .note2{
          display: inline-flex;
          justify-content: center;
@@ -29,86 +89,10 @@
          justify-content: center;
          color: #4e342e;
          font-size: 1.8em;
-     }   
-  
-      .carte-m1{
-          font-family: 'Neucha', cursive;
-          position: relative;
-          width: 90%;
-          height: 1300px;
-          margin: auto;
-          background-color: #ffebee;
-          -webkit-margin-bottom-collapse: separate;
-      }
-      .titrem1{
-          font-size: 4em;
-          color: #4e342e;
-          margin: 30px 0px;
-          font-weight: lighter;
-      }
-         
-     .essaie{
-         display:flex;
-         flex-direction: row;
-         justify-content: center;
-         margin-top:0;
-         width: 100%;
-         vertical-align: middle;
-     }
-     .separateur-m1{
-         width: 33%;
-         display: flex;
-         align-self: center;
-         height: 70px;
-         margin: auto;
-  
-     }
-     .bas-m1{
-         display: inline-flex;
-         justify-content: center;
-         width: 100%;
-     }
+     } 
+      /*bas menu1*/  
 
-     .entete {
-        text-align: center;
-        padding-top: 50px;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-      }
-      .titre-m1{
-         font-weight:lighter;
-         font-size:2.4em;
-         color:#4e342e;
-         margin:0;
-     }
-     .title-m1{
-         text-align: center;
-         font-weight: normal;
-         font-size:1.3em;
-         font-family: 'Luminari', fantasy;
-         color:#4e342e;
-         display: flex;
-         justify-content: center;
-     }
-  
-     .fa,.fas {
-   font-weight:900;
-   margin-right: 5px;
-  }
-  li{
-  color:#4e342e;
-  }
-  
-  .title:before {
-      content: "";
-      left: 0;
-      right: 0;
-      height: 2px;
-      position: absolute;
-      top: calc(50% - 1px);
-  }
-  
+      /*menu1 responsive*/
     @media screen and (max-width: 870px){
     .title-m1{
         margin: auto;
@@ -160,3 +144,4 @@
          margin:10px auto;
       }
     }
+    /*menu1 responsive*/

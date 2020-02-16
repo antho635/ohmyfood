@@ -1,3 +1,5 @@
+/*index*/
+/*container index*/
 html, body {
   font-family: sans-serif;
   width: 100%;
@@ -11,23 +13,8 @@ html, body {
   height: auto;
 }
 
-#box1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  width: 80%;
-  margin: auto;
-  justify-content: space-around;
-}
-
+/*container index*/
+/*header index*/
 .header1 {
   text-align: center;
   width: 100%;
@@ -47,14 +34,49 @@ html, body {
           justify-content: center;
 }
 
-.menu {
-  width: 100%;
-  height: auto;
-  -webkit-transition: -webkit-transform .9s;
-  -webkit-transition: -webkit-transform 1.5s;
-  transition: -webkit-transform 1.5s;
-  transition: transform 1.5s;
-  transition: transform 1.5s, -webkit-transform 1.5s;
+/*header index*/
+/*barre de recherche index*/
+.recherche .iconloupe {
+  background: url(http://www.larevuedekenza.fr/wp-content/themes/quarter/images/sidebar/loupe.png) no-repeat 0 0;
+}
+
+.recherche input {
+  outline: 0;
+  border: 0;
+  margin: 0;
+  height: 24px;
+  float: left;
+  display: block;
+  padding-left: 30px;
+}
+
+.recherche {
+  background-color: white;
+  height: 30px;
+  border: solid 1px grey;
+}
+
+.iconloupe {
+  float: left;
+}
+
+/*barre de recherche index*/
+/*box + zoom sur image*/
+#box1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 80%;
+  margin: auto;
+  justify-content: space-around;
 }
 
 #box1 img:hover {
@@ -69,104 +91,14 @@ html, body {
   opacity: 0.6;
 }
 
-span {
-  margin-top: -5px;
-}
-
-@-webkit-keyframes thing {
-  0% {
-    margin: 0;
-  }
-  15% {
-    margin-top: -2px;
-  }
-  33% {
-    margin-left: -5px;
-  }
-  45% {
-    margin-top: 2px;
-  }
-  66% {
-    margin-left: 5px;
-  }
-  100% {
-    margin: 0;
-  }
-  0% {
-    margin: 0;
-  }
-  15% {
-    margin-top: -2px;
-  }
-  33% {
-    margin-right: -5px;
-  }
-  45% {
-    margin-top: 2px;
-  }
-  66% {
-    margin-right: 5px;
-  }
-  100% {
-    margin: 0;
-  }
-}
-
-@keyframes thing {
-  0% {
-    margin: 0;
-  }
-  15% {
-    margin-top: -2px;
-  }
-  33% {
-    margin-left: -5px;
-  }
-  45% {
-    margin-top: 2px;
-  }
-  66% {
-    margin-left: 5px;
-  }
-  100% {
-    margin: 0;
-  }
-  0% {
-    margin: 0;
-  }
-  15% {
-    margin-top: -2px;
-  }
-  33% {
-    margin-right: -5px;
-  }
-  45% {
-    margin-top: 2px;
-  }
-  66% {
-    margin-right: 5px;
-  }
-  100% {
-    margin: 0;
-  }
-}
-
-.bientot {
-  font-size: 2.1em;
-  text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: #ffd54f;
-  border: 2px dotted #00796b;
-  background-color: #00796b;
-  border-radius: 10px;
-  width: 33%;
-  margin: 30px auto 100px auto;
+.menu {
+  width: 100%;
   height: auto;
+  -webkit-transition: -webkit-transform .9s;
+  -webkit-transition: -webkit-transform 1.5s;
+  transition: -webkit-transform 1.5s;
+  transition: transform 1.5s;
+  transition: transform 1.5s, -webkit-transform 1.5s;
 }
 
 .menu {
@@ -187,6 +119,26 @@ span {
   transition: 0.9s;
   width: 100%;
   height: 700px;
+}
+
+/*box + zoom sur image*/
+/*prochainement + animation points*/
+.bientot {
+  font-size: 2.1em;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #ffd54f;
+  border: 2px dotted #00796b;
+  background-color: #00796b;
+  border-radius: 10px;
+  width: 33%;
+  margin: 30px auto 100px auto;
+  height: auto;
 }
 
 @-webkit-keyframes dots {
@@ -232,55 +184,12 @@ span {
           animation-delay: 1s;
 }
 
-#searchbar {
-  position: relative;
-  width: 100%;
-  height: auto;
+span {
+  margin-top: -5px;
 }
 
-.formulaire {
-  display: inline-block;
-  width: 100%;
-}
-
-.formulaire .champ {
-  width: 100%;
-  height: 35px;
-}
-
-.champ {
-  padding-right: 0px;
-  padding-left: 0px;
-  border-right-width: 0px;
-  border-right-style: solid;
-  border-left-width: 0px;
-  border-left-style: solid;
-}
-
-.recherche .iconloupe {
-  background: url(http://www.larevuedekenza.fr/wp-content/themes/quarter/images/sidebar/loupe.png) no-repeat 0 0;
-}
-
-.recherche input {
-  outline: 0;
-  border: 0;
-  margin: 0;
-  height: 24px;
-  float: left;
-  display: block;
-  padding-left: 30px;
-}
-
-.recherche {
-  background-color: white;
-  height: 30px;
-  border: solid 1px grey;
-}
-
-.iconloupe {
-  float: left;
-}
-
+/*prochainement + animation points*/
+/*responsive index*/
 @media screen and (max-width: 1150px) {
   #box1 {
     -webkit-box-orient: vertical;
@@ -290,39 +199,14 @@ span {
   }
   .menu {
     width: 100%;
-  }
-  .menu img {
-    height: 100%;
-  }
-  #box1 img:hover {
-    width: 100%;
-    height: 100%;
-    /* L'image est grossie de 15% */
-    -webkit-transform: scale(1.15);
-    /* Safari et Chrome */
-    /* Firefox */
-    /* Internet Explorer 9 */
-    /* Opera */
-    transform: scale(1.15);
-    opacity: 0.8;
-  }
-  .menu {
-    width: 100%;
-    -webkit-transition: -webkit-transform .9s;
-    -webkit-transition: -webkit-transform 1.5s;
-    transition: -webkit-transform 1.5s;
-    transition: transform 1.5s;
-    transition: transform 1.5s, -webkit-transform 1.5s;
-    margin: 30px auto 30px auto;
-    border: solid 1px #cfcfcf;
-    overflow: hidden;
+    height: auto;
   }
   .bientot {
     width: 60%;
     font-size: 1.5em;
   }
-  .header {
-    height: auto;
-  }
 }
+
+/*responsive index*/
+/*index*/
 /*# sourceMappingURL=maquette.css.map */

@@ -1,3 +1,4 @@
+/*menu4*/
 #container-m4{
     height: 1450px;
 }  
@@ -6,8 +7,7 @@
     width: 90%;
     margin: auto;
 }
-
-
+/*titre coloré menu4*/
     .gradient-m4 {
         display: flex;
       font-size: 4em;
@@ -26,64 +26,58 @@
       background: linear-gradient(to right, #2e7d32, #81c784, #98ee99, #98ee99);
       mix-blend-mode: screen;
     }
-  
-  .englobe-m4{
-    display: flex;
-    -ms-flex-direction: row;
-    flex-direction: column;
-    word-break: normal;
-  }
-  .entree-m4{
-    display: inline-flex;
-    width: 100%;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
-    word-break: normal;
-    margin-bottom: 60px;
-  }
-  .btnm4{
-    background: -webkit-gradient(linear, left top, right top, from( #2e7d32), color-stop(#66bb6a), color-stop(#66bb6a), color-stop(#81c784), to(#76d275));
-    background: linear-gradient(to right, #2e7d32, #81c784, #98ee99, #98ee99);
-    border-top: 0px;
-    border-right: 0px;
-    border-left: 0px;
-    display: inline-flex;
-    align-self: center;
-    width: 33%;
-    height: 8px;
-    margin: 0 20px;
-    float: left;
-    align-self: center;
-  }
-  .btnm4-2{
-    background: -webkit-gradient(linear, right top, left bottom from( #2e7d32), color-stop(#66bb6a), color-stop(#66bb6a), color-stop(#81c784), to(#76d275));
-    background: linear-gradient(to left, #2e7d32, #81c784, #98ee99, #98ee99);
-    border-top: 0px;
-    border-right: 0px;
-    border-left: 0px;
-    display: inline-flex;
-    align-self: center;
-    width: 33%;
-    height: 8px;
-    margin: 0 20px;
-    float: right;
-    align-self: center;
-  }
+    /*titre coloré menu4*/
 
-   .title-m4{
-       display:flex;
-       justify-content: center;
-       font-size: 1.3em;
-       width:33%;
-       color: black;
-       font-weight: lighter;
-   }
+    /*commun menu4*/
+    .englobe-m4{
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: column;
+        word-break: normal;
+    }
 
-   li{
-       list-style: none;
-   }
+    .btnm4{
+        background: -webkit-gradient(linear, left top, right top, from( #2e7d32), color-stop(#66bb6a), color-stop(#66bb6a), color-stop(#81c784), to(#76d275));
+        background: linear-gradient(to right, #2e7d32, #81c784, #98ee99, #98ee99);
+        border-top: 0px;
+        border-right: 0px;
+        border-left: 0px;
+        display: inline-flex;
+        align-self: center;
+        width: 33%;
+        height: 8px;
+        margin: 0 20px;
+        float: left;
+        align-self: center;
+      }
 
+      .btnm4-2{
+        background: -webkit-gradient(linear, right top, left bottom from( #2e7d32), color-stop(#66bb6a), color-stop(#66bb6a), color-stop(#81c784), to(#76d275));
+        background: linear-gradient(to left, #2e7d32, #81c784, #98ee99, #98ee99);
+        border-top: 0px;
+        border-right: 0px;
+        border-left: 0px;
+        display: inline-flex;
+        align-self: center;
+        width: 33%;
+        height: 8px;
+        margin: 0 20px;
+        float: right;
+        align-self: center;
+      }
+
+      .entree-m4{
+        display: inline-flex;
+        width: 100%;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        word-break: normal;
+        margin-bottom: 60px;
+      }
+    /*commun menu4*/
+
+    /*responsive menu4*/
    @media screen and (max-width:870px){
     #container-m4{
         height: 1700px;
@@ -142,5 +136,6 @@
   section{
       margin:0;
   }
-
-   }
+}
+/*responsive menu4*/
+/*menu4*/
