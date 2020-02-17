@@ -158,11 +158,14 @@
 
 }
 @media screen and (max-width: 870px){
+  #container-m-3{
+    height:2150px;
+  }
   #carte-m3{
     width:100%;
     margin:0;
-    margin-bottom: 30px;
-    height: 1600px;
+    padding-bottom: 30px;
+    height: auto;
   }
 
   .light-m3{
@@ -203,7 +206,7 @@
   }
   .gradient-m3{
     font-size: 2em;
-    margin:auto;
+    margin: 30px auto;
     text-align: center;
     padding:0;
   }
@@ -211,9 +214,6 @@
     display: inline-flex;
     justify-content: center;
     width: auto;
-  }
-  .li{
-    font-size:1.3em;
   }
 }
 /*responsive menu3*/

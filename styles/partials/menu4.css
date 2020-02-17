@@ -107,22 +107,21 @@
 /*responsive menu4*/
 @media screen and (max-width: 870px) {
   #container-m4 {
-    height: 1700px;
+    height: 2000px;
   }
   .gradient-m4 {
     font-size: 2em;
     text-align: center;
-    display: inline-block;
-    background: white;
-    color: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     position: relative;
-    margin: 0;
   }
   #carte-m4 {
     width: 100%;
     margin: 0;
-    margin-bottom: 30px;
-    padding: 0;
+    height: auto;
+    padding-bottom: 30px;
   }
   .block {
     -webkit-box-orient: vertical;

@@ -14,7 +14,7 @@
   font-family: 'Neucha', cursive;
   position: relative;
   width: 90%;
-  height: 1300px;
+  height: auto;
   margin: auto;
   background-color: #ffebee;
   -webkit-margin-bottom-collapse: separate;
@@ -95,7 +95,7 @@
 }
 
 li {
-  color: #4e342e;
+  color: #424242;
 }
 
 /*listes des plats menu1*/
@@ -151,10 +151,7 @@ li {
   }
   #container-m1 {
     width: 100%;
-    height: 2350px;
-  }
-  .carte-m1 {
-    height: 2100px;
+    height: 2200px;
   }
   .prix {
     float: none;
@@ -185,7 +182,6 @@ li {
   }
   .carte-m1 {
     width: 100%;
-    height: 2100px;
     margin: 0;
     padding: 0;
   }
