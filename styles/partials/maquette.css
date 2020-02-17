@@ -275,6 +275,10 @@ span {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .menu {
+    width: 100%;
+    height: 100%;
+  }
   .bientot {
     width: 60%;
     font-size: 1.5em;

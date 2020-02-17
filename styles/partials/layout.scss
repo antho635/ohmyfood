@@ -24,9 +24,9 @@
     display:flex;
     justify-content: center;
     color: black;
-    font-weight: lighter;
-    font-size: 1em;
-    margin: 10px auto;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 70px auto 0 auto;
   }
   #title{
     font-weight: lighter;
@@ -71,7 +71,6 @@
     font-size: 1.7em;
     padding:0 100px;
     margin: 50px 0;
-
     list-style: none;
 }
   li{
@@ -135,8 +134,15 @@ footer{
       #title{
         width: auto;
       }
+      .titre{
+        font-size: 1em;
+        margin: 0;
+      }
       .header{
         height:auto;
+      }
+      li{
+        text-align: center;
       }
       .ul-m4{
         height: auto;

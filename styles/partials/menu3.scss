@@ -38,12 +38,11 @@
   justify-content: center;
   margin: auto;
   width: 100%;
-}
-.gradient-m3 {
   position: relative;
   color: #000;
   background: #fff;
   mix-blend-mode: multiply;
+  padding-bottom: 30px;
 }
 .gradient-m3::before {
   content: "";
@@ -163,20 +162,11 @@
  
   #carte-m3{
     width:100%;
-    margin:0;
     padding-bottom: 30px;
     height: auto;
+    margin-bottom:30px;
   }
 
-  .light-m3{
-    display: flex;
-    justify-content: center;
-    margin: 0px auto;
-    padding: 20px 0;
-  }
-  .titre{
-    font-size: 1em;
-  }
   .plat, .entree, .dessert{
     display:flex;
     flex-direction:column;
@@ -205,15 +195,10 @@
     margin: 0;
   }
   .gradient-m3{
-    font-size: 2em;
+    font-size: 3em;
     margin: 30px auto;
     text-align: center;
     padding:0;
-  }
-  .prix{
-    display: inline-flex;
-    justify-content: center;
-    width: auto;
   }
 }
 /*responsive menu3*/

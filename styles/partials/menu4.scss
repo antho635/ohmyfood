@@ -7,6 +7,7 @@
     width: 90%;
     margin: auto;
     margin-bottom:80px;
+    padding-top: 30px;
 }
 /*titre coloré menu4*/
     .gradient-m4 {
@@ -84,7 +85,7 @@
         height: auto;
     }
     .gradient-m4{
-       font-size: 2em;
+       font-size: 3em;
        text-align: center;
        display: flex;
        position: relative;
@@ -93,25 +94,14 @@
 
     #carte-m4{
         width:100%;
-        margin:0;
         height: auto;
         padding-bottom: 30px; 
+        margin-bottom:30px;
     }
     
     .block{
         flex-direction: column;
     }
-    .light-m4{
-        margin-bottom:30px;
-    }
-  .prix {
-      float: none;
-     display: flex;
-     text-align: center; 
-     margin: auto; 
-     margin-top:8px;
-     justify-content: center;
- }
 
  .title-m4{
      width:30%;
@@ -119,21 +109,6 @@
      text-align: center;
  }
 
- li{
-     text-align:center;
- }
-
- .separateur{
-     width:40%; 
-     height:auto;
- }
-
- .carte{
-     width:90%;
- }
-  section{
-      margin:0;
-  }
 }
 /*responsive menu4*/
 /*menu4*/

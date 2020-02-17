@@ -9,6 +9,7 @@
   width: 90%;
   margin: auto;
   margin-bottom: 80px;
+  padding-top: 30px;
 }
 
 /*titre coloré menu4*/
@@ -111,7 +112,7 @@
     height: auto;
   }
   .gradient-m4 {
-    font-size: 2em;
+    font-size: 3em;
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -120,9 +121,9 @@
   }
   #carte-m4 {
     width: 100%;
-    margin: 0;
     height: auto;
     padding-bottom: 30px;
+    margin-bottom: 30px;
   }
   .block {
     -webkit-box-orient: vertical;
@@ -130,38 +131,10 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .light-m4 {
-    margin-bottom: 30px;
-  }
-  .prix {
-    float: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    text-align: center;
-    margin: auto;
-    margin-top: 8px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
   .title-m4 {
     width: 30%;
     margin: 0;
     text-align: center;
-  }
-  li {
-    text-align: center;
-  }
-  .separateur {
-    width: 40%;
-    height: auto;
-  }
-  .carte {
-    width: 90%;
-  }
-  section {
-    margin: 0;
   }
 }
 

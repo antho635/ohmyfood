@@ -55,13 +55,11 @@
           justify-content: center;
   margin: auto;
   width: 100%;
-}
-
-.gradient-m3 {
   position: relative;
   color: #000;
   background: #fff;
   mix-blend-mode: multiply;
+  padding-bottom: 30px;
 }
 
 .gradient-m3::before {
@@ -204,22 +202,9 @@
 @media screen and (max-width: 870px) {
   #carte-m3 {
     width: 100%;
-    margin: 0;
     padding-bottom: 30px;
     height: auto;
-  }
-  .light-m3 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin: 0px auto;
-    padding: 20px 0;
-  }
-  .titre {
-    font-size: 1em;
+    margin-bottom: 30px;
   }
   .plat, .entree, .dessert {
     display: -webkit-box;
@@ -261,19 +246,10 @@
     margin: 0;
   }
   .gradient-m3 {
-    font-size: 2em;
+    font-size: 3em;
     margin: 30px auto;
     text-align: center;
     padding: 0;
-  }
-  .prix {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    width: auto;
   }
 }
 

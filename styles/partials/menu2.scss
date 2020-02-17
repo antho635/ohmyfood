@@ -30,7 +30,13 @@
 /*englobe menu2*/
 
 /*titre coloré menu2*/
+.titrecouleurm2{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
 .gradient-m2 {
+  text-align:center;
   font-size: 4em;
   display: inline-flex;
   justify-content: center;
@@ -191,10 +197,11 @@
   #carte-m2{
     width:100%;
     height: auto;
+    padding-bottom:30px;
+    margin-bottom: 30px;
   }
-  .gradient-m2{
-    margin:0;
-    font-size: 2em;
+  .gradient-m2 {
+    font-size: 3em;
   }
   
   .prix {

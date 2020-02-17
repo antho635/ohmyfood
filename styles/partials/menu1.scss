@@ -99,15 +99,14 @@
         margin: auto;
         width: auto;
     }
-    .titrem1{
-        font-size: 2em;
-    }
-    .ul-m4{
-        margin: 0;
-    }
+   
     #container-m1 {
       width: 100%;
+      margin: 0;
       height: auto;
+    }
+    .titrem1{
+        font-size: 3em;
     }
       .prix {
          float: none;
@@ -131,8 +130,7 @@
      }
      .carte-m1{
          width: 100%;
-         margin:0;
-         padding:0;
+         margin-bottom:20px;
      }
      .fin{
          font-size: 1.8em;
