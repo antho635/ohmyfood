@@ -1,12 +1,12 @@
 /*mentions legales*/
 #bloc-page-mention {
   width: 100%;
-  height: 900px;
+  height: 1100px;
   margin: 0;
 }
 
 #container-mentions {
-  height: 700px;
+  height: auto;
   text-align: center;
 }
 
@@ -15,13 +15,13 @@ p {
 }
 
 .important {
-  font-size: 2em;
+  font-size: 1.5em;
   color: red;
 }
 
 @media screen and (max-width: 870px) {
   #container-mentions {
-    height: 1050px;
+    height: 1200px;
     text-align: center;
   }
 }
