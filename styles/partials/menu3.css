@@ -1,13 +1,16 @@
 /*menu3*/
 #container-m-3 {
-  height: 1600px;
+  height: auto;
 }
 
 #carte-m3 {
   font-family: 'Kalam', cursive;
   width: 90%;
-  margin: 50px auto;
+  margin: auto;
+  margin-bottom: 80px;
   background-color: #e5ffff;
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 
 /*commun menu3*/
@@ -38,7 +41,6 @@
       -ms-flex-pack: center;
           justify-content: center;
   word-break: normal;
-  margin-bottom: 60px;
 }
 
 /*commun menu3*/
@@ -200,9 +202,6 @@
 }
 
 @media screen and (max-width: 870px) {
-  #container-m-3 {
-    height: 2150px;
-  }
   #carte-m3 {
     width: 100%;
     margin: 0;

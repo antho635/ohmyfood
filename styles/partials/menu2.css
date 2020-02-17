@@ -1,12 +1,13 @@
+@charset "UTF-8";
 /*menu2*/
+/*englobe menu2*/
 #container-m-2 {
   width: 100%;
-  height: 1900px;
+  height: auto;
 }
 
 #carte-m2 {
   font-family: 'Parisienne', cursive;
-  position: relative;
   background-color: #fdf5fe;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -16,9 +17,10 @@
       -ms-flex-direction: column;
           flex-direction: column;
   width: 90%;
-  height: 1550px;
+  height: auto;
   margin: auto;
-  -webkit-margin-bottom-collapse: separate;
+  margin-bottom: 80px;
+  padding-top: 50px;
 }
 
 .bloc-page-m2 {
@@ -35,7 +37,8 @@
           flex-direction: column;
 }
 
-/*haut menu2*/
+/*englobe menu2*/
+/*titre coloré menu2*/
 .gradient-m2 {
   font-size: 4em;
   display: -webkit-inline-box;
@@ -67,7 +70,7 @@
   mix-blend-mode: screen;
 }
 
-/*haut menu2*/
+/*titre coloré menu2*/
 /*communs menu2*/
 .entree-m2 .plat-m2 .dessert-m2 {
   display: -webkit-box;
@@ -223,13 +226,13 @@ li {
 @media (max-width: 870px) {
   #container-m-2 {
     width: 100%;
-    height: 2100px;
+    height: auto;
     margin: 0;
     padding: 0;
   }
   #carte-m2 {
     width: 100%;
-    height: 1850px;
+    height: auto;
   }
   .gradient-m2 {
     margin: 0;
@@ -264,9 +267,6 @@ li {
   .icon-m2 {
     -webkit-transform: rotate(180deg);
             transform: rotate(180deg);
-  }
-  li {
-    padding: 10px 0px;
   }
   .ul-m2 {
     font-size: 1.7em;

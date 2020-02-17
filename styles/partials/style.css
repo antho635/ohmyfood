@@ -7,12 +7,12 @@
 .T-header {
   text-decoration: none;
   color: #ffd54f;
+  font-size: 1.5em;
 }
 
 .header {
   text-align: center;
   width: 100%;
-  height: 80px;
   background-color: #00796b;
   font-size: 1.3em;
   display: -webkit-box;
@@ -40,9 +40,9 @@
       -ms-flex-pack: center;
           justify-content: center;
   color: black;
-  margin: 40px auto;
   font-weight: lighter;
-  font-size: 1.2em;
+  font-size: 1em;
+  margin: 10px auto;
 }
 
 #title {
@@ -98,13 +98,13 @@
 
 .ul-m4 {
   font-size: 1.7em;
-  padding: 0 80px;
+  padding: 0 100px;
+  margin: 50px 0;
   list-style: none;
 }
 
 li {
-  vertical-align: middle;
-  padding-bottom: 8px;
+  padding-bottom: 10px;
 }
 
 .prix {
@@ -125,7 +125,8 @@ li {
       -ms-flex-pack: justify;
           justify-content: space-between;
   bottom: 0;
-  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -257,7 +258,6 @@ html, body {
   height: 130px;
   background-color: #00796b;
   color: #ffd54f;
-  font-size: 1.3em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -370,7 +370,7 @@ html, body {
   color: #ffd54f;
   border: 2px dotted #00796b;
   background-color: #00796b;
-  border-radius: 10px;
+  border-radius: 20px;
   width: 33%;
   margin: 30px auto 100px auto;
   height: auto;
@@ -511,10 +511,6 @@ span {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .menu {
-    width: 100%;
-    height: 100%;
-  }
   .bientot {
     width: 60%;
     font-size: 1.5em;
@@ -526,23 +522,22 @@ span {
 /*menu1*/
 #container-m1 {
   width: 100%;
-  height: 1650px;
+  height: auto;
 }
 
 .bloc-page-m1 {
   margin: 0;
   background-color: #fff;
-  height: 100%;
+  height: auto;
 }
 
 .carte-m1 {
   font-family: 'Neucha', cursive;
-  position: relative;
   width: 90%;
   height: auto;
   margin: auto;
+  margin-bottom: 80px;
   background-color: #ffebee;
-  -webkit-margin-bottom-collapse: separate;
 }
 
 /*haut menu1*/
@@ -570,8 +565,8 @@ span {
           justify-content: center;
   -ms-flex-item-align: center;
       align-self: center;
-  width: 90px;
-  height: 90px;
+  width: 120px;
+  height: 120px;
 }
 
 .titrem1 {
@@ -633,6 +628,7 @@ li {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
+  padding-bottom: 30px;
 }
 
 .note2 {
@@ -658,7 +654,7 @@ li {
       -ms-flex-pack: center;
           justify-content: center;
   color: #4e342e;
-  font-size: 1.8em;
+  font-size: 2em;
 }
 
 /*bas menu1*/
@@ -676,7 +672,7 @@ li {
   }
   #container-m1 {
     width: 100%;
-    height: 2200px;
+    height: auto;
   }
   .prix {
     float: none;
@@ -720,14 +716,14 @@ li {
 
 /*menu1 responsive*/
 /*menu2*/
+/*englobe menu2*/
 #container-m-2 {
   width: 100%;
-  height: 1900px;
+  height: auto;
 }
 
 #carte-m2 {
   font-family: 'Parisienne', cursive;
-  position: relative;
   background-color: #fdf5fe;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -737,9 +733,10 @@ li {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 90%;
-  height: 1550px;
+  height: auto;
   margin: auto;
-  -webkit-margin-bottom-collapse: separate;
+  margin-bottom: 80px;
+  padding-top: 50px;
 }
 
 .bloc-page-m2 {
@@ -756,7 +753,8 @@ li {
           flex-direction: column;
 }
 
-/*haut menu2*/
+/*englobe menu2*/
+/*titre coloré menu2*/
 .gradient-m2 {
   font-size: 4em;
   display: -webkit-inline-box;
@@ -788,7 +786,7 @@ li {
   mix-blend-mode: screen;
 }
 
-/*haut menu2*/
+/*titre coloré menu2*/
 /*communs menu2*/
 .entree-m2 .plat-m2 .dessert-m2 {
   display: -webkit-box;
@@ -944,13 +942,13 @@ li {
 @media (max-width: 870px) {
   #container-m-2 {
     width: 100%;
-    height: 2100px;
+    height: auto;
     margin: 0;
     padding: 0;
   }
   #carte-m2 {
     width: 100%;
-    height: 1850px;
+    height: auto;
   }
   .gradient-m2 {
     margin: 0;
@@ -986,9 +984,6 @@ li {
     -webkit-transform: rotate(180deg);
             transform: rotate(180deg);
   }
-  li {
-    padding: 10px 0px;
-  }
   .ul-m2 {
     font-size: 1.7em;
     margin: auto;
@@ -999,14 +994,17 @@ li {
 /*menu2 responsive*/
 /*menu3*/
 #container-m-3 {
-  height: 1600px;
+  height: auto;
 }
 
 #carte-m3 {
   font-family: 'Kalam', cursive;
   width: 90%;
-  margin: 50px auto;
+  margin: auto;
+  margin-bottom: 80px;
   background-color: #e5ffff;
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 
 /*commun menu3*/
@@ -1037,7 +1035,6 @@ li {
       -ms-flex-pack: center;
           justify-content: center;
   word-break: normal;
-  margin-bottom: 60px;
 }
 
 /*commun menu3*/
@@ -1199,9 +1196,6 @@ li {
 }
 
 @media screen and (max-width: 870px) {
-  #container-m-3 {
-    height: 2150px;
-  }
   #carte-m3 {
     width: 100%;
     margin: 0;
@@ -1281,13 +1275,14 @@ li {
 /*menu3*/
 /*menu4*/
 #container-m4 {
-  height: 1450px;
+  height: auto;
 }
 
 #carte-m4 {
   font-family: 'Rokkitt', serif;
   width: 90%;
   margin: auto;
+  margin-bottom: 80px;
 }
 
 /*titre coloré menu4*/
@@ -1387,7 +1382,7 @@ li {
 /*responsive menu4*/
 @media screen and (max-width: 870px) {
   #container-m4 {
-    height: 2000px;
+    height: auto;
   }
   .gradient-m4 {
     font-size: 2em;

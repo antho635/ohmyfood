@@ -1,11 +1,12 @@
 /*menu4*/
 #container-m4{
-    height: 1450px;
+    height: auto;
 }  
 #carte-m4 {
     font-family: 'Rokkitt', serif;
     width: 90%;
     margin: auto;
+    margin-bottom:80px;
 }
 /*titre coloré menu4*/
     .gradient-m4 {
@@ -80,7 +81,7 @@
     /*responsive menu4*/
    @media screen and (max-width:870px){
     #container-m4{
-        height: 2000px;
+        height: auto;
     }
     .gradient-m4{
        font-size: 2em;

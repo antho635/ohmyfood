@@ -22,7 +22,6 @@ html,body{
     height:130px;
     background-color: #00796b;
     color:#ffd54f;
-    font-size:1.3em;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -115,7 +114,7 @@ html,body{
   color:#ffd54f;
   border: 2px dotted #00796b;
   background-color: #00796b;
-  border-radius: 10px;
+  border-radius: 20px;
   width: 33%;
   margin: 30px auto 100px auto;
   height: auto;
@@ -168,10 +167,6 @@ span{
 @media screen and (max-width: 1150px){
   #box1{
     flex-direction: column;
-  }
-  .menu{
-    width: 100%;
-    height: 100%;
   }
   
   .bientot{

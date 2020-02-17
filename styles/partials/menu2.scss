@@ -1,19 +1,23 @@
 /*menu2*/
+
+/*englobe menu2*/
 #container-m-2{
   width: 100%;
-  height: 1900px;
+  height: auto;
+
 }
 
 #carte-m2 {
   font-family: 'Parisienne', cursive;
-  position: relative;
   background-color: #fdf5fe;
   display: flex;
   flex-direction: column;
   width: 90%;
-  height: 1550px;
+  height: auto;
   margin: auto;
-  -webkit-margin-bottom-collapse: separate;
+  margin-bottom: 80px;
+  padding-top: 50px;
+
 }
 .bloc-page-m2{
   background-color: #fff;
@@ -21,20 +25,25 @@
 #box-m2{
   display:flex;
   flex-direction: column;
+
 }
-/*haut menu2*/
+/*englobe menu2*/
+
+/*titre coloré menu2*/
 .gradient-m2 {
   font-size: 4em;
   display: inline-flex;
   justify-content: center;
   margin: auto;
   width: 100%;
+
 }
   .gradient-m2 {
     position: relative;
     color: #000;
     background: #fff;
     mix-blend-mode: multiply;
+
   }
   .gradient-m2::before {
     content: "";
@@ -46,8 +55,9 @@
     background: -webkit-gradient(linear, left top, right top, from(#c77800), color-stop(#faaa54), color-stop(#ba68c8), color-stop(#ba68c8), to(#8559da));
       background: linear-gradient(to right, #c77800, #c77800, #faaa54, #ba68c8, #9c6996, #8559da);
     mix-blend-mode: screen;
+
   }
-  /*haut menu2*/
+  /*titre coloré menu2*/
 
   /*communs menu2*/
   .entree-m2 .plat-m2 .dessert-m2{
@@ -167,17 +177,20 @@
 /*desserts menu2*/
 /*listes des plats menu2*/
 
+
+
+
 /*menu2 responsive*/
 @media (max-width: 870px){
   #container-m-2{
     width: 100%;
-    height: 2100px;
+    height: auto;
     margin:0;
     padding: 0;
   }
   #carte-m2{
     width:100%;
-    height:1850px;
+    height: auto;
   }
   .gradient-m2{
     margin:0;
@@ -205,9 +218,6 @@
   }
   .icon-m2{
     transform: rotate(180deg);
-  }
-  li{
-    padding: 10px 0px;
   }
   .ul-m2{
     font-size: 1.7em;
