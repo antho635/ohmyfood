@@ -59,7 +59,7 @@
     bottom: 0;
     left: 0;
     background: -webkit-gradient(linear, left top, right top, from(#c77800), color-stop(#faaa54), color-stop(#ba68c8), color-stop(#ba68c8), to(#8559da));
-      background: linear-gradient(to right, #c77800, #c77800, #faaa54, #ba68c8, #9c6996, #8559da);
+    background: linear-gradient(to right, #c77800, #c77800, #faaa54, #ba68c8, #9c6996, #8559da);
     mix-blend-mode: screen;
 
   }
@@ -123,18 +123,20 @@
      padding-bottom:50px;
    }
 
-  .m-2:after {
+  #trait:after {
     content: '';
     display: block;
-    margin: auto;
-    height: 1px;
+    bottom: 0;
+    left: 0;
+    height: 4px;
     width: 0;
     background: transparent;
-    transition: width .5s ease, background-color .5s ease;
+    transition: width .7s ease, background-color .7s ease;
 }
- .m-2:hover:after {
-    width: 90%;
-    background: #444;
+ #trait:hover:after {
+    width: 100%;
+    background: -webkit-gradient(linear, left top, right top, from(#c77800), color-stop(#faaa54), color-stop(#ba68c8), color-stop(#ba68c8), to(#8559da));
+    background: linear-gradient(to right, #c77800, #c77800, #faaa54, #ba68c8, #9c6996, #8559da);
 }
 .m-2 {
   color:#c77800;
@@ -142,19 +144,6 @@
 /*entree menu2*/
 
 /*plats menu2*/
-.m-3:after {
-  content: '';
-  display: block;
-  margin: auto;
-  height: 1px;
-  width: 0;
-  background: transparent;
-  transition: width .5s ease, background-color .5s ease;
-}
-.m-3:hover:after {
-  width: 90%;
-  background: #444;
-}
 .m-3 {
   color: #ba68c8;
  }
@@ -203,7 +192,9 @@
   .gradient-m2 {
     font-size: 3em;
   }
-  
+  #trait:after{
+    transition: none;
+  }
   .prix {
     float:none;
     display: flex;

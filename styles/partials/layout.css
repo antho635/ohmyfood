@@ -1,14 +1,5 @@
-#bloc-page {
-  width: 100%;
-  margin: 0;
-}
-
-.T-header {
-  text-decoration: none;
-  color: #ffd54f;
-  font-size: 1.5em;
-}
-
+/*layout*/
+/*header*/
 .header {
   text-align: center;
   width: 100%;
@@ -30,6 +21,14 @@
   font-family: sans-serif;
 }
 
+.T-header {
+  text-decoration: none;
+  color: #ffd54f;
+  font-size: 1.5em;
+}
+
+/*header*/
+/*titres*/
 .titre {
   font-family: sans-serif;
   display: -webkit-box;
@@ -44,20 +43,6 @@
   margin: 70px auto 0 auto;
 }
 
-#title {
-  font-weight: lighter;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: auto;
-}
-
 .m-1 {
   font-family: cursive;
   text-decoration: none;
@@ -68,33 +53,8 @@
   font-size: 2.5em;
 }
 
-.m-1:after {
-  content: '';
-  display: block;
-  bottom: 0;
-  left: 0;
-  height: 4px;
-  width: 0;
-  background: transparent;
-  -webkit-transition: width .5s ease, background-color .5s ease;
-  transition: width .5s ease, background-color .5s ease;
-}
-
-.m-1:hover:after {
-  width: 100%;
-  background: grey;
-}
-
-.title-m2-1 > a:nth-child(1) {
-  color: #c77800;
-}
-
-.block {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
+/*titres*/
+/*listes menus + prix*/
 .ul-m4 {
   font-size: 1.7em;
   padding: 0 100px;
@@ -111,6 +71,8 @@ li {
   font-size: 0.8em;
 }
 
+/*listes menus + prix*/
+/*footer*/
 #bas {
   height: 80px;
   background-color: #00796b;
@@ -179,13 +141,12 @@ footer {
   text-align: left;
 }
 
+/*footer*/
+/*responsive layout*/
 @media screen and (max-width: 870px) {
   #bas {
     margin: 0;
     padding: 0;
-  }
-  #title {
-    width: auto;
   }
   .titre {
     font-size: 1em;
@@ -240,4 +201,6 @@ footer {
             justify-content: center;
   }
 }
+
+/*responsive layout*/
 /*# sourceMappingURL=layout.css.map */

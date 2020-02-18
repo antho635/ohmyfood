@@ -1,24 +1,26 @@
-#bloc-page{
+/*layout*/
+
+/*header*/
+.header{
+  text-align: center;
   width: 100%;
-  margin:0;
+  background-color: #00796b;
+  font-size:1.3em;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header > h1:nth-child(1) {
+  font-family: sans-serif;
 }
 .T-header{
   text-decoration: none;
   color:#ffd54f;
   font-size: 1.5em;
 }
-.header{
-    text-align: center;
-    width: 100%;
-    background-color: #00796b;
-    font-size:1.3em;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.header > h1:nth-child(1) {
-    font-family: sans-serif;
-  }
+/*header*/
+
+/*titres*/
   .titre{
     font-family: sans-serif;
     display:flex;
@@ -28,13 +30,7 @@
     font-size: 2em;
     margin: 70px auto 0 auto;
   }
-  #title{
-    font-weight: lighter;
-    display: flex;
-    justify-content:center;
-    align-items:center;
-    margin: auto;
-  }
+ 
    .m-1 {
     font-family: cursive;
     text-decoration:none;
@@ -44,29 +40,9 @@
     font-weight: lighter;
     font-size: 2.5em;
   }
- .m-1:after {
-    content: '';
-    display: block;
-    bottom: 0;
-    left: 0;
-    height: 4px;
-    width: 0;
-    background: transparent;
-    transition: width .5s ease, background-color .5s ease;
-}
- .m-1:hover:after {
-    width: 100%;
-    background: grey;
-}
-.title-m2-1 > a:nth-child(1){
-  color:#c77800;
-}
+  /*titres*/
 
-.block{
-  justify-content: center;
-}
-
-
+/*listes menus + prix*/
   .ul-m4{
     font-size: 1.7em;
     padding:0 100px;
@@ -81,6 +57,9 @@
     float: right;
     font-size: 0.8em;
   }
+  /*listes menus + prix*/
+
+  /*footer*/
   #bas{
     height: 80px;
     background-color: #00796b;
@@ -125,14 +104,13 @@ footer{
     animation-iteration-count: 5;
     text-align: left;
     }
+  /*footer*/
 
+  /*responsive layout*/
     @media screen and (max-width: 870px){
       #bas{
         margin: 0;
         padding: 0;
-      }
-      #title{
-        width: auto;
       }
       .titre{
         font-size: 1em;
@@ -173,3 +151,4 @@ footer{
         justify-content: center;
       }
     }
+    /*responsive layout*/
