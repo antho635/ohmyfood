@@ -39,7 +39,7 @@
 
 /*titre coloré menu4*/
 /*soulignement animé*/
-#traitm4:after {
+.traitm4:after {
   content: '';
   display: block;
   bottom: 0;
@@ -51,7 +51,7 @@
   transition: width .7s ease, background-color .7s ease;
 }
 
-#traitm4:hover:after {
+.traitm4:hover:after {
   width: 100%;
   background: -webkit-gradient(linear, left top, right top, from(#2e7d32), color-stop(#81c784), color-stop(#98ee99), to(#98ee99));
   background: linear-gradient(to right, #2e7d32, #81c784, #98ee99, #98ee99);
@@ -59,17 +59,6 @@
 
 /*soulignement animé*/
 /*commun menu4*/
-.englobe-m4 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: row;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-          flex-direction: column;
-  word-break: normal;
-}
-
 .btnm4 {
   background: -webkit-gradient(linear, left top, right top, from(#2e7d32), color-stop(#81c784), color-stop(#98ee99), to(#98ee99));
   background: linear-gradient(to right, #2e7d32, #81c784, #98ee99, #98ee99);
@@ -139,7 +128,7 @@
     display: flex;
     position: relative;
   }
-  #traitm4:after {
+  .traitm4:after {
     -webkit-transition: none;
     transition: none;
   }

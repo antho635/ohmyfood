@@ -63,7 +63,7 @@
     /*listes des plats menu1*/
 
     /*animation soulignement des titres*/
- #traitm1:after {
+ .traitm1:after {
     content: '';
     display: block;
     bottom: 0;
@@ -73,7 +73,7 @@
     background: transparent;
     transition: width .7s ease, background-color .7s ease;
 }
- #traitm1:hover:after {
+ .traitm1:hover:after {
     width: 100%;
     background: -webkit-gradient(linear, left top, right top, from(#3e2723), color-stop(#4e342e), color-stop(#6d4c41), color-stop(#8d6e63), to(#bcaaa4));
     background: linear-gradient(to right, #3e2723, #4e342e, #6d4c41, #8d6e63, #8d6e63, #bcaaa4);
@@ -121,7 +121,7 @@
     .titrem1{
         font-size: 3em;
     }
-    #traitm1:after{
+    .traitm1:after{
         transition: none;
     }
       .prix {

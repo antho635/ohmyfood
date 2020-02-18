@@ -123,7 +123,7 @@
      padding-bottom:50px;
    }
 
-  #trait:after {
+  .trait:after {
     content: '';
     display: block;
     bottom: 0;
@@ -133,7 +133,7 @@
     background: transparent;
     transition: width .7s ease, background-color .7s ease;
 }
- #trait:hover:after {
+  .trait:hover:after {
     width: 100%;
     background: -webkit-gradient(linear, left top, right top, from(#c77800), color-stop(#faaa54), color-stop(#ba68c8), color-stop(#ba68c8), to(#8559da));
     background: linear-gradient(to right, #c77800, #c77800, #faaa54, #ba68c8, #9c6996, #8559da);
@@ -153,22 +153,6 @@
  .m-4 {
   color: #8559da;
 }
-
-.m-4:after {
-  content: '';
-  display: block;
-  margin: auto;
-  height: 1px;
-  width: 0;
-  background: transparent;
-  transition: width .5s ease, background-color .5s ease;
-}
-
-.m-4:hover:after {
-  width: 90%;
-  background: #444;
-}
-
 /*desserts menu2*/
 /*listes des plats menu2*/
 
@@ -192,7 +176,7 @@
   .gradient-m2 {
     font-size: 3em;
   }
-  #trait:after{
+  .trait:after{
     transition: none;
   }
   .prix {

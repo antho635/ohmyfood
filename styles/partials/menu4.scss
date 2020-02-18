@@ -31,7 +31,7 @@
     /*titre coloré menu4*/
 
     /*soulignement animé*/
-#traitm4:after {
+    .traitm4:after {
     content: '';
     display: block;
     bottom: 0;
@@ -41,7 +41,7 @@
     background: transparent;
     transition: width .7s ease, background-color .7s ease;
   }
-  #traitm4:hover:after {
+  .traitm4:hover:after {
     width: 100%;
     background: -webkit-gradient(linear, left top, right top, from( #2e7d32), color-stop(#66bb6a), color-stop(#66bb6a), color-stop(#81c784), to(#76d275));
     background: linear-gradient(to right, #2e7d32, #81c784, #98ee99, #98ee99);
@@ -49,12 +49,6 @@
   /*soulignement animé*/
 
     /*commun menu4*/
-    .englobe-m4{
-        display: flex;
-        -ms-flex-direction: row;
-        flex-direction: column;
-        word-break: normal;
-    }
 
     .btnm4{
         background: -webkit-gradient(linear, left top, right top, from( #2e7d32), color-stop(#66bb6a), color-stop(#66bb6a), color-stop(#81c784), to(#76d275));
@@ -110,7 +104,7 @@
       
     }
     
-    #traitm4:after{
+    .traitm4:after{
         transition: none;
     }
 

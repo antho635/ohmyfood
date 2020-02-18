@@ -577,7 +577,7 @@ li {
 
 /*listes des plats menu1*/
 /*animation soulignement des titres*/
-#traitm1:after {
+.traitm1:after {
   content: '';
   display: block;
   bottom: 0;
@@ -589,7 +589,7 @@ li {
   transition: width .7s ease, background-color .7s ease;
 }
 
-#traitm1:hover:after {
+.traitm1:hover:after {
   width: 100%;
   background: -webkit-gradient(linear, left top, right top, from(#3e2723), color-stop(#4e342e), color-stop(#6d4c41), color-stop(#8d6e63), color-stop(#8d6e63), to(#bcaaa4));
   background: linear-gradient(to right, #3e2723, #4e342e, #6d4c41, #8d6e63, #8d6e63, #bcaaa4);
@@ -651,8 +651,9 @@ li {
   .titrem1 {
     font-size: 3em;
   }
-  #traitm1:after {
-    display: none;
+  .traitm1:after {
+    -webkit-transition: none;
+    transition: none;
   }
   .prix {
     float: none;
@@ -863,7 +864,7 @@ li {
   padding-bottom: 50px;
 }
 
-#trait:after {
+.trait:after {
   content: '';
   display: block;
   bottom: 0;
@@ -875,7 +876,7 @@ li {
   transition: width .7s ease, background-color .7s ease;
 }
 
-#trait:hover:after {
+.trait:hover:after {
   width: 100%;
   background: -webkit-gradient(linear, left top, right top, from(#c77800), color-stop(#c77800), color-stop(#faaa54), color-stop(#ba68c8), color-stop(#9c6996), to(#8559da));
   background: linear-gradient(to right, #c77800, #c77800, #faaa54, #ba68c8, #9c6996, #8559da);
@@ -897,22 +898,6 @@ li {
   color: #8559da;
 }
 
-.m-4:after {
-  content: '';
-  display: block;
-  margin: auto;
-  height: 1px;
-  width: 0;
-  background: transparent;
-  -webkit-transition: width .5s ease, background-color .5s ease;
-  transition: width .5s ease, background-color .5s ease;
-}
-
-.m-4:hover:after {
-  width: 90%;
-  background: #444;
-}
-
 /*desserts menu2*/
 /*listes des plats menu2*/
 /*menu2 responsive*/
@@ -932,8 +917,9 @@ li {
   .gradient-m2 {
     font-size: 3em;
   }
-  #trait:after {
-    display: none;
+  .trait:after {
+    -webkit-transition: none;
+    transition: none;
   }
   .prix {
     float: none;
@@ -1051,7 +1037,7 @@ li {
 
 /*titre coloré menu3*/
 /*soulignement animé*/
-#traitm3:after {
+.traitm3:after {
   content: '';
   display: block;
   bottom: 0;
@@ -1063,7 +1049,7 @@ li {
   transition: width .7s ease, background-color .7s ease;
 }
 
-#traitm3:hover:after {
+.traitm3:hover:after {
   width: 100%;
   background: -webkit-gradient(linear, left top, right top, from(#0d47a1), color-stop(#0d47a1), color-stop(#1e88e5), color-stop(#64b5f6), to(#64b5f6));
   background: linear-gradient(to right, #0d47a1, #0d47a1, #1e88e5, #64b5f6, #64b5f6);
@@ -1201,8 +1187,9 @@ li {
     height: auto;
     margin-bottom: 30px;
   }
-  #traitm3:after {
-    display: none;
+  .traitm3:after {
+    -webkit-transition: none;
+    transition: none;
   }
   .plat, .entree, .dessert {
     display: -webkit-box;
@@ -1293,7 +1280,7 @@ li {
 
 /*titre coloré menu4*/
 /*soulignement animé*/
-#traitm4:after {
+.traitm4:after {
   content: '';
   display: block;
   bottom: 0;
@@ -1305,7 +1292,7 @@ li {
   transition: width .7s ease, background-color .7s ease;
 }
 
-#traitm4:hover:after {
+.traitm4:hover:after {
   width: 100%;
   background: -webkit-gradient(linear, left top, right top, from(#2e7d32), color-stop(#81c784), color-stop(#98ee99), to(#98ee99));
   background: linear-gradient(to right, #2e7d32, #81c784, #98ee99, #98ee99);
@@ -1313,17 +1300,6 @@ li {
 
 /*soulignement animé*/
 /*commun menu4*/
-.englobe-m4 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: row;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-          flex-direction: column;
-  word-break: normal;
-}
-
 .btnm4 {
   background: -webkit-gradient(linear, left top, right top, from(#2e7d32), color-stop(#81c784), color-stop(#98ee99), to(#98ee99));
   background: linear-gradient(to right, #2e7d32, #81c784, #98ee99, #98ee99);
@@ -1393,8 +1369,9 @@ li {
     display: flex;
     position: relative;
   }
-  #traitm4:after {
-    display: none;
+  .traitm4:after {
+    -webkit-transition: none;
+    transition: none;
   }
   #carte-m4 {
     width: 100%;
