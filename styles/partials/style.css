@@ -1246,7 +1246,7 @@ li {
 }
 
 #carte-m4 {
-  font-family: 'Rokkitt', serif;
+  font-family: 'Dancing Script', cursive;
   width: 90%;
   margin: auto;
   margin-bottom: 80px;
@@ -1255,6 +1255,7 @@ li {
 
 /*titre coloré menu4*/
 .gradient-m4 {
+  font-family: 'PT Serif', serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1273,8 +1274,8 @@ li {
   right: 0;
   bottom: 0;
   left: 0;
-  background: -webkit-gradient(linear, left top, right top, from(#2e7d32), color-stop(#81c784), color-stop(#98ee99), to(#98ee99));
-  background: linear-gradient(to right, #2e7d32, #81c784, #98ee99, #98ee99);
+  background: -webkit-gradient(linear, left top, right top, from(#003300), color-stop(#81c784), color-stop(#98ee99), to(#98ee99));
+  background: linear-gradient(to right, #003300, #81c784, #98ee99, #98ee99);
   mix-blend-mode: screen;
 }
 

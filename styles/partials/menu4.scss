@@ -3,7 +3,7 @@
     height: auto;
 }  
 #carte-m4 {
-    font-family: 'Rokkitt', serif;
+  font-family: 'Dancing Script', cursive;
     width: 90%;
     margin: auto;
     margin-bottom:80px;
@@ -11,7 +11,8 @@
 }
 /*titre coloré menu4*/
     .gradient-m4 {
-        display: flex;
+      font-family: 'PT Serif', serif;
+      display: flex;
       font-size: 4em;
       justify-content: center;
       position: relative;
@@ -24,8 +25,8 @@
       right: 0;
       bottom: 0;
       left: 0;
-      background: -webkit-gradient(linear, left top, right top, from( #2e7d32), color-stop(#66bb6a), color-stop(#66bb6a), color-stop(#81c784), to(#76d275));
-      background: linear-gradient(to right, #2e7d32, #81c784, #98ee99, #98ee99);
+      background: -webkit-gradient(linear, left top, right bottom, from( #003300), color-stop(#66bb6a), color-stop(#66bb6a), color-stop(#81c784), to(#98ee99));
+      background: linear-gradient(to right, #003300, #81c784, #98ee99, #98ee99);
       mix-blend-mode: screen;
     }
     /*titre coloré menu4*/
