@@ -73,7 +73,7 @@ li {
 }
 
 /*listes menus + prix*/
-/*footer*/
+/*footer + animation mentions/mail*/
 #bas {
   height: 80px;
   background-color: #00796b;
@@ -142,7 +142,7 @@ footer {
   text-align: left;
 }
 
-/*footer*/
+/*footer + animation mentions/mail*/
 /*responsive layout*/
 @media screen and (max-width: 870px) {
   #bas {
@@ -286,7 +286,7 @@ html, body {
 
 .menu {
   margin: 30px auto 30px auto;
-  border: solid 1px #cfcfcf;
+  border: solid 2px #e0e0e0;
   width: 40%;
   height: 750px;
   overflow: hidden;
@@ -474,8 +474,6 @@ span {
   .menu {
     width: 100%;
     height: 500px;
-    -webkit-transform: none;
-            transform: none;
   }
   .bientot {
     width: 60%;

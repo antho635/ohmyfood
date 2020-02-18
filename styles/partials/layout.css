@@ -72,7 +72,7 @@ li {
 }
 
 /*listes menus + prix*/
-/*footer*/
+/*footer + animation mentions/mail*/
 #bas {
   height: 80px;
   background-color: #00796b;
@@ -141,7 +141,7 @@ footer {
   text-align: left;
 }
 
-/*footer*/
+/*footer + animation mentions/mail*/
 /*responsive layout*/
 @media screen and (max-width: 870px) {
   #bas {
