@@ -1,5 +1,11 @@
 @charset "UTF-8";
 /*layout*/
+#container-m1 {
+  width: 100%;
+  max-width: 2000px;
+  height: auto;
+}
+
 /*header*/
 .header {
   text-align: center;
@@ -211,12 +217,6 @@ html, body {
   width: 100%;
   height: auto;
   margin: 0;
-}
-
-#container1 {
-  width: 100%;
-  margin: 0;
-  height: auto;
 }
 
 /*container index*/
@@ -484,11 +484,6 @@ span {
 /*responsive index*/
 /*index*/
 /*menu1*/
-#container-m1 {
-  width: 100%;
-  height: auto;
-}
-
 .bloc-page-m1 {
   margin: 0;
   background-color: #fff;
