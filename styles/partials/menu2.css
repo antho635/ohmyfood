@@ -143,9 +143,20 @@
   -webkit-text-size-adjust: auto;
 }
 
-li {
-  font-weight: lighter;
-  padding: 10px 0;
+.m-2, .m-3, .m-4 {
+  width: 30%;
+}
+
+.li-m2-1, .li-m2-2, .li-m2-3 {
+  color: #c77800;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
 }
 
 .li-m2-1 {
@@ -245,6 +256,7 @@ li {
   .m-2, .m-3, .m-4 {
     margin: 20px auto;
     font-size: 1.5em;
+    width: auto;
   }
   .englobe-m2 {
     -webkit-box-orient: vertical;
@@ -254,7 +266,7 @@ li {
     margin-bottom: 50px;
   }
   .icon-m2, .icon-m2-2 {
-    width: auto;
+    width: 30%;
   }
   .icon-m2 {
     -webkit-transform: none;

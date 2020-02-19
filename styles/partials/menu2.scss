@@ -99,9 +99,14 @@
     font-weight: lighter;
     -webkit-text-size-adjust: auto;
   }
-  li {
-    font-weight: lighter;
-    padding: 10px 0;
+  .m-2, .m-3, .m-4{
+    width: 30%;
+  }
+  .li-m2-1, .li-m2-2, .li-m2-3 {
+    color: #c77800;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
   .li-m2-1{
     color: #c77800;
@@ -193,13 +198,14 @@
   .m-2, .m-3, .m-4{
     margin: 20px auto;
     font-size: 1.5em;
+    width: auto;
   }
   .englobe-m2{
     flex-direction: column;
     margin-bottom: 50px;;
   }
   .icon-m2, .icon-m2-2{
-    width: auto;
+    width: 30%;
   }
   .icon-m2{
     transform: none;

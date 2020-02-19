@@ -58,7 +58,8 @@
   }
 
   .prix{
-    float: right;
+    display: inline-flex;
+    justify-content: flex-end;
     font-size: 0.8em;
   }
   /*listes menus + prix*/
