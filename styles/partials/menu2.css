@@ -77,8 +77,8 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background: -webkit-gradient(linear, left top, right top, from(#c77800), color-stop(#c77800), color-stop(#faaa54), color-stop(#ba68c8), color-stop(#9c6996), to(#8559da));
-  background: linear-gradient(to right, #c77800, #c77800, #faaa54, #ba68c8, #9c6996, #8559da);
+  background: -webkit-gradient(linear, left top, right top, from(#c77800), color-stop(#c77800), color-stop(#ba68c8), color-stop(#3f51b5), to(#3f51b5));
+  background: linear-gradient(to right, #c77800, #c77800, #ba68c8, #3f51b5, #3f51b5);
   mix-blend-mode: screen;
 }
 
@@ -118,10 +118,15 @@
   display: inline-flex;
   vertical-align: middle;
   width: 33%;
-  height: 15px;
+  height: 25px;
   -ms-flex-item-align: center;
       align-self: center;
   margin: auto;
+}
+
+.icon-m2-2 {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 .m-2, .m-3, .m-4 {
@@ -252,8 +257,8 @@ li {
     width: auto;
   }
   .icon-m2 {
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg);
+    -webkit-transform: none;
+            transform: none;
   }
   .ul-m2 {
     font-size: 1.7em;
