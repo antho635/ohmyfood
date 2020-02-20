@@ -40,15 +40,14 @@
     .essaie{
         display:flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
         margin-top:0;
         width: 100%;
-        vertical-align: middle;
     }
 
     .separateur-m1{
         width: 33%;
-        display: flex;
+        display: inline-flex;
         align-self: center;
         height: 70px;
         margin: auto;

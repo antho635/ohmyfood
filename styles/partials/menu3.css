@@ -38,9 +38,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   word-break: normal;
 }
 
@@ -98,27 +98,20 @@
 /*soulignement animé*/
 /*separateurs menu3*/
 .btn {
-  border: solid 5px #0d47a1;
-  border-top: 0px;
-  border-right: 0px;
-  border-left: 0px;
+  border-bottom: solid 5px #0d47a1;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  -ms-flex-item-align: center;
-      align-self: center;
   width: 33%;
   height: 20px;
   margin: 0 20px;
   border-radius: 0px 0px 0px 10px;
-  align-self: center;
+  -ms-flex-item-align: baseline;
+      align-self: baseline;
 }
 
 .btn2 {
-  border: solid 4px #0d47a1;
-  border-top: 0px;
-  border-right: 0px;
-  border-left: 0px;
+  border-bottom: solid 4px #0d47a1;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -131,14 +124,12 @@
   height: 20px;
   margin: 0 20px;
   border-radius: 0px 0px 10px 0px;
-  align-self: center;
+  -ms-flex-item-align: baseline;
+      align-self: baseline;
 }
 
 .btn3 {
-  border: solid 5px #1e88e5;
-  border-top: 0px;
-  border-right: 0px;
-  border-left: 0px;
+  border-bottom: solid 5px #1e88e5;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -147,16 +138,13 @@
   width: 33%;
   height: 20px;
   margin: 0 20px;
-  float: left;
   border-radius: 0px 0px 0px 10px;
-  align-self: center;
+  -ms-flex-item-align: baseline;
+      align-self: baseline;
 }
 
 .btn4 {
-  border: solid 4px #1e88e5;
-  border-top: 0px;
-  border-right: 0px;
-  border-left: 0px;
+  border-bottom: solid 4px #1e88e5;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -168,16 +156,13 @@
   width: 33%;
   height: 20px;
   margin: 0 20px;
-  float: right;
   border-radius: 0px 0px 10px 0px;
-  align-self: center;
+  -ms-flex-item-align: baseline;
+      align-self: baseline;
 }
 
 .btn5 {
-  border: solid 5px #64b5f6;
-  border-top: 0px;
-  border-right: 0px;
-  border-left: 0px;
+  border-bottom: solid 5px #64b5f6;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -186,16 +171,13 @@
   width: 33%;
   height: 20px;
   margin: 0 20px;
-  float: left;
   border-radius: 0px 0px 0px 10px;
-  align-self: center;
+  -ms-flex-item-align: baseline;
+      align-self: baseline;
 }
 
 .btn6 {
-  border: solid 4px #64b5f6;
-  border-top: 0px;
-  border-right: 0px;
-  border-left: 0px;
+  border-bottom: solid 4px #64b5f6;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -207,9 +189,9 @@
   width: 33%;
   height: 20px;
   margin: 0 20px;
-  float: right;
   border-radius: 0px 0px 10px 0px;
-  align-self: center;
+  -ms-flex-item-align: baseline;
+      align-self: baseline;
 }
 
 /*separateurs menu3*/
@@ -239,7 +221,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-bottom: 0;
+    margin: 30px auto;
   }
   .title-m3 {
     padding: 0;
@@ -272,7 +254,8 @@
   }
   .gradient-m3 {
     font-size: 3em;
-    margin: 30px auto;
+    margin: auto;
+    margin-bottom: 30px;
     text-align: center;
     padding: 0;
   }

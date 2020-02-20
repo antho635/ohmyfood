@@ -36,13 +36,15 @@
   }
  
    .m-1 {
+    display: inline-flex;
     font-family: cursive;
     text-decoration:none;
     text-align: center;
-    margin: auto;
     color:#263238;
     font-weight: lighter;
     font-size: 2.5em;
+    align-self: baseline;
+    margin: auto;
   }
   /*titres*/
 
@@ -52,15 +54,20 @@
     padding:0 100px;
     margin: 50px 0;
     list-style: none;
+    display: flex;
+    flex-direction: column;
+
 }
-  li{
-    padding-bottom: 10px;
+  .listes{
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .prix{
     display: inline-flex;
     justify-content: flex-end;
-    font-size: 0.8em;
   }
   /*listes menus + prix*/
 
@@ -116,6 +123,7 @@ footer{
       #bas{
         margin: 0;
         padding: 0;
+        height: auto;
       }
       .titre{
         font-size: 1em;
@@ -124,7 +132,7 @@ footer{
       .header{
         height:auto;
       }
-      li{
+      .listes{
         text-align: center;
       }
       .ul-m4{
@@ -137,17 +145,17 @@ footer{
       }
 
       .m-1{
-        margin:0;
+        margin: auto;
         font-size:1.5em;
       }
 
-      li {
+      .listes {
         list-style: none;
         flex-direction: column;
         display: flex;
         justify-content: center;
         margin: auto;
-        padding: 0;
+        padding-bottom: 10px;
       }
       .prix{
         margin: 0;
