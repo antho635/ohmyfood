@@ -26,7 +26,9 @@
   word-break: normal;
 }
 
-.entree, .plat, .dessert {
+.entree,
+.plat,
+.dessert {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -213,7 +215,9 @@
     -webkit-transition: none;
     transition: none;
   }
-  .plat, .entree, .dessert {
+  .plat,
+  .entree,
+  .dessert {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -227,7 +231,9 @@
     padding: 0;
     margin: auto;
   }
-  .btn, .btn3, .btn5 {
+  .btn,
+  .btn3,
+  .btn5 {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
@@ -240,7 +246,9 @@
     -webkit-transform: rotate(180deg);
             transform: rotate(180deg);
   }
-  .btn2, .btn4, .btn6 {
+  .btn2,
+  .btn4,
+  .btn6 {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;

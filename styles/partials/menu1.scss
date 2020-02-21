@@ -1,65 +1,71 @@
 /*menu1*/
-  
-  .bloc-page-m1{
-      margin:0;
-      background-color: #fff;
-      height: auto;
-     }
-     .carte-m1{
-        font-family: 'Neucha', cursive;
-        width: 90%;
-        height: auto;
-        margin: auto;
-        margin-bottom: 80px;
-        background-color: #ffebee;
-    }
-     /*haut menu1*/
-     .entete {
-        text-align: center;
-        padding-top: 50px;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-      }
-     .note1{
-       display:flex;
-       justify-content: center;
-       align-self: center;
-       width: 120px;
-       height: 120px;
-     }
-     .titrem1{
-        font-size: 4em;
-        color: #3e2723;
-        margin: 30px 0px;
-        font-weight: lighter;
-    }
-    /*haut menu1*/
 
-    /*listes des plats menu1*/
-    .essaie{
-        display:flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-top:0;
-        width: 100%;
-    }
+.bloc-page-m1 {
+    margin: 0;
+    background-color: #fff;
+    height: auto;
+}
 
-    .separateur-m1{
-        width: 33%;
-        display: inline-flex;
-        align-self: center;
-        height: 70px;
-        margin: auto;
-    }
+.carte-m1 {
+    font-family: 'Neucha', cursive;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 80px;
+    background-color: #ffebee;
+}
 
-    li{
-        color:#424242;
-        }
-    /*listes des plats menu1*/
+/*haut menu1*/
+.entete {
+    text-align: center;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
-    /*animation soulignement des titres*/
- .traitm1:after {
+.note1 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 120px;
+    height: 120px;
+}
+
+.titrem1 {
+    font-size: 4em;
+    color: #3e2723;
+    margin: 30px 0px;
+    font-weight: lighter;
+}
+
+/*haut menu1*/
+
+/*listes des plats menu1*/
+.essaie {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0;
+    width: 100%;
+}
+
+.separateur-m1 {
+    width: 33%;
+    display: inline-flex;
+    align-self: center;
+    height: 70px;
+    margin: auto;
+}
+
+li {
+    color: #424242;
+}
+
+/*listes des plats menu1*/
+
+/*animation soulignement des titres*/
+.traitm1:after {
     content: '';
     display: block;
     bottom: 0;
@@ -69,86 +75,101 @@
     background: transparent;
     transition: width .7s ease, background-color .7s ease;
 }
- .traitm1:hover:after {
+
+.traitm1:hover:after {
     width: 100%;
     background: -webkit-gradient(linear, left top, right top, from(#3e2723), color-stop(#4e342e), color-stop(#6d4c41), color-stop(#8d6e63), to(#bcaaa4));
     background: linear-gradient(to right, #3e2723, #4e342e, #6d4c41, #8d6e63, #8d6e63, #bcaaa4);
     transition: width .7s ease, background-color .7s ease;
 }
-    /*animation soulignement des titres*/
 
-    /*bas menu1*/
-    .bas-m1{
-        display: inline-flex;
-        justify-content: center;
-        width: 100%;
-        padding-bottom:30px;
-    }
-     .note2{
-         display: inline-flex;
-         justify-content: center;
-         width:100%;
-         width:60px;
-         height:60px;
-         align-self: center;
-     }
-     .fin{
-         display:inline-flex;
-         width: auto;
-         justify-content: center;
-         color: #4e342e;
-         font-size: 2em;
+/*animation soulignement des titres*/
 
-     } 
-      /*bas menu1*/  
+/*bas menu1*/
+.bas-m1 {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 30px;
+}
 
-      /*menu1 responsive*/
-    @media screen and (max-width: 870px){
-    .title-m1{
+.note2 {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    width: 60px;
+    height: 60px;
+    align-self: center;
+}
+
+.fin {
+    display: inline-flex;
+    width: auto;
+    justify-content: center;
+    color: #4e342e;
+    font-size: 2em;
+
+}
+
+/*bas menu1*/
+
+/*menu1 responsive*/
+@media screen and (max-width: 870px) {
+    .title-m1 {
         margin: auto;
         width: auto;
     }
-   
+
     #container-m1 {
-      width: 100%;
-      margin: 0;
-      height: auto;
+        width: 100%;
+        margin: 0;
+        height: auto;
     }
-    .titrem1{
+
+    .titrem1 {
         font-size: 3em;
     }
-    .traitm1:after{
+
+    .traitm1:after {
         transition: none;
     }
-      .prix {
-         float: none;
-         display: flex;
-         text-align: center; 
-         margin: auto; 
-         margin-top:8px;
-         justify-content: center;
-     }
-     .essaie{
-         flex-direction:column;
-         height:auto;
-     }
-     .title{
-         width:100%;
-         margin: auto;
-     }
-     .separateur-m1 {
-         width:15%;
-         height: 30px;
-     }
-     .carte-m1{
-         width: 100%;
-         margin-bottom:20px;
-     }
-     .fin{
-         font-size: 1.8em;
-     }
-     .titre{
-         margin:10px auto;
-      }
+
+    .prix {
+        float: none;
+        display: flex;
+        text-align: center;
+        margin: auto;
+        margin-top: 8px;
+        justify-content: center;
     }
-    /*menu1 responsive*/
+
+    .essaie {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .title {
+        width: 100%;
+        margin: auto;
+    }
+
+    .separateur-m1 {
+        width: 15%;
+        height: 30px;
+    }
+
+    .carte-m1 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .fin {
+        font-size: 1.8em;
+    }
+
+    .titre {
+        margin: 10px auto;
+    }
+}
+
+/*menu1 responsive*/

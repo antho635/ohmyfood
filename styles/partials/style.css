@@ -828,7 +828,8 @@ li {
   margin: 70px auto;
 }
 
-.icon-m2, .icon-m2-2 {
+.icon-m2,
+.icon-m2-2 {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -845,7 +846,9 @@ li {
           transform: rotate(180deg);
 }
 
-.m-2, .m-3, .m-4 {
+.m-2,
+.m-3,
+.m-4 {
   margin: auto;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -859,7 +862,9 @@ li {
   -webkit-text-size-adjust: auto;
 }
 
-.li-m2-1, .li-m2-2, .li-m2-3 {
+.li-m2-1,
+.li-m2-2,
+.li-m2-3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -952,7 +957,9 @@ li {
     -webkit-transition: none;
     transition: none;
   }
-  .m-2, .m-3, .m-4 {
+  .m-2,
+  .m-3,
+  .m-4 {
     margin: 20px auto;
     font-size: 1.5em;
     width: auto;
@@ -964,7 +971,8 @@ li {
             flex-direction: column;
     margin-bottom: 50px;
   }
-  .icon-m2, .icon-m2-2 {
+  .icon-m2,
+  .icon-m2-2 {
     width: 30%;
   }
   .icon-m2 {
@@ -976,7 +984,9 @@ li {
     margin: auto;
     padding: 5px;
   }
-  .li-m2-1, .li-m2-2, .li-m2-3 {
+  .li-m2-1,
+  .li-m2-2,
+  .li-m2-3 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1017,7 +1027,9 @@ li {
   word-break: normal;
 }
 
-.entree, .plat, .dessert {
+.entree,
+.plat,
+.dessert {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -1204,7 +1216,9 @@ li {
     -webkit-transition: none;
     transition: none;
   }
-  .plat, .entree, .dessert {
+  .plat,
+  .entree,
+  .dessert {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1218,7 +1232,9 @@ li {
     padding: 0;
     margin: auto;
   }
-  .btn, .btn3, .btn5 {
+  .btn,
+  .btn3,
+  .btn5 {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
@@ -1231,7 +1247,9 @@ li {
     -webkit-transform: rotate(180deg);
             transform: rotate(180deg);
   }
-  .btn2, .btn4, .btn6 {
+  .btn2,
+  .btn4,
+  .btn6 {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;

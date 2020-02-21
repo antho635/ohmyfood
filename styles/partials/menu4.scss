@@ -1,123 +1,132 @@
 /*menu4*/
-#container-m4{
-    height: auto;
-}  
+#container-m4 {
+  height: auto;
+}
+
 #carte-m4 {
   font-family: 'Dancing Script', cursive;
-    width: 90%;
-    margin: auto;
-    margin-bottom:80px;
-    padding-top: 30px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 80px;
+  padding-top: 30px;
 }
+
 /*titre coloré menu4*/
-    .gradient-m4 {
-      font-family: 'PT Serif', serif;
-      display: flex;
-      font-size: 4em;
-      justify-content: center;
-      position: relative;
-      background: #fff;
-    }
-    .gradient-m4::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      background: -webkit-gradient(linear, left top, right bottom, from( #003300), color-stop(#66bb6a), color-stop(#66bb6a), color-stop(#81c784), to(#98ee99));
-      background: linear-gradient(to right, #003300, #81c784, #98ee99, #98ee99);
-      mix-blend-mode: screen;
-    }
-    /*titre coloré menu4*/
+.gradient-m4 {
+  font-family: 'PT Serif', serif;
+  display: flex;
+  font-size: 4em;
+  justify-content: center;
+  position: relative;
+  background: #fff;
+}
 
-    /*soulignement animé*/
-    .traitm4:after {
-    content: '';
-    display: block;
-    bottom: 0;
-    left: 0;
-    height: 4px;
-    width: 0;
-    background: transparent;
-    transition: width .7s ease, background-color .7s ease;
+.gradient-m4::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: -webkit-gradient(linear, left top, right bottom, from(#003300), color-stop(#66bb6a), color-stop(#66bb6a), color-stop(#81c784), to(#98ee99));
+  background: linear-gradient(to right, #003300, #81c784, #98ee99, #98ee99);
+  mix-blend-mode: screen;
+}
+
+/*titre coloré menu4*/
+
+/*soulignement animé*/
+.traitm4:after {
+  content: '';
+  display: block;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  width: 0;
+  background: transparent;
+  transition: width .7s ease, background-color .7s ease;
+}
+
+.traitm4:hover:after {
+  width: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(#2e7d32), color-stop(#66bb6a), color-stop(#66bb6a), color-stop(#81c784), to(#76d275));
+  background: linear-gradient(to right, #2e7d32, #81c784, #98ee99, #98ee99);
+}
+
+/*soulignement animé*/
+
+/*commun menu4*/
+
+.btnm4 {
+  background: -webkit-gradient(linear, left top, right top, from(#2e7d32), color-stop(#66bb6a), color-stop(#66bb6a), color-stop(#81c784), to(#76d275));
+  background: linear-gradient(to right, #2e7d32, #81c784, #98ee99, #98ee99);
+  display: inline-flex;
+  align-self: center;
+  width: 33%;
+  height: 5px;
+  margin: auto;
+  align-self: baseline;
+}
+
+.btnm4-2 {
+  background: -webkit-gradient(linear, right top, left bottom from(#2e7d32), color-stop(#66bb6a), color-stop(#66bb6a), color-stop(#81c784), to(#76d275));
+  background: linear-gradient(to left, #2e7d32, #81c784, #98ee99, #98ee99);
+  display: inline-flex;
+  align-self: center;
+  width: 33%;
+  height: 5px;
+  margin: auto;
+  align-self: baseline;
+}
+
+.entree-m4 {
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  word-break: normal;
+  margin-bottom: 60px;
+}
+
+/*commun menu4*/
+
+/*responsive menu4*/
+@media screen and (max-width:870px) {
+  #container-m4 {
+    height: auto;
   }
-  .traitm4:hover:after {
+
+  .gradient-m4 {
+    font-size: 3em;
+    text-align: center;
+    display: flex;
+    position: relative;
+
+  }
+
+  .traitm4:after {
+    transition: none;
+  }
+
+  #carte-m4 {
     width: 100%;
-    background: -webkit-gradient(linear, left top, right top, from( #2e7d32), color-stop(#66bb6a), color-stop(#66bb6a), color-stop(#81c784), to(#76d275));
-    background: linear-gradient(to right, #2e7d32, #81c784, #98ee99, #98ee99);
+    height: auto;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
   }
-  /*soulignement animé*/
 
-    /*commun menu4*/
+  .block {
+    flex-direction: column;
+  }
 
-    .btnm4{
-        background: -webkit-gradient(linear, left top, right top, from( #2e7d32), color-stop(#66bb6a), color-stop(#66bb6a), color-stop(#81c784), to(#76d275));
-        background: linear-gradient(to right, #2e7d32, #81c784, #98ee99, #98ee99);
-        display: inline-flex;
-        align-self: center;
-        width: 33%;
-        height: 5px;
-        margin:auto;
-        align-self: baseline;
-      }
-
-      .btnm4-2{
-        background: -webkit-gradient(linear, right top, left bottom from( #2e7d32), color-stop(#66bb6a), color-stop(#66bb6a), color-stop(#81c784), to(#76d275));
-        background: linear-gradient(to left, #2e7d32, #81c784, #98ee99, #98ee99);
-        display: inline-flex;
-        align-self: center;
-        width: 33%;
-        height: 5px;
-        margin: auto;
-        align-self: baseline;
-      }
-
-      .entree-m4{
-        display: inline-flex;
-        width: 100%;
-        align-items: center;
-        flex-direction: row;
-        justify-content: center;
-        word-break: normal;
-        margin-bottom: 60px;
-      }
-    /*commun menu4*/
-
-    /*responsive menu4*/
-   @media screen and (max-width:870px){
-    #container-m4{
-        height: auto;
-    }
-    .gradient-m4{
-       font-size: 3em;
-       text-align: center;
-       display: flex;
-       position: relative;
-      
-    }
-    
-    .traitm4:after{
-        transition: none;
-    }
-
-    #carte-m4{
-        width:100%;
-        height: auto;
-        padding-bottom: 30px; 
-        margin-bottom:30px;
-    }
-    
-    .block{
-        flex-direction: column;
-    }
-
- .title-m4{
-     width:30%;
-     margin:0;
-     text-align: center;
- }
+  .title-m4 {
+    width: 30%;
+    margin: 0;
+    text-align: center;
+  }
 
 }
+
 /*responsive menu4*/
 /*menu4*/
