@@ -1,8 +1,14 @@
 @charset "UTF-8";
 /*layout*/
+body {
+  width: 100%;
+  max-width: 1920px;
+  height: auto;
+  margin: 0;
+}
+
 #container-m1 {
   width: 100%;
-  max-width: 2000px;
   height: auto;
 }
 
@@ -238,15 +244,6 @@ footer {
 
 /*responsive layout*/
 /*index*/
-/*container index*/
-html, body {
-  font-family: sans-serif;
-  width: 100%;
-  height: auto;
-  margin: 0;
-}
-
-/*container index*/
 /*header index*/
 .header1 {
   text-align: center;
@@ -306,16 +303,13 @@ html, body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  width: 80%;
   margin: auto;
-  justify-content: space-around;
 }
 
 .menu {
   margin: 30px auto 30px auto;
   border: solid 2px #e0e0e0;
   width: 40%;
-  height: 750px;
   overflow: hidden;
 }
 
@@ -340,7 +334,6 @@ html, body {
 
 .menu img:hover {
   width: 100%;
-  height: 700px;
 }
 
 /*box + zoom sur image*/

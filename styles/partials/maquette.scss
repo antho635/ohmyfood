@@ -1,15 +1,5 @@
 /*index*/
 
-/*container index*/
-html,body{
-    font-family: sans-serif;
-    width:100%;
-    height:auto;
-    margin:0;
-}
-
-/*container index*/
-
 /*header index*/
 .header1{
     text-align: center;
@@ -55,9 +45,7 @@ html,body{
   flex-wrap: wrap;
   justify-content: space-around;
   flex-direction:row;
-  width: 80%;
   margin: auto;
-  justify-content: space-around;
 }
 
 
@@ -65,7 +53,6 @@ html,body{
   margin: 30px auto 30px auto;
   border: solid 2px #e0e0e0;
   width: 40%;
-  height: 750px;
   overflow: hidden;
   }
 
@@ -89,7 +76,6 @@ html,body{
   }
   .menu img:hover {
   width:100%;
-  height:700px;
   }
 /*box + zoom sur image*/
 
