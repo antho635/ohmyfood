@@ -246,6 +246,7 @@ span {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    width: 90%;
   }
   .menu {
     width: 100%;
