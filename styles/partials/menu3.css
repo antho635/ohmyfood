@@ -198,12 +198,6 @@
 
 /*separateurs menu3*/
 /*responsive menu3*/
-@media screen and (max-width: 1500px) {
-  .m-1 {
-    font-size: 1.8em;
-  }
-}
-
 @media screen and (max-width: 870px) {
   #carte-m3 {
     width: 90%;

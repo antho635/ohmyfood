@@ -787,8 +787,8 @@ li {
   right: 0;
   bottom: 0;
   left: 0;
-  background: -webkit-gradient(linear, left top, right top, from(#c77800), color-stop(#c77800), color-stop(#ba68c8), color-stop(#3f51b5), to(#3f51b5));
-  background: linear-gradient(to right, #c77800, #c77800, #ba68c8, #3f51b5, #3f51b5);
+  background: -webkit-gradient(linear, left top, right top, from(#c77800), color-stop(#ffa726), color-stop(#ba68c8), color-stop(#3f51b5), to(#3f51b5));
+  background: linear-gradient(to right, #c77800, #ffa726, #ba68c8, #3f51b5, #3f51b5);
   mix-blend-mode: screen;
 }
 
@@ -1194,12 +1194,6 @@ li {
 
 /*separateurs menu3*/
 /*responsive menu3*/
-@media screen and (max-width: 1500px) {
-  .m-1 {
-    font-size: 1.8em;
-  }
-}
-
 @media screen and (max-width: 870px) {
   #carte-m3 {
     width: 90%;
