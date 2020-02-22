@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /*layout*/
-body {
+html body {
   width: 100%;
-  max-width: 3840px;
+  max-width: 1920px;
   height: auto;
   margin: 0;
 }
@@ -244,457 +244,246 @@ footer {
 
 /*responsive layout*/
 /*index*/
-@media screen and (min-width: 1920px) and (max-width: 3840px) {
-  html {
-    height: auto;
-    width: 100%;
+/*header index*/
+html {
+  height: auto;
+  width: 100%;
+}
+
+.header1 {
+  text-align: center;
+  width: 100%;
+  height: 130px;
+  background-color: #00796b;
+  color: #ffd54f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/*header index*/
+/*barre de recherche index*/
+.recherche .iconloupe {
+  background: url(http://www.larevuedekenza.fr/wp-content/themes/quarter/images/sidebar/loupe.png) no-repeat 0 0;
+}
+
+.recherche input {
+  outline: 0;
+  border: 0;
+  margin: 0;
+  height: 24px;
+  float: left;
+  display: block;
+  padding-left: 30px;
+}
+
+.recherche {
+  background-color: white;
+  height: 30px;
+  border: solid 1px grey;
+}
+
+.iconloupe {
+  float: left;
+}
+
+/*barre de recherche index*/
+/*box + zoom sur image*/
+#box1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: auto;
+}
+
+.menu {
+  margin: 30px auto 30px auto;
+  border: solid 2px #e0e0e0;
+  width: 40%;
+  overflow: hidden;
+}
+
+.menu img:hover {
+  width: 100%;
+  /* L'image est grossie de 15% */
+  -webkit-transform: scale(1.15);
+  /* Safari et Chrome */
+  /* Firefox */
+  /* Internet Explorer 9 */
+  /* Opera */
+  transform: scale(1.15);
+  -webkit-transition: all 0.9s;
+  transition: all 0.9s;
+  opacity: 0.7;
+}
+
+.menu img {
+  width: 100%;
+  height: 100%;
+}
+
+.menu img:hover {
+  width: 100%;
+}
+
+/*box + zoom sur image*/
+/*prochainement + animation points*/
+.bientot {
+  font-size: 2.1em;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #ffd54f;
+  border: 2px dotted #00796b;
+  background-color: #00796b;
+  border-radius: 20px;
+  width: 33%;
+  margin: 30px auto 50px auto;
+  height: auto;
+}
+
+@-webkit-keyframes dots {
+  0% {
+    margin-top: 0;
   }
-  .header1 {
-    text-align: center;
-    width: 100%;
-    height: 130px;
-    background-color: #00796b;
-    color: #ffd54f;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  /*header index*/
-  /*barre de recherche index*/
-  .recherche .iconloupe {
-    background: url(http://www.larevuedekenza.fr/wp-content/themes/quarter/images/sidebar/loupe.png) no-repeat 0 0;
-  }
-  .recherche input {
-    outline: 0;
-    border: 0;
-    margin: 0;
-    height: 24px;
-    float: left;
-    display: block;
-    padding-left: 30px;
-  }
-  .recherche {
-    background-color: white;
-    height: 30px;
-    border: solid 1px grey;
-  }
-  .iconloupe {
-    float: left;
-  }
-  /*barre de recherche index*/
-  /*box + zoom sur image*/
-  #box1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    min-height: 1800px;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    margin: auto;
-  }
-  .menu {
-    margin: 30px;
-    border: solid 2px #e0e0e0;
-    width: auto;
-    overflow: hidden;
-  }
-  .menu img:hover {
-    width: 100%;
-    /* L'image est grossie de 15% */
-    -webkit-transform: scale(1.15);
-    /* Safari et Chrome */
-    /* Firefox */
-    /* Internet Explorer 9 */
-    /* Opera */
-    transform: scale(1.15);
-    -webkit-transition: all 0.9s;
-    transition: all 0.9s;
-    opacity: 0.7;
-  }
-  .menu img {
-    width: 100%;
-    height: auto;
-  }
-  .menu img:hover {
-    width: 100%;
-  }
-  /*box + zoom sur image*/
-  /*prochainement + animation points*/
-  .bientot {
-    font-size: 2.1em;
-    text-align: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    color: #ffd54f;
-    border: 2px dotted #00796b;
-    background-color: #00796b;
-    border-radius: 20px;
-    width: 33%;
-    margin: 30px auto 50px auto;
-    height: auto;
-  }
-  @-webkit-keyframes dots {
-    0% {
-      margin-top: 0;
-    }
-    50% {
-      margin-top: -5px;
-    }
-    100% {
-      margin-top: 0;
-    }
-  }
-  @keyframes dots {
-    0% {
-      margin-top: 0;
-    }
-    50% {
-      margin-top: -5px;
-    }
-    100% {
-      margin-top: 0;
-    }
-  }
-  .bientot span:first-child {
-    -webkit-animation: dots 1.5s infinite;
-            animation: dots 1.5s infinite;
-  }
-  .bientot span:nth-child(2) {
-    -webkit-animation: dots 1.5s infinite;
-            animation: dots 1.5s infinite;
-    -webkit-animation-delay: 0.5s;
-            animation-delay: 0.5s;
-  }
-  .bientot span:last-child {
-    -webkit-animation: dots 1.5s infinite;
-            animation: dots 1.5s infinite;
-    -webkit-animation-delay: 1s;
-            animation-delay: 1s;
-  }
-  span {
+  50% {
     margin-top: -5px;
   }
-  /*prochainement + animation points*/
-  /*mentions + mail animés*/
-  @-webkit-keyframes thing {
-    0% {
-      margin: 0;
-    }
-    15% {
-      margin-top: -2px;
-    }
-    33% {
-      margin-left: -5px;
-    }
-    45% {
-      margin-top: 2px;
-    }
-    66% {
-      margin-left: 5px;
-    }
-    100% {
-      margin: 0;
-    }
-    0% {
-      margin: 0;
-    }
-    15% {
-      margin-top: -2px;
-    }
-    33% {
-      margin-right: -5px;
-    }
-    45% {
-      margin-top: 2px;
-    }
-    66% {
-      margin-right: 5px;
-    }
-    100% {
-      margin: 0;
-    }
-  }
-  @keyframes thing {
-    0% {
-      margin: 0;
-    }
-    15% {
-      margin-top: -2px;
-    }
-    33% {
-      margin-left: -5px;
-    }
-    45% {
-      margin-top: 2px;
-    }
-    66% {
-      margin-left: 5px;
-    }
-    100% {
-      margin: 0;
-    }
-    0% {
-      margin: 0;
-    }
-    15% {
-      margin-top: -2px;
-    }
-    33% {
-      margin-right: -5px;
-    }
-    45% {
-      margin-top: 2px;
-    }
-    66% {
-      margin-right: 5px;
-    }
-    100% {
-      margin: 0;
-    }
+  100% {
+    margin-top: 0;
   }
 }
 
-@media screen and (max-width: 1919px) {
-  /*header index*/
-  html {
-    height: auto;
-    width: 100%;
+@keyframes dots {
+  0% {
+    margin-top: 0;
   }
-  .header1 {
-    text-align: center;
-    width: 100%;
-    height: 130px;
-    background-color: #00796b;
-    color: #ffd54f;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  /*header index*/
-  /*barre de recherche index*/
-  .recherche .iconloupe {
-    background: url(http://www.larevuedekenza.fr/wp-content/themes/quarter/images/sidebar/loupe.png) no-repeat 0 0;
-  }
-  .recherche input {
-    outline: 0;
-    border: 0;
-    margin: 0;
-    height: 24px;
-    float: left;
-    display: block;
-    padding-left: 30px;
-  }
-  .recherche {
-    background-color: white;
-    height: 30px;
-    border: solid 1px grey;
-  }
-  .iconloupe {
-    float: left;
-  }
-  /*barre de recherche index*/
-  /*box + zoom sur image*/
-  #box1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    margin: auto;
-  }
-  .menu {
-    margin: 30px auto 30px auto;
-    border: solid 2px #e0e0e0;
-    width: 40%;
-    overflow: hidden;
-  }
-  .menu img:hover {
-    width: 100%;
-    /* L'image est grossie de 15% */
-    -webkit-transform: scale(1.15);
-    /* Safari et Chrome */
-    /* Firefox */
-    /* Internet Explorer 9 */
-    /* Opera */
-    transform: scale(1.15);
-    -webkit-transition: all 0.9s;
-    transition: all 0.9s;
-    opacity: 0.7;
-  }
-  .menu img {
-    width: 100%;
-    height: 100%;
-  }
-  .menu img:hover {
-    width: 100%;
-  }
-  /*box + zoom sur image*/
-  /*prochainement + animation points*/
-  .bientot {
-    font-size: 2.1em;
-    text-align: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    color: #ffd54f;
-    border: 2px dotted #00796b;
-    background-color: #00796b;
-    border-radius: 20px;
-    width: 33%;
-    margin: 30px auto 50px auto;
-    height: auto;
-  }
-  @-webkit-keyframes dots {
-    0% {
-      margin-top: 0;
-    }
-    50% {
-      margin-top: -5px;
-    }
-    100% {
-      margin-top: 0;
-    }
-  }
-  @keyframes dots {
-    0% {
-      margin-top: 0;
-    }
-    50% {
-      margin-top: -5px;
-    }
-    100% {
-      margin-top: 0;
-    }
-  }
-  .bientot span:first-child {
-    -webkit-animation: dots 1.5s infinite;
-            animation: dots 1.5s infinite;
-  }
-  .bientot span:nth-child(2) {
-    -webkit-animation: dots 1.5s infinite;
-            animation: dots 1.5s infinite;
-    -webkit-animation-delay: 0.5s;
-            animation-delay: 0.5s;
-  }
-  .bientot span:last-child {
-    -webkit-animation: dots 1.5s infinite;
-            animation: dots 1.5s infinite;
-    -webkit-animation-delay: 1s;
-            animation-delay: 1s;
-  }
-  span {
+  50% {
     margin-top: -5px;
   }
-  /*prochainement + animation points*/
-  /*mentions + mail animés*/
-  @-webkit-keyframes thing {
-    0% {
-      margin: 0;
-    }
-    15% {
-      margin-top: -2px;
-    }
-    33% {
-      margin-left: -5px;
-    }
-    45% {
-      margin-top: 2px;
-    }
-    66% {
-      margin-left: 5px;
-    }
-    100% {
-      margin: 0;
-    }
-    0% {
-      margin: 0;
-    }
-    15% {
-      margin-top: -2px;
-    }
-    33% {
-      margin-right: -5px;
-    }
-    45% {
-      margin-top: 2px;
-    }
-    66% {
-      margin-right: 5px;
-    }
-    100% {
-      margin: 0;
-    }
+  100% {
+    margin-top: 0;
   }
-  @keyframes thing {
-    0% {
-      margin: 0;
-    }
-    15% {
-      margin-top: -2px;
-    }
-    33% {
-      margin-left: -5px;
-    }
-    45% {
-      margin-top: 2px;
-    }
-    66% {
-      margin-left: 5px;
-    }
-    100% {
-      margin: 0;
-    }
-    0% {
-      margin: 0;
-    }
-    15% {
-      margin-top: -2px;
-    }
-    33% {
-      margin-right: -5px;
-    }
-    45% {
-      margin-top: 2px;
-    }
-    66% {
-      margin-right: 5px;
-    }
-    100% {
-      margin: 0;
-    }
+}
+
+.bientot span:first-child {
+  -webkit-animation: dots 1.5s infinite;
+          animation: dots 1.5s infinite;
+}
+
+.bientot span:nth-child(2) {
+  -webkit-animation: dots 1.5s infinite;
+          animation: dots 1.5s infinite;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.bientot span:last-child {
+  -webkit-animation: dots 1.5s infinite;
+          animation: dots 1.5s infinite;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+span {
+  margin-top: -5px;
+}
+
+/*prochainement + animation points*/
+/*mentions + mail animés*/
+@-webkit-keyframes thing {
+  0% {
+    margin: 0;
+  }
+  15% {
+    margin-top: -2px;
+  }
+  33% {
+    margin-left: -5px;
+  }
+  45% {
+    margin-top: 2px;
+  }
+  66% {
+    margin-left: 5px;
+  }
+  100% {
+    margin: 0;
+  }
+  0% {
+    margin: 0;
+  }
+  15% {
+    margin-top: -2px;
+  }
+  33% {
+    margin-right: -5px;
+  }
+  45% {
+    margin-top: 2px;
+  }
+  66% {
+    margin-right: 5px;
+  }
+  100% {
+    margin: 0;
+  }
+}
+@keyframes thing {
+  0% {
+    margin: 0;
+  }
+  15% {
+    margin-top: -2px;
+  }
+  33% {
+    margin-left: -5px;
+  }
+  45% {
+    margin-top: 2px;
+  }
+  66% {
+    margin-left: 5px;
+  }
+  100% {
+    margin: 0;
+  }
+  0% {
+    margin: 0;
+  }
+  15% {
+    margin-top: -2px;
+  }
+  33% {
+    margin-right: -5px;
+  }
+  45% {
+    margin-top: 2px;
+  }
+  66% {
+    margin-right: 5px;
+  }
+  100% {
+    margin: 0;
   }
 }
 
@@ -730,7 +519,7 @@ footer {
 
 .carte-m1 {
   font-family: 'Neucha', cursive;
-  width: 90%;
+  width: 95%;
   height: auto;
   margin: auto;
   margin-bottom: 80px;
@@ -881,10 +670,6 @@ li {
   .titrem1 {
     font-size: 3em;
   }
-  .traitm1:after {
-    -webkit-transition: none;
-    transition: none;
-  }
   .prix {
     float: none;
     display: -webkit-box;
@@ -913,7 +698,7 @@ li {
     height: 30px;
   }
   .carte-m1 {
-    width: 90%;
+    width: 95%;
     margin-bottom: 20px;
   }
   .fin {
@@ -1155,7 +940,7 @@ li {
     padding: 0;
   }
   #carte-m2 {
-    width: 90%;
+    width: 95%;
     margin: auto;
     height: auto;
     padding-bottom: 30px;
@@ -1412,7 +1197,7 @@ li {
 /*responsive menu3*/
 @media screen and (max-width: 870px) {
   #carte-m3 {
-    width: 90%;
+    width: 95%;
     padding-bottom: 30px;
     height: auto;
     margin: auto;
@@ -1629,23 +1414,35 @@ li {
 /*responsive menu4*/
 /*menu4*/
 /*mentions legales*/
-#bloc-page-mention {
-  width: 100%;
-  height: auto;
+@media screen and (max-width: 1920px) {
+  #container-mentions {
+    font-size: 1.7em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .important {
+    font-size: 1.5em;
+    color: red;
+  }
 }
 
-#container-mentions {
-  height: auto;
-  text-align: center;
-}
-
-p {
-  padding: 10px;
-}
-
-.important {
-  font-size: 1.5em;
-  color: red;
+@media screen and (max-width: 1500px) {
+  #bloc-page-mention {
+    width: 100%;
+    height: auto;
+  }
+  #container-mentions {
+    height: auto;
+    text-align: center;
+  }
+  p {
+    padding: 10px;
+  }
+  .important {
+    font-size: 1.5em;
+    color: red;
+  }
 }
 
 @media screen and (max-width: 870px) {

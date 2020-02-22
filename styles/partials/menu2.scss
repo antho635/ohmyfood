@@ -64,7 +64,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background: -webkit-gradient( linear, left top, right bottom, from(#ffa726),  color-stop(#c77800), color-stop(#ba68c8), color-stop(#3f51b5), to(#3f51b5));
+  background: -webkit-gradient(linear, left top, right bottom, from(#ffa726), color-stop(#c77800), color-stop(#ba68c8), color-stop(#3f51b5), to(#3f51b5));
   background: linear-gradient(to right bottom, #ffa726, #c77800, #c77800, #ba68c8, #3f51b5, #3f51b5);
   mix-blend-mode: screen;
 
@@ -197,7 +197,7 @@
   }
 
   #carte-m2 {
-    width: 90%;
+    width: 95%;
     margin: auto;
     height: auto;
     padding-bottom: 30px;

@@ -1,23 +1,38 @@
 /*mentions legales*/
-#bloc-page-mention {
-    width: 100%;
-    height: auto;
+@media screen and (max-width:1920px) {
+    #container-mentions {
+        font-size: 1.7em;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .important {
+        font-size: 1.5em;
+        color: red;
+    }
 }
 
-#container-mentions {
-    height: auto;
-    text-align: center;
-}
+@media screen and (max-width:1500px) {
+    #bloc-page-mention {
+        width: 100%;
+        height: auto;
+    }
 
-p {
-    padding: 10px;
-}
+    #container-mentions {
+        height: auto;
+        text-align: center;
+    }
 
-.important {
-    font-size: 1.5em;
-    color: red;
-}
+    p {
+        padding: 10px;
+    }
 
+    .important {
+        font-size: 1.5em;
+        color: red;
+    }
+}
 
 @media screen and (max-width: 870px) {
     #container-mentions {

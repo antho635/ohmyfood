@@ -7,7 +7,7 @@
 
 .carte-m1 {
   font-family: 'Neucha', cursive;
-  width: 90%;
+  width: 95%;
   height: auto;
   margin: auto;
   margin-bottom: 80px;
@@ -158,10 +158,6 @@ li {
   .titrem1 {
     font-size: 3em;
   }
-  .traitm1:after {
-    -webkit-transition: none;
-    transition: none;
-  }
   .prix {
     float: none;
     display: -webkit-box;
@@ -190,7 +186,7 @@ li {
     height: 30px;
   }
   .carte-m1 {
-    width: 90%;
+    width: 95%;
     margin-bottom: 20px;
   }
   .fin {
