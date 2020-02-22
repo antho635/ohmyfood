@@ -151,7 +151,7 @@ li {
     width: auto;
   }
   #container-m1 {
-    width: 90%;
+    width: 100%;
     margin: auto;
     height: auto;
   }
@@ -190,7 +190,7 @@ li {
     height: 30px;
   }
   .carte-m1 {
-    width: 100%;
+    width: 90%;
     margin-bottom: 20px;
   }
   .fin {
