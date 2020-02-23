@@ -1,11 +1,6 @@
 @charset "UTF-8";
 /*menu2*/
 /*englobe menu2*/
-#container-m-2 {
-  width: 100%;
-  height: auto;
-}
-
 #carte-m2 {
   font-family: 'Parisienne', cursive;
   background-color: #fdf5fe;
@@ -222,12 +217,6 @@
 /*listes des plats menu2*/
 /*menu2 responsive*/
 @media (max-width: 870px) {
-  #container-m-2 {
-    width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-  }
   #carte-m2 {
     width: 95%;
     margin: auto;

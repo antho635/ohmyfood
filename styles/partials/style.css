@@ -702,12 +702,6 @@ footer {
 /*responsive index*/
 /*index*/
 /*menu1*/
-.bloc-page-m1 {
-  margin: 0;
-  background-color: #fff;
-  height: auto;
-}
-
 .carte-m1 {
   font-family: 'Neucha', cursive;
   width: 95%;
@@ -903,11 +897,6 @@ li {
 /*menu1 responsive*/
 /*menu2*/
 /*englobe menu2*/
-#container-m-2 {
-  width: 100%;
-  height: auto;
-}
-
 #carte-m2 {
   font-family: 'Parisienne', cursive;
   background-color: #fdf5fe;
@@ -1124,12 +1113,6 @@ li {
 /*listes des plats menu2*/
 /*menu2 responsive*/
 @media (max-width: 870px) {
-  #container-m-2 {
-    width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-  }
   #carte-m2 {
     width: 95%;
     margin: auto;
@@ -1188,10 +1171,6 @@ li {
 
 /*menu2 responsive*/
 /*menu3*/
-#container-m-3 {
-  height: auto;
-}
-
 #carte-m3 {
   font-family: 'Kalam', cursive;
   width: 90%;
@@ -1455,10 +1434,6 @@ li {
 /*responsive menu3*/
 /*menu3*/
 /*menu4*/
-#container-m4 {
-  height: auto;
-}
-
 #carte-m4 {
   font-family: 'Dancing Script', cursive;
   width: 90%;
@@ -1567,9 +1542,6 @@ li {
 /*commun menu4*/
 /*responsive menu4*/
 @media screen and (max-width: 870px) {
-  #container-m4 {
-    height: auto;
-  }
   .gradient-m4 {
     font-size: 3em;
     text-align: center;
@@ -1606,12 +1578,6 @@ li {
 /*menu4*/
 /*mentions legales*/
 @media screen and (max-width: 1920px) {
-  #container-mentions {
-    font-size: 1.7em;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-  }
   .important {
     font-size: 1.5em;
     color: red;
