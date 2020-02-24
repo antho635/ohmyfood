@@ -1,8 +1,9 @@
 /*layout*/
-#container-m1 {
+body {
   width: 100%;
   max-width: 2000px;
   height: auto;
+  margin: 0;
 }
 
 /*header*/
@@ -184,9 +185,6 @@ footer {
   .titre {
     font-size: 1em;
     margin: 0;
-  }
-  .header {
-    height: auto;
   }
   .listes {
     text-align: center;

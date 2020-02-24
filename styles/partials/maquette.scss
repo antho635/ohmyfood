@@ -1,28 +1,5 @@
 /*index*/
 
-/*container index*/
-html,body{
-    font-family: sans-serif;
-    width:100%;
-    height:auto;
-    margin:0;
-}
-
-/*container index*/
-
-/*header index*/
-.header1{
-    text-align: center;
-    width: 100%;
-    height:130px;
-    background-color: #00796b;
-    color:#ffd54f;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-}
-/*header index*/
-
 /*barre de recherche index*/
 .recherche .iconloupe {
   background:url(http://www.larevuedekenza.fr/wp-content/themes/quarter/images/sidebar/loupe.png) no-repeat 0 0;
@@ -89,7 +66,6 @@ html,body{
   }
   .menu img:hover {
   width:100%;
-  height:700px;
   }
 /*box + zoom sur image*/
 
@@ -154,13 +130,10 @@ span{
 
 /*responsive index*/
 @media screen and (max-width: 1150px){
-  #box1{
-    flex-direction: column;
-  }
- 
+
   .menu{
-    width:100%;
-    height: auto;
+    width:auto;
+    height: 500px;
   }
 
   .bientot{
