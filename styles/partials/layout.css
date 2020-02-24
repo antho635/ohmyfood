@@ -1,13 +1,7 @@
 /*layout*/
-html body {
-  width: 100%;
-  max-width: 2160px;
-  height: auto;
-  margin: 0;
-}
-
 #container-m1 {
   width: 100%;
+  max-width: 2000px;
   height: auto;
 }
 

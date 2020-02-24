@@ -1,5 +1,9 @@
 @charset "UTF-8";
 /*menu4*/
+#container-m4 {
+  height: auto;
+}
+
 #carte-m4 {
   font-family: 'Dancing Script', cursive;
   width: 90%;
@@ -108,6 +112,9 @@
 /*commun menu4*/
 /*responsive menu4*/
 @media screen and (max-width: 870px) {
+  #container-m4 {
+    height: auto;
+  }
   .gradient-m4 {
     font-size: 3em;
     text-align: center;
@@ -121,9 +128,8 @@
     transition: none;
   }
   #carte-m4 {
-    width: 90%;
+    width: 100%;
     height: auto;
-    margin: auto;
     padding-bottom: 30px;
     margin-bottom: 30px;
   }

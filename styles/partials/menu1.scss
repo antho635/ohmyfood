@@ -1,8 +1,14 @@
 /*menu1*/
 
+.bloc-page-m1 {
+    margin: 0;
+    background-color: #fff;
+    height: auto;
+}
+
 .carte-m1 {
     font-family: 'Neucha', cursive;
-    width: 95%;
+    width: 90%;
     height: auto;
     margin: auto;
     margin-bottom: 80px;
@@ -116,12 +122,16 @@ li {
 
     #container-m1 {
         width: 100%;
-        margin: auto;
+        margin: 0;
         height: auto;
     }
 
     .titrem1 {
         font-size: 3em;
+    }
+
+    .traitm1:after {
+        transition: none;
     }
 
     .prix {
@@ -149,7 +159,7 @@ li {
     }
 
     .carte-m1 {
-        width: 95%;
+        width: 100%;
         margin-bottom: 20px;
     }
 

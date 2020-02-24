@@ -1,14 +1,8 @@
 @charset "UTF-8";
 /*layout*/
-html body {
-  width: 100%;
-  max-width: 2160px;
-  height: auto;
-  margin: 0;
-}
-
 #container-m1 {
   width: 100%;
+  max-width: 2000px;
   height: auto;
 }
 
@@ -244,437 +238,254 @@ footer {
 
 /*responsive layout*/
 /*index*/
-@media screen and (max-width: 2160px) {
-  #box1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    margin: auto;
-    width: 70%;
+/*container index*/
+html, body {
+  font-family: sans-serif;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+/*container index*/
+/*header index*/
+.header1 {
+  text-align: center;
+  width: 100%;
+  height: 130px;
+  background-color: #00796b;
+  color: #ffd54f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/*header index*/
+/*barre de recherche index*/
+.recherche .iconloupe {
+  background: url(http://www.larevuedekenza.fr/wp-content/themes/quarter/images/sidebar/loupe.png) no-repeat 0 0;
+}
+
+.recherche input {
+  outline: 0;
+  border: 0;
+  margin: 0;
+  height: 24px;
+  float: left;
+  display: block;
+  padding-left: 30px;
+}
+
+.recherche {
+  background-color: white;
+  height: 30px;
+  border: solid 1px grey;
+}
+
+.iconloupe {
+  float: left;
+}
+
+/*barre de recherche index*/
+/*box + zoom sur image*/
+#box1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 80%;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.menu {
+  margin: 30px auto 30px auto;
+  border: solid 2px #e0e0e0;
+  width: 40%;
+  height: 750px;
+  overflow: hidden;
+}
+
+.menu img:hover {
+  width: 100%;
+  /* L'image est grossie de 15% */
+  -webkit-transform: scale(1.15);
+  /* Safari et Chrome */
+  /* Firefox */
+  /* Internet Explorer 9 */
+  /* Opera */
+  transform: scale(1.15);
+  -webkit-transition: all 0.9s;
+  transition: all 0.9s;
+  opacity: 0.7;
+}
+
+.menu img {
+  width: 100%;
+  height: 100%;
+}
+
+.menu img:hover {
+  width: 100%;
+  height: 700px;
+}
+
+/*box + zoom sur image*/
+/*prochainement + animation points*/
+.bientot {
+  font-size: 2.1em;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #ffd54f;
+  border: 2px dotted #00796b;
+  background-color: #00796b;
+  border-radius: 20px;
+  width: 33%;
+  margin: 30px auto 50px auto;
+  height: auto;
+}
+
+@-webkit-keyframes dots {
+  0% {
+    margin-top: 0;
   }
-  .header1 {
-    text-align: center;
-    width: 100%;
-    height: 130px;
-    background-color: #00796b;
-    color: #ffd54f;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  /*header index*/
-  /*barre de recherche index*/
-  .recherche .iconloupe {
-    background: url(http://www.larevuedekenza.fr/wp-content/themes/quarter/images/sidebar/loupe.png) no-repeat 0 0;
-  }
-  .recherche input {
-    outline: 0;
-    border: 0;
-    margin: 0;
-    height: 24px;
-    float: left;
-    display: block;
-    padding-left: 30px;
-  }
-  .recherche {
-    background-color: white;
-    height: 30px;
-    border: solid 1px grey;
-  }
-  .iconloupe {
-    float: left;
-  }
-  /*barre de recherche index*/
-  /*box + zoom sur image*/
-  .menu {
-    margin: 30px auto 30px auto;
-    border: solid 2px #e0e0e0;
-    width: 40%;
-    overflow: hidden;
-    height: auto;
-  }
-  .menu img:hover {
-    width: 100%;
-    /* L'image est grossie de 15% */
-    -webkit-transform: scale(1.15);
-    /* Safari et Chrome */
-    /* Firefox */
-    /* Internet Explorer 9 */
-    /* Opera */
-    transform: scale(1.15);
-    -webkit-transition: all 0.9s;
-    transition: all 0.9s;
-    opacity: 0.7;
-  }
-  .menu img {
-    width: 100%;
-    height: 100%;
-  }
-  .menu img:hover {
-    width: 100%;
-  }
-  /*box + zoom sur image*/
-  /*prochainement + animation points*/
-  .bientot {
-    font-size: 2.1em;
-    text-align: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    color: #ffd54f;
-    border: 2px dotted #00796b;
-    background-color: #00796b;
-    border-radius: 20px;
-    width: 33%;
-    margin: 30px auto 50px auto;
-    height: auto;
-  }
-  @-webkit-keyframes dots {
-    0% {
-      margin-top: 0;
-    }
-    50% {
-      margin-top: -5px;
-    }
-    100% {
-      margin-top: 0;
-    }
-  }
-  @keyframes dots {
-    0% {
-      margin-top: 0;
-    }
-    50% {
-      margin-top: -5px;
-    }
-    100% {
-      margin-top: 0;
-    }
-  }
-  .bientot span:first-child {
-    -webkit-animation: dots 1.5s infinite;
-            animation: dots 1.5s infinite;
-  }
-  .bientot span:nth-child(2) {
-    -webkit-animation: dots 1.5s infinite;
-            animation: dots 1.5s infinite;
-    -webkit-animation-delay: 0.5s;
-            animation-delay: 0.5s;
-  }
-  .bientot span:last-child {
-    -webkit-animation: dots 1.5s infinite;
-            animation: dots 1.5s infinite;
-    -webkit-animation-delay: 1s;
-            animation-delay: 1s;
-  }
-  span {
+  50% {
     margin-top: -5px;
   }
-  /*prochainement + animation points*/
-  /*mentions + mail animés*/
-  @-webkit-keyframes thing {
-    0% {
-      margin: 0;
-    }
-    15% {
-      margin-top: -2px;
-    }
-    33% {
-      margin-left: -5px;
-    }
-    45% {
-      margin-top: 2px;
-    }
-    66% {
-      margin-left: 5px;
-    }
-    100% {
-      margin: 0;
-    }
-    0% {
-      margin: 0;
-    }
-    15% {
-      margin-top: -2px;
-    }
-    33% {
-      margin-right: -5px;
-    }
-    45% {
-      margin-top: 2px;
-    }
-    66% {
-      margin-right: 5px;
-    }
-    100% {
-      margin: 0;
-    }
-  }
-  @keyframes thing {
-    0% {
-      margin: 0;
-    }
-    15% {
-      margin-top: -2px;
-    }
-    33% {
-      margin-left: -5px;
-    }
-    45% {
-      margin-top: 2px;
-    }
-    66% {
-      margin-left: 5px;
-    }
-    100% {
-      margin: 0;
-    }
-    0% {
-      margin: 0;
-    }
-    15% {
-      margin-top: -2px;
-    }
-    33% {
-      margin-right: -5px;
-    }
-    45% {
-      margin-top: 2px;
-    }
-    66% {
-      margin-right: 5px;
-    }
-    100% {
-      margin: 0;
-    }
+  100% {
+    margin-top: 0;
   }
 }
 
-@media screen and (max-width: 1080px) {
-  /*header index*/
-  .header1 {
-    text-align: center;
-    width: 100%;
-    height: 130px;
-    background-color: #00796b;
-    color: #ffd54f;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+@keyframes dots {
+  0% {
+    margin-top: 0;
   }
-  /*header index*/
-  /*barre de recherche index*/
-  .recherche .iconloupe {
-    background: url(http://www.larevuedekenza.fr/wp-content/themes/quarter/images/sidebar/loupe.png) no-repeat 0 0;
-  }
-  .recherche input {
-    outline: 0;
-    border: 0;
-    margin: 0;
-    height: 24px;
-    float: left;
-    display: block;
-    padding-left: 30px;
-  }
-  .recherche {
-    background-color: white;
-    height: 30px;
-    border: solid 1px grey;
-  }
-  .iconloupe {
-    float: left;
-  }
-  /*barre de recherche index*/
-  /*box + zoom sur image*/
-  .menu {
-    margin: 30px auto 30px auto;
-    border: solid 2px #e0e0e0;
-    width: 40%;
-    overflow: hidden;
-    height: auto;
-  }
-  .menu img:hover {
-    width: 100%;
-    /* L'image est grossie de 15% */
-    -webkit-transform: scale(1.15);
-    /* Safari et Chrome */
-    /* Firefox */
-    /* Internet Explorer 9 */
-    /* Opera */
-    transform: scale(1.15);
-    -webkit-transition: all 0.9s;
-    transition: all 0.9s;
-    opacity: 0.7;
-  }
-  .menu img {
-    width: 100%;
-    height: 100%;
-  }
-  .menu img:hover {
-    width: 100%;
-  }
-  /*box + zoom sur image*/
-  /*prochainement + animation points*/
-  .bientot {
-    font-size: 2.1em;
-    text-align: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    color: #ffd54f;
-    border: 2px dotted #00796b;
-    background-color: #00796b;
-    border-radius: 20px;
-    width: 33%;
-    margin: 30px auto 50px auto;
-    height: auto;
-  }
-  @-webkit-keyframes dots {
-    0% {
-      margin-top: 0;
-    }
-    50% {
-      margin-top: -5px;
-    }
-    100% {
-      margin-top: 0;
-    }
-  }
-  @keyframes dots {
-    0% {
-      margin-top: 0;
-    }
-    50% {
-      margin-top: -5px;
-    }
-    100% {
-      margin-top: 0;
-    }
-  }
-  .bientot span:first-child {
-    -webkit-animation: dots 1.5s infinite;
-            animation: dots 1.5s infinite;
-  }
-  .bientot span:nth-child(2) {
-    -webkit-animation: dots 1.5s infinite;
-            animation: dots 1.5s infinite;
-    -webkit-animation-delay: 0.5s;
-            animation-delay: 0.5s;
-  }
-  .bientot span:last-child {
-    -webkit-animation: dots 1.5s infinite;
-            animation: dots 1.5s infinite;
-    -webkit-animation-delay: 1s;
-            animation-delay: 1s;
-  }
-  span {
+  50% {
     margin-top: -5px;
   }
-  /*prochainement + animation points*/
-  /*mentions + mail animés*/
-  @-webkit-keyframes thing {
-    0% {
-      margin: 0;
-    }
-    15% {
-      margin-top: -2px;
-    }
-    33% {
-      margin-left: -5px;
-    }
-    45% {
-      margin-top: 2px;
-    }
-    66% {
-      margin-left: 5px;
-    }
-    100% {
-      margin: 0;
-    }
-    0% {
-      margin: 0;
-    }
-    15% {
-      margin-top: -2px;
-    }
-    33% {
-      margin-right: -5px;
-    }
-    45% {
-      margin-top: 2px;
-    }
-    66% {
-      margin-right: 5px;
-    }
-    100% {
-      margin: 0;
-    }
+  100% {
+    margin-top: 0;
   }
-  @keyframes thing {
-    0% {
-      margin: 0;
-    }
-    15% {
-      margin-top: -2px;
-    }
-    33% {
-      margin-left: -5px;
-    }
-    45% {
-      margin-top: 2px;
-    }
-    66% {
-      margin-left: 5px;
-    }
-    100% {
-      margin: 0;
-    }
-    0% {
-      margin: 0;
-    }
-    15% {
-      margin-top: -2px;
-    }
-    33% {
-      margin-right: -5px;
-    }
-    45% {
-      margin-top: 2px;
-    }
-    66% {
-      margin-right: 5px;
-    }
-    100% {
-      margin: 0;
-    }
+}
+
+.bientot span:first-child {
+  -webkit-animation: dots 1.5s infinite;
+          animation: dots 1.5s infinite;
+}
+
+.bientot span:nth-child(2) {
+  -webkit-animation: dots 1.5s infinite;
+          animation: dots 1.5s infinite;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.bientot span:last-child {
+  -webkit-animation: dots 1.5s infinite;
+          animation: dots 1.5s infinite;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+span {
+  margin-top: -5px;
+}
+
+/*prochainement + animation points*/
+/*mentions + mail animés*/
+@-webkit-keyframes thing {
+  0% {
+    margin: 0;
+  }
+  15% {
+    margin-top: -2px;
+  }
+  33% {
+    margin-left: -5px;
+  }
+  45% {
+    margin-top: 2px;
+  }
+  66% {
+    margin-left: 5px;
+  }
+  100% {
+    margin: 0;
+  }
+  0% {
+    margin: 0;
+  }
+  15% {
+    margin-top: -2px;
+  }
+  33% {
+    margin-right: -5px;
+  }
+  45% {
+    margin-top: 2px;
+  }
+  66% {
+    margin-right: 5px;
+  }
+  100% {
+    margin: 0;
+  }
+}
+@keyframes thing {
+  0% {
+    margin: 0;
+  }
+  15% {
+    margin-top: -2px;
+  }
+  33% {
+    margin-left: -5px;
+  }
+  45% {
+    margin-top: 2px;
+  }
+  66% {
+    margin-left: 5px;
+  }
+  100% {
+    margin: 0;
+  }
+  0% {
+    margin: 0;
+  }
+  15% {
+    margin-top: -2px;
+  }
+  33% {
+    margin-right: -5px;
+  }
+  45% {
+    margin-top: 2px;
+  }
+  66% {
+    margin-right: 5px;
+  }
+  100% {
+    margin: 0;
   }
 }
 
@@ -686,7 +497,6 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 90%;
   }
   .menu {
     width: 100%;
@@ -702,9 +512,15 @@ footer {
 /*responsive index*/
 /*index*/
 /*menu1*/
+.bloc-page-m1 {
+  margin: 0;
+  background-color: #fff;
+  height: auto;
+}
+
 .carte-m1 {
   font-family: 'Neucha', cursive;
-  width: 95%;
+  width: 90%;
   height: auto;
   margin: auto;
   margin-bottom: 80px;
@@ -849,11 +665,15 @@ li {
   }
   #container-m1 {
     width: 100%;
-    margin: auto;
+    margin: 0;
     height: auto;
   }
   .titrem1 {
     font-size: 3em;
+  }
+  .traitm1:after {
+    -webkit-transition: none;
+    transition: none;
   }
   .prix {
     float: none;
@@ -883,7 +703,7 @@ li {
     height: 30px;
   }
   .carte-m1 {
-    width: 95%;
+    width: 100%;
     margin-bottom: 20px;
   }
   .fin {
@@ -897,6 +717,11 @@ li {
 /*menu1 responsive*/
 /*menu2*/
 /*englobe menu2*/
+#container-m-2 {
+  width: 100%;
+  height: auto;
+}
+
 #carte-m2 {
   font-family: 'Parisienne', cursive;
   background-color: #fdf5fe;
@@ -968,8 +793,8 @@ li {
   right: 0;
   bottom: 0;
   left: 0;
-  background: -webkit-gradient(linear, left top, right top, from(#c77800), color-stop(#ffa726), color-stop(#ba68c8), color-stop(#3f51b5), to(#3f51b5));
-  background: linear-gradient(to right, #c77800, #ffa726, #ba68c8, #3f51b5, #3f51b5);
+  background: -webkit-gradient(linear, left top, right top, from(#c77800), color-stop(#c77800), color-stop(#ba68c8), color-stop(#3f51b5), to(#3f51b5));
+  background: linear-gradient(to right, #c77800, #c77800, #ba68c8, #3f51b5, #3f51b5);
   mix-blend-mode: screen;
 }
 
@@ -1113,9 +938,14 @@ li {
 /*listes des plats menu2*/
 /*menu2 responsive*/
 @media (max-width: 870px) {
+  #container-m-2 {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
   #carte-m2 {
-    width: 95%;
-    margin: auto;
+    width: 100%;
     height: auto;
     padding-bottom: 30px;
     margin-bottom: 30px;
@@ -1171,6 +1001,10 @@ li {
 
 /*menu2 responsive*/
 /*menu3*/
+#container-m-3 {
+  height: auto;
+}
+
 #carte-m3 {
   font-family: 'Kalam', cursive;
   width: 90%;
@@ -1365,12 +1199,17 @@ li {
 
 /*separateurs menu3*/
 /*responsive menu3*/
+@media screen and (max-width: 1500px) {
+  .m-1 {
+    font-size: 1.8em;
+  }
+}
+
 @media screen and (max-width: 870px) {
   #carte-m3 {
-    width: 95%;
+    width: 100%;
     padding-bottom: 30px;
     height: auto;
-    margin: auto;
     margin-bottom: 30px;
   }
   .traitm3:after {
@@ -1434,6 +1273,10 @@ li {
 /*responsive menu3*/
 /*menu3*/
 /*menu4*/
+#container-m4 {
+  height: auto;
+}
+
 #carte-m4 {
   font-family: 'Dancing Script', cursive;
   width: 90%;
@@ -1542,6 +1385,9 @@ li {
 /*commun menu4*/
 /*responsive menu4*/
 @media screen and (max-width: 870px) {
+  #container-m4 {
+    height: auto;
+  }
   .gradient-m4 {
     font-size: 3em;
     text-align: center;
@@ -1555,9 +1401,8 @@ li {
     transition: none;
   }
   #carte-m4 {
-    width: 90%;
+    width: 100%;
     height: auto;
-    margin: auto;
     padding-bottom: 30px;
     margin-bottom: 30px;
   }
@@ -1577,29 +1422,23 @@ li {
 /*responsive menu4*/
 /*menu4*/
 /*mentions legales*/
-@media screen and (max-width: 1920px) {
-  .important {
-    font-size: 1.5em;
-    color: red;
-  }
+#bloc-page-mention {
+  width: 100%;
+  height: auto;
 }
 
-@media screen and (max-width: 1500px) {
-  #bloc-page-mention {
-    width: 100%;
-    height: auto;
-  }
-  #container-mentions {
-    height: auto;
-    text-align: center;
-  }
-  p {
-    padding: 10px;
-  }
-  .important {
-    font-size: 1.5em;
-    color: red;
-  }
+#container-mentions {
+  height: auto;
+  text-align: center;
+}
+
+p {
+  padding: 10px;
+}
+
+.important {
+  font-size: 1.5em;
+  color: red;
 }
 
 @media screen and (max-width: 870px) {
