@@ -1,12 +1,6 @@
 /*menu2*/
 
 /*englobe menu2*/
-#container-m-2 {
-  width: 100%;
-  height: auto;
-
-}
-
 #carte-m2 {
   font-family: 'Parisienne', cursive;
   background-color: #fdf5fe;
@@ -64,8 +58,8 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background: -webkit-gradient(linear, left top, right top, from(#c77800), color-stop(#c77800), color-stop(#ba68c8), color-stop(#3f51b5), to(#3f51b5));
-  background: linear-gradient(to right, #c77800, #c77800, #ba68c8, #3f51b5, #3f51b5);
+  background: -webkit-gradient(linear, left top, right, from(#c77800), color-stop(#c77800), color-stop(#ba68c8), color-stop(#ba68c8), to(#3f51b5));
+  background: linear-gradient(to right bottom, #c77800, #c77800, #ba68c8, #ba68c8, #3f51b5);
   mix-blend-mode: screen;
 
 }
@@ -159,7 +153,7 @@
 
 .trait:hover:after {
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(#c77800), color-stop(#faaa54), color-stop(#ba68c8), color-stop(#ba68c8), to(#8559da));
+  background: -webkit-gradient(linear, left, right, from(#c77800), color-stop(#faaa54), color-stop(#ba68c8), color-stop(#ba68c8), to(#8559da));
   background: linear-gradient(to right, #c77800, #c77800, #faaa54, #ba68c8, #9c6996, #8559da);
 }
 
@@ -188,7 +182,7 @@
 
 
 /*menu2 responsive*/
-@media (max-width: 870px) {
+@media (max-width: 980px) {
   #container-m-2 {
     width: 100%;
     height: auto;
@@ -197,7 +191,7 @@
   }
 
   #carte-m2 {
-    width: 100%;
+    width: 90%;
     height: auto;
     padding-bottom: 30px;
     margin-bottom: 30px;

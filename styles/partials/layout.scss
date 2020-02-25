@@ -1,7 +1,7 @@
 /*layout*/
 body {
   width: 100%;
-  max-width: 2000px;
+  max-width: 2100px;
   height: auto;
   margin: 0;
  }
@@ -145,10 +145,6 @@ footer {
     margin: 0;
   }
 
-  .listes {
-    text-align: center;
-  }
-
   .ul-m4 {
     height: auto;
     margin-top: 0;
@@ -164,6 +160,7 @@ footer {
   }
 
   .listes {
+    text-align: center;
     list-style: none;
     flex-direction: column;
     display: flex;

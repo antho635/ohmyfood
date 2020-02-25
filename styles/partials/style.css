@@ -2,7 +2,7 @@
 /*layout*/
 body {
   width: 100%;
-  max-width: 2000px;
+  max-width: 2100px;
   height: auto;
   margin: 0;
 }
@@ -187,9 +187,6 @@ footer {
     font-size: 1em;
     margin: 0;
   }
-  .listes {
-    text-align: center;
-  }
   .ul-m4 {
     height: auto;
     margin-top: 0;
@@ -208,6 +205,7 @@ footer {
     font-size: 1.5em;
   }
   .listes {
+    text-align: center;
     list-style: none;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -269,22 +267,24 @@ footer {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  width: 80%;
+  width: 70%;
   margin: auto;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .menu {
   margin: 30px auto 30px auto;
   border: solid 2px #e0e0e0;
   width: 40%;
-  height: 750px;
+  height: auto;
   overflow: hidden;
 }
 
@@ -299,7 +299,7 @@ footer {
   transform: scale(1.15);
   -webkit-transition: all 0.9s;
   transition: all 0.9s;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 .menu img {
@@ -459,10 +459,24 @@ span {
 
 /*mentions + mail animés*/
 /*responsive index*/
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1350px) {
+  #box1 {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #box1 {
+    width: 90%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .menu {
     width: auto;
     height: 500px;
+    margin: 30px auto;
   }
   .bientot {
     width: 60%;
@@ -474,12 +488,6 @@ span {
 /*responsive index*/
 /*index*/
 /*menu1*/
-.bloc-page-m1 {
-  margin: 0;
-  background-color: #fff;
-  height: auto;
-}
-
 .carte-m1 {
   font-family: 'Neucha', cursive;
   width: 90%;
@@ -620,7 +628,7 @@ li {
 
 /*bas menu1*/
 /*menu1 responsive*/
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 980px) {
   .title-m1 {
     margin: auto;
     width: auto;
@@ -665,7 +673,7 @@ li {
     height: 30px;
   }
   .carte-m1 {
-    width: 100%;
+    width: 90%;
     margin-bottom: 20px;
   }
   .fin {
@@ -679,11 +687,6 @@ li {
 /*menu1 responsive*/
 /*menu2*/
 /*englobe menu2*/
-#container-m-2 {
-  width: 100%;
-  height: auto;
-}
-
 #carte-m2 {
   font-family: 'Parisienne', cursive;
   background-color: #fdf5fe;
@@ -755,8 +758,8 @@ li {
   right: 0;
   bottom: 0;
   left: 0;
-  background: -webkit-gradient(linear, left top, right top, from(#c77800), color-stop(#c77800), color-stop(#ba68c8), color-stop(#3f51b5), to(#3f51b5));
-  background: linear-gradient(to right, #c77800, #c77800, #ba68c8, #3f51b5, #3f51b5);
+  background: -webkit-gradient(linear, left top, right bottom, from(#c77800), color-stop(#c77800), color-stop(#ba68c8), color-stop(#ba68c8), to(#3f51b5));
+  background: linear-gradient(to right bottom, #c77800, #c77800, #ba68c8, #ba68c8, #3f51b5);
   mix-blend-mode: screen;
 }
 
@@ -899,7 +902,7 @@ li {
 /*desserts menu2*/
 /*listes des plats menu2*/
 /*menu2 responsive*/
-@media (max-width: 870px) {
+@media (max-width: 980px) {
   #container-m-2 {
     width: 100%;
     height: auto;
@@ -907,7 +910,7 @@ li {
     padding: 0;
   }
   #carte-m2 {
-    width: 100%;
+    width: 90%;
     height: auto;
     padding-bottom: 30px;
     margin-bottom: 30px;
@@ -963,10 +966,6 @@ li {
 
 /*menu2 responsive*/
 /*menu3*/
-#container-m-3 {
-  height: auto;
-}
-
 #carte-m3 {
   font-family: 'Kalam', cursive;
   width: 90%;
@@ -1035,8 +1034,8 @@ li {
   right: 0;
   bottom: 0;
   left: 0;
-  background: -webkit-gradient(linear, left top, right top, from(#0d47a1), color-stop(#0d47a1), color-stop(#1e88e5), color-stop(#64b5f6), to(#64b5f6));
-  background: linear-gradient(to right, #0d47a1, #0d47a1, #1e88e5, #64b5f6, #64b5f6);
+  background: -webkit-gradient(linear, left top, right bottom, from(#0d47a1), color-stop(#0d47a1), color-stop(#1e88e5), color-stop(#64b5f6), to(#64b5f6));
+  background: linear-gradient(to right bottom, #0d47a1, #0d47a1, #1e88e5, #64b5f6, #64b5f6);
   mix-blend-mode: screen;
 }
 
@@ -1161,16 +1160,9 @@ li {
 
 /*separateurs menu3*/
 /*responsive menu3*/
-@media screen and (max-width: 1500px) {
-  .m-1 {
-    font-size: 1.8em;
-  }
-}
-
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 980px) {
   #carte-m3 {
-    width: 100%;
-    padding-bottom: 30px;
+    width: 90%;
     height: auto;
     margin-bottom: 30px;
   }
@@ -1235,10 +1227,6 @@ li {
 /*responsive menu3*/
 /*menu3*/
 /*menu4*/
-#container-m4 {
-  height: auto;
-}
-
 #carte-m4 {
   font-family: 'Dancing Script', cursive;
   width: 90%;
@@ -1268,8 +1256,8 @@ li {
   right: 0;
   bottom: 0;
   left: 0;
-  background: -webkit-gradient(linear, left top, right top, from(#003300), color-stop(#81c784), color-stop(#98ee99), to(#98ee99));
-  background: linear-gradient(to right, #003300, #81c784, #98ee99, #98ee99);
+  background: -webkit-gradient(linear, left top, right bottom, from(#003300), color-stop(#81c784), color-stop(#98ee99), to(#98ee99));
+  background: linear-gradient(to right bottom, #003300, #81c784, #98ee99, #98ee99);
   mix-blend-mode: screen;
 }
 
@@ -1346,10 +1334,7 @@ li {
 
 /*commun menu4*/
 /*responsive menu4*/
-@media screen and (max-width: 870px) {
-  #container-m4 {
-    height: auto;
-  }
+@media screen and (max-width: 980px) {
   .gradient-m4 {
     font-size: 3em;
     text-align: center;
@@ -1363,7 +1348,7 @@ li {
     transition: none;
   }
   #carte-m4 {
-    width: 100%;
+    width: 90%;
     height: auto;
     padding-bottom: 30px;
     margin-bottom: 30px;
@@ -1384,11 +1369,6 @@ li {
 /*responsive menu4*/
 /*menu4*/
 /*mentions legales*/
-#bloc-page-mention {
-  width: 100%;
-  height: auto;
-}
-
 #container-mentions {
   height: auto;
   text-align: center;

@@ -30,9 +30,9 @@
 #box1{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction:row;
-  width: 80%;
+  width: 70%;
   margin: auto;
   justify-content: space-around;
 }
@@ -42,7 +42,7 @@
   margin: 30px auto 30px auto;
   border: solid 2px #e0e0e0;
   width: 40%;
-  height: 750px;
+  height: auto;
   overflow: hidden;
   }
 
@@ -57,7 +57,7 @@
     -moz-transition: all 0.9s;
     -webkit-transition: all 0.9s;
     transition: all 0.9s;
-    opacity: 0.7;
+    opacity: 0.6;
   }
 
   .menu img {
@@ -129,11 +129,20 @@ span{
 
 
 /*responsive index*/
-@media screen and (max-width: 1150px){
-
+@media screen and (max-width: 1350px){
+  #box1{
+    width: 80%;
+  }
+}
+@media screen and (max-width: 700px){
+  #box1{
+    width: 90%;
+    flex-direction: column;
+  }
   .menu{
-    width:auto;
+    width: auto;
     height: 500px;
+    margin: 30px auto;
   }
 
   .bientot{

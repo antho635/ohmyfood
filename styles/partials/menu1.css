@@ -1,10 +1,4 @@
 /*menu1*/
-.bloc-page-m1 {
-  margin: 0;
-  background-color: #fff;
-  height: auto;
-}
-
 .carte-m1 {
   font-family: 'Neucha', cursive;
   width: 90%;
@@ -145,7 +139,7 @@ li {
 
 /*bas menu1*/
 /*menu1 responsive*/
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 980px) {
   .title-m1 {
     margin: auto;
     width: auto;
@@ -190,7 +184,7 @@ li {
     height: 30px;
   }
   .carte-m1 {
-    width: 100%;
+    width: 90%;
     margin-bottom: 20px;
   }
   .fin {

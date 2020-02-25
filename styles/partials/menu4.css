@@ -1,9 +1,5 @@
 @charset "UTF-8";
 /*menu4*/
-#container-m4 {
-  height: auto;
-}
-
 #carte-m4 {
   font-family: 'Dancing Script', cursive;
   width: 90%;
@@ -33,8 +29,8 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background: -webkit-gradient(linear, left top, right top, from(#003300), color-stop(#81c784), color-stop(#98ee99), to(#98ee99));
-  background: linear-gradient(to right, #003300, #81c784, #98ee99, #98ee99);
+  background: -webkit-gradient(linear, left top, right bottom, from(#003300), color-stop(#81c784), color-stop(#98ee99), to(#98ee99));
+  background: linear-gradient(to right bottom, #003300, #81c784, #98ee99, #98ee99);
   mix-blend-mode: screen;
 }
 
@@ -111,10 +107,7 @@
 
 /*commun menu4*/
 /*responsive menu4*/
-@media screen and (max-width: 870px) {
-  #container-m4 {
-    height: auto;
-  }
+@media screen and (max-width: 980px) {
   .gradient-m4 {
     font-size: 3em;
     text-align: center;
@@ -128,7 +121,7 @@
     transition: none;
   }
   #carte-m4 {
-    width: 100%;
+    width: 90%;
     height: auto;
     padding-bottom: 30px;
     margin-bottom: 30px;
