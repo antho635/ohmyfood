@@ -17,14 +17,14 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
-.header > h1:nth-child(1) {
+.header>h1:nth-child(1) {
   font-family: sans-serif;
 }
 
@@ -42,8 +42,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: black;
   font-weight: bold;
   font-size: 2em;
@@ -61,7 +61,7 @@ body {
   font-weight: lighter;
   font-size: 2.5em;
   -ms-flex-item-align: baseline;
-      align-self: baseline;
+  align-self: baseline;
   margin: auto;
 }
 
@@ -77,8 +77,8 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .listes {
@@ -88,11 +88,11 @@ body {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .prix {
@@ -100,8 +100,8 @@ body {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 /*listes menus + prix*/
@@ -116,14 +116,14 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   bottom: 0;
   position: -webkit-sticky;
   position: sticky;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 footer {
@@ -141,16 +141,16 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
 }
 
 .mail:hover {
   color: #ffd54f;
   -webkit-animation: thing 0.1s;
-          animation: thing 0.1s;
+  animation: thing 0.1s;
   -webkit-animation-iteration-count: 5;
-          animation-iteration-count: 5;
+  animation-iteration-count: 5;
 }
 
 .mail {
@@ -168,9 +168,9 @@ footer {
 .mention:hover {
   color: #ffd54f;
   -webkit-animation: thing 0.1s;
-          animation: thing 0.1s;
+  animation: thing 0.1s;
   -webkit-animation-iteration-count: 5;
-          animation-iteration-count: 5;
+  animation-iteration-count: 5;
   text-align: left;
 }
 
@@ -182,10 +182,12 @@ footer {
     padding: 0;
     height: auto;
   }
+
   .titre {
     font-size: 1em;
     margin: 0;
   }
+
   .ul-m4 {
     height: auto;
     margin-top: 0;
@@ -196,29 +198,32 @@ footer {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
+
   .m-1 {
     margin: auto;
     font-size: 1.5em;
   }
+
   .listes {
     text-align: center;
     list-style: none;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     margin: auto;
     padding-bottom: 10px;
   }
+
   .prix {
     margin: 0;
     padding: 8px 0;
@@ -226,8 +231,8 @@ footer {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 }
 

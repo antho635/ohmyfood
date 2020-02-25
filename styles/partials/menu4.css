@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /*menu4*/
 #carte-m4 {
   font-family: 'Dancing Script', cursive;
@@ -16,8 +17,8 @@
   display: flex;
   font-size: 4em;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   position: relative;
   background: #fff;
 }
@@ -63,12 +64,12 @@
   display: -ms-inline-flexbox;
   display: inline-flex;
   -ms-flex-item-align: center;
-      align-self: center;
+  align-self: center;
   width: 33%;
   height: 5px;
   margin: auto;
   -ms-flex-item-align: baseline;
-      align-self: baseline;
+  align-self: baseline;
 }
 
 .btnm4-2 {
@@ -78,12 +79,12 @@
   display: -ms-inline-flexbox;
   display: inline-flex;
   -ms-flex-item-align: center;
-      align-self: center;
+  align-self: center;
   width: 33%;
   height: 5px;
   margin: auto;
   -ms-flex-item-align: baseline;
-      align-self: baseline;
+  align-self: baseline;
 }
 
 .entree-m4 {
@@ -92,15 +93,15 @@
   display: inline-flex;
   width: 100%;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   word-break: normal;
   margin-bottom: 60px;
 }
@@ -116,22 +117,26 @@
     display: flex;
     position: relative;
   }
+
   .traitm4:after {
     -webkit-transition: none;
     transition: none;
   }
+
   #carte-m4 {
     width: 90%;
     height: auto;
     padding-bottom: 30px;
     margin-bottom: 30px;
   }
+
   .block {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
+
   .title-m4 {
     width: 30%;
     margin: 0;
