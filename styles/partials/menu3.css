@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /*menu3*/
 #carte-m3 {
   font-family: 'Kalam', cursive;
@@ -19,7 +18,7 @@
   -ms-flex-direction: row;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  flex-direction: column;
+          flex-direction: column;
   word-break: normal;
 }
 
@@ -31,15 +30,15 @@
   display: inline-flex;
   width: 100%;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   word-break: normal;
 }
 
@@ -51,8 +50,8 @@
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: auto;
   width: 100%;
   position: relative;
@@ -106,7 +105,7 @@
   margin: 0 20px;
   border-radius: 0px 0px 0px 10px;
   -ms-flex-item-align: baseline;
-  align-self: baseline;
+      align-self: baseline;
 }
 
 .btn2 {
@@ -115,16 +114,16 @@
   display: -ms-inline-flexbox;
   display: inline-flex;
   -ms-flex-item-align: center;
-  align-self: center;
+      align-self: center;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: start;
+      -ms-flex-pack: start;
+          justify-content: start;
   width: 33%;
   height: 20px;
   margin: 0 20px;
   border-radius: 0px 0px 10px 0px;
   -ms-flex-item-align: baseline;
-  align-self: baseline;
+      align-self: baseline;
 }
 
 .btn3 {
@@ -133,13 +132,13 @@
   display: -ms-inline-flexbox;
   display: inline-flex;
   -ms-flex-item-align: center;
-  align-self: center;
+      align-self: center;
   width: 33%;
   height: 20px;
   margin: 0 20px;
   border-radius: 0px 0px 0px 10px;
   -ms-flex-item-align: baseline;
-  align-self: baseline;
+      align-self: baseline;
 }
 
 .btn4 {
@@ -148,16 +147,16 @@
   display: -ms-inline-flexbox;
   display: inline-flex;
   -ms-flex-item-align: center;
-  align-self: center;
+      align-self: center;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: start;
+      -ms-flex-pack: start;
+          justify-content: start;
   width: 33%;
   height: 20px;
   margin: 0 20px;
   border-radius: 0px 0px 10px 0px;
   -ms-flex-item-align: baseline;
-  align-self: baseline;
+      align-self: baseline;
 }
 
 .btn5 {
@@ -166,13 +165,13 @@
   display: -ms-inline-flexbox;
   display: inline-flex;
   -ms-flex-item-align: center;
-  align-self: center;
+      align-self: center;
   width: 33%;
   height: 20px;
   margin: 0 20px;
   border-radius: 0px 0px 0px 10px;
   -ms-flex-item-align: baseline;
-  align-self: baseline;
+      align-self: baseline;
 }
 
 .btn6 {
@@ -181,16 +180,16 @@
   display: -ms-inline-flexbox;
   display: inline-flex;
   -ms-flex-item-align: center;
-  align-self: center;
+      align-self: center;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: start;
+      -ms-flex-pack: start;
+          justify-content: start;
   width: 33%;
   height: 20px;
   margin: 0 20px;
   border-radius: 0px 0px 10px 0px;
   -ms-flex-item-align: baseline;
-  align-self: baseline;
+      align-self: baseline;
 }
 
 /*separateurs menu3*/
@@ -201,12 +200,10 @@
     height: auto;
     margin-bottom: 30px;
   }
-
   .traitm3:after {
     -webkit-transition: none;
     transition: none;
   }
-
   .plat,
   .entree,
   .dessert {
@@ -215,16 +212,14 @@
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin: 30px auto;
   }
-
   .title-m3 {
     padding: 0;
     margin: auto;
   }
-
   .btn,
   .btn3,
   .btn5 {
@@ -232,15 +227,14 @@
     display: -ms-inline-flexbox;
     display: inline-flex;
     -ms-flex-item-align: center;
-    align-self: center;
+        align-self: center;
     width: 50%;
     margin: 0;
     height: 20px;
     border-radius: 0px 0px 10px 10px;
     -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);
+            transform: rotate(180deg);
   }
-
   .btn2,
   .btn4,
   .btn6 {
@@ -248,14 +242,13 @@
     display: -ms-inline-flexbox;
     display: inline-flex;
     -ms-flex-item-align: center;
-    align-self: center;
+        align-self: center;
     border-radius: 0px 0px 10px 10px;
     width: 50%;
     height: 20px;
     margin-bottom: 30px;
     margin: 0;
   }
-
   .gradient-m3 {
     font-size: 3em;
     margin: auto;
