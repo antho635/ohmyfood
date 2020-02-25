@@ -1,12 +1,21 @@
 /*layout*/
 body {
   width: 100%;
-  max-width: 2100px;
+  max-width: 4000px;
   height: auto;
   margin: 0;
 }
 
 /*header*/
+#conteneur, #carte-m3, #contteneurmention {
+  max-width: 2700px;
+  max-width: 2700px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-direction: column;
+}
+
 .header {
   text-align: center;
   width: 100%;
