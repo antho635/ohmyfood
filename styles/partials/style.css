@@ -477,13 +477,13 @@ span {
 
 /*mentions + mail animés*/
 /*responsive index*/
-@media screen and (max-width: 1350px) {
+@media screen and (min-width: 500px) and (max-width: 1350px) {
   #box1 {
     width: 80%;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 499px) {
   #box1 {
     width: 90%;
     -webkit-box-orient: vertical;
